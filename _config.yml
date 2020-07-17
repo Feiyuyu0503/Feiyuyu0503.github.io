@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.feiyuyu.net
+url: https://feiyuyu0503.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,7 +99,7 @@ theme: Sakura
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:Feiyuyu0503/feiyuyu.net.git
+  repo: https://github.com/Feiyuyu0503/Feiyuyu0503.github.io.git
   branch: master
 
 #RSS
