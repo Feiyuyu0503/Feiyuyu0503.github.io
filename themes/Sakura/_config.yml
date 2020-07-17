@@ -4,7 +4,7 @@
 # favicon and site master avatar
 favicon: /images/favicon.ico
 avatar: /img/custom/avatar.jpg
-url: https://sakura.hojun.cn
+url: https://blog.feiyuyu.net
 description: Live your life with passion! With some drive!
 cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
 pjax: 1
@@ -87,9 +87,9 @@ msocial:
   qq: {url: https://wpa.qq.com/msgrd?v=3&uin=1543979464&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
 
 donate:
-  paypal: https://www.paypal.me/hojuncn
-  alipay: /img/custom/donate/AliPayQR.jpg
-  wechat: /img/custom/donate/WeChanQR.jpg
+  paypal: https://www.paypal.me/feiyuyu0503
+  alipay: /img/custom/donate/AliPayQR.png
+  wechat: /img/custom/donate/Wechat.png
   wechatSQ: /img/custom/donate/WeChanSQ.jpg
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
