@@ -47,14 +47,8 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(7).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
+  - https://tva2.sinaimg.cn/large/9bd9b167gy1g2qjurig6zj21hc0u0tg9.jpg
+  - https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images          #随机图
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
@@ -112,6 +106,6 @@ aplayer:
 
 # Valine
 valine: true
-v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
-v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
+v_appId: MW181jX7djInLshsA2bdG4iu-gzGzoHsz
+v_appKey: HnE8KSnVEfHmqDwTxkbKiYrf
 
