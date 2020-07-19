@@ -81,7 +81,7 @@ msocial:
   qq: {url: https://wpa.qq.com/msgrd?v=3&uin=1543979464&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
 
 donate:
-  paypal: https://www.paypal.me/feiyuyu0503
+  #paypal: https://www.paypal.me/feiyuyu0503
   alipay: /img/custom/donate/AliPayQR.png
   wechat: /img/custom/donate/Wechat.png
   wechatSQ: /img/custom/donate/WeChanSQ.jpg
@@ -99,7 +99,7 @@ aplayer:
   fixed: true
   autoplay: false
   loop: all
-  order: random
+  order: loop
   preload: auto
   volume: 0.6
   mutex: true
