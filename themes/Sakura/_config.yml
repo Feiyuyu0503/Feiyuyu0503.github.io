@@ -3,16 +3,16 @@
 #siteName: hojun
 # favicon and site master avatar
 favicon: /images/favicon.ico
-avatar: /img/custom/avatar.jpg
+avatar: /img/avatar/avater.jpg
 url: https://blog.feiyuyu.net
 description: Live your life with passion! With some drive!
-cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+cdn: https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0
 pjax: 1
 # 1开启
 mathjax: 0
 
 notice: hexo-Sakura主题已经开源，目前正在开发中...
-lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+lazyloadImg: https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
@@ -47,7 +47,12 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://tva2.sinaimg.cn/large/9bd9b167gy1g2qjurig6zj21hc0u0tg9.jpg
+  - https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/cover/cover.webp
+  - https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/cover/cover1.webp
+  - https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/cover/cover2.webp
+  - https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/cover/cover3.webp
+  - https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/cover/cover4.webp
+  - https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/cover/cover5.webp
   - https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images          #随机图
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
@@ -66,7 +71,10 @@ siteBuildingTime: 07/17/2018
 
 #social  url, img PC端配置
 social:
-  github: {url: http://github.com/feiyuyu0503, img: /img/social/github.png}
+  telegram: {url: https://t.me/feiyuyu, img: /img/social/telegram.svg}
+  github: {url: https://github.com/feiyuyu0503, img: /img/social/github.png}
+  qq: {url: tencent://message/?uin=1543979464, img: /img/social/qq.png}
+  bilibili: {url: https://space.bilibili.com/4662088, img: /img/social/bilibili.png}
   #sina: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/sina.png}
   #wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
   #zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
@@ -84,7 +92,7 @@ donate:
   #paypal: https://www.paypal.me/feiyuyu0503
   alipay: /img/custom/donate/AliPayQR.png
   wechat: /img/custom/donate/Wechat.png
-  wechatSQ: /img/custom/donate/WeChanSQ.jpg
+  wechatSQ: /img/custom/donate/Wechat.png
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
