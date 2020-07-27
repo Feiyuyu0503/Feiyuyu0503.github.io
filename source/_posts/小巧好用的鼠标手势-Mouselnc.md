@@ -1,4 +1,9 @@
 ---
+author: feiyuyu
+photos: https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images
+avatar: 'https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg'
+authorLink: https://blog.feiyuyu.net
+categories: 软件
 title: 小巧好用的鼠标手势-Mouselnc
 tags:
   - 软件

@@ -1,4 +1,9 @@
 ---
+author: feiyuyu
+photos: https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images
+avatar: 'https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg'
+authorLink: https://blog.feiyuyu.net
+categories: 技术
 title: Debian/Ubuntu/CentOS 网络安装/重装系统/纯净安装 一键脚本
 tags:
   - 技术

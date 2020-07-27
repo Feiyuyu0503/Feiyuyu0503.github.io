@@ -1,4 +1,9 @@
 ---
+author: feiyuyu
+photos: https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images
+avatar: 'https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg'
+authorLink: https://blog.feiyuyu.net
+categories: 技术
 title: 一键网络重装CentOS 7 （官方，纯净，安全，高效）
 tags:
   - 技术

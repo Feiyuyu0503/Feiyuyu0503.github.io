@@ -1,4 +1,9 @@
 ---
+author: feiyuyu
+photos: https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images
+avatar: 'https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg'
+authorLink: https://blog.feiyuyu.net
+categories: 软件
 title: Mydm—新一款取代“迅雷”和“百度云”的神奇小工具
 tags:
   - 日志
