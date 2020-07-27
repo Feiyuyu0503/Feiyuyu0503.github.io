@@ -16,7 +16,7 @@ photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/about.jpg
     </p>
     <h4>
     与&nbsp;<ruby>
-    Mashiro&nbsp;<rp>
+    feiyuyu&nbsp;<rp>
     （</rp>
     <rt>
     真（ま）白（しろ）</rt>
