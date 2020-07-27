@@ -18,7 +18,7 @@ links:
       img: https://sdn.geekzu.org/avatar/734f16df68c5f238b562a907783ba981?s=64&d=retro&r=g
       name: GoaKay
       desc: 专注设计，设计不是一件养老的事
-      - url: https://itbook.download/
+    - url: https://itbook.download/
       img: https://itbook.download/img/logo.png
       name: Itbook
       desc: 免费IT计算机电子书下载网站
