@@ -54,7 +54,7 @@ links:
       img: https://xygeng.cn/usr/themes/xygengcn/static/images/author.jpg
       name: 木芽博客
       desc: 在这里，用代码串起一段一段故事
-    - url: https://dtz9.net
+    - url: https://ditou.org/
       img: https://secure.gravatar.com/avatar/c26f879020fe624c9b2d3ee26aadac8a?s=64&d=mm&r=g
       name: 近视眼逛博客
       desc: 发现独立博客的精彩
