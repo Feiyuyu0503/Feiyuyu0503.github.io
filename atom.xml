@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>肥鱼Blog</title>
+  
+  <subtitle>但盼望风雨来，能留你在此。</subtitle>
+  <link href="https://blog.feiyuyu.net/atom.xml" rel="self"/>
+  
+  <link href="https://blog.feiyuyu.net/"/>
+  <updated>2021-04-04T03:57:01.464Z</updated>
+  <id>https://blog.feiyuyu.net/</id>
+  
+  <author>
+    <name>feiyuyu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学期结束了，水水水</title>
+    <link href="https://blog.feiyuyu.net/2020/01/21/%E5%AD%A6%E6%9C%9F%E7%BB%93%E6%9D%9F%E4%BA%86%EF%BC%8C%E6%B0%B4%E6%B0%B4%E6%B0%B4/"/>
+    <id>https://blog.feiyuyu.net/2020/01/21/%E5%AD%A6%E6%9C%9F%E7%BB%93%E6%9D%9F%E4%BA%86%EF%BC%8C%E6%B0%B4%E6%B0%B4%E6%B0%B4/</id>
+    <published>2020-01-21T11:59:20.000Z</published>
+    <updated>2021-04-04T03:57:01.464Z</updated>
+    
+    <content type="html"><![CDATA[<p>我已经上大三了，不出意外的话下个学期开始要准备考研了(其实现在就应该准备了，但是，过年要紧啊)。 上个学期终于顺利度过了，对于大部分学校都是一个学期过去了，不过对于我的学校其实是过去了两个学期，因为在八月中旬的时候就开学了，每一个新学年的开始都是以为期一个月的短学期打头，而后紧接两个长学期。(不过下个学年开始就取消短学期了，取而代之的是一个名为暑期学校的东西，所以…并不知道其中具体的区别) 上个学期可以说是上大学以来最惨不忍睹的学期，指学习生活( 学年过半，一短+一长学期共修了29学分，再对比一下前两个完整的学年（呕 <img src="http://www.feiyuyu.net/wp-content/uploads/2020/01/223006.png"> 以下是不算形势与政策与体锻课我这学年已经上过的课… <img src="http://www.feiyuyu.net/wp-content/uploads/2020/01/222753.png"> 仔细想想这学期不仅课多，还TM每个课工程量都不小((( <img src="http://www.feiyuyu.net/wp-content/uploads/2020/01/CAADBQADEwADfL1tC7AJIZmMHqO9FgQ-2.png"> 首先是为期一个月的Java课程设计和计算机组成原理课程设计两门课每日交替混合轰炸，当时的生活真是水深火热，并使我奉献了人生第一个通宵给了Java课设，我也是写过一晚上代码的人了(计组课设成绩刚出没几天我每天都在想怎么鲨rgl) 然后进入长学期，作为摸鱼型选手，前八周面对这么多课程的时候我居然还丝毫不慌(毕竟我当时根本没有算过这学期有几个学分以及这些课程都还没怎么开始布置project和实验) 然而进入后半学期，忘了哪个时候教务处发布这个消息 <img src="http://www.feiyuyu.net/wp-content/uploads/2020/01/20200121230458.png"> 大意就是期末没有那么多复习时间了，第16周结束教学，第17周就立刻尽量全部考完。 如果说这时候我还没有那么紧张，毕竟8月9月10月我都水了一篇文章，那么到后来学期最后两个月，project和各种实验扑面而来，我是真的意识到，这学期真的有点子便太( 数字图像处理的程序作业算是相对友好的，写个程序对图像做些处理就好了，每个程序有一星期时间完成。 软件工程的Project是两到三人合作，这原本应该算是期末最后一个月比较麻烦的事情…但是我和我室友某一天花了一个下午，然后晚上再带着电脑就去汉堡王完成了这个project…… 多媒体是选修的研讨课，前八周有一次轮到我写小论文并制作ppt展示，到了期末第15周我还有一次这样的展示，第16周还要交一个期末大报告，这也算比较烦人的课程但是划着划着就过去了( 微机原理与接口技术每周都有网上布置的作业，并且学期间还有一堆汇编实验和接口实验，到了期末做接口实验同样是我和室友合作，属实也花费了不少时间。顺便吐槽下为什么前一周的网上作业还通知接口实验该做到哪哪哪了，下一周网上作业的通知就变成了本周末验收所有实验（（（所以这不就变成了一周完成剩下所有的实验吗不过微机与接口老师人还是很好的，深受学生爱戴，今年期末最后一道50分的超大综合题令我白给的情况下居然以出乎我意料的总评合格了，想必平时作业和实验真的拯救了很多人…… 然后是数字信号处理，由于我讨厌硬件课，所以没有选修嵌入式系统而是选择了数字信号处理，老师是个法国留学归来的中年男人，看得出来也查过，不仅在学校地位有点高，社会地位也很高。我从来没见过他写过一个中文字，原本就晦涩难懂的DSP加上全英文的PPT属实奥力给，包括黑板上写板书，数学推导用if else otherwise什么的…也是第一次见到。平时根本没有听过这课，但是到了期末布置了实验，第一个实验是用C/C++写一个基2的FFT，反正写代码这种事嘛，就是网上疯狂查找((有一说一，网上的代码真的8太行，总之第一个FFT实验花费了很长很长时间才完成，令人头秃。原本一直以为这老师是不是放弃布置第二个实验了，因为直到第15周，他才终于开金口布置了第二个FIR滤波器的实验…然而第16周这门课就考试了啊喂！！再次花费了很大精力在这个实验上，网上这门课确实有相当多实现FIR滤波器的代码，但是。。。居然无一例外（至少是我看到的）使用Matlab生成传递函数的参数然后放到一个数组里，再用C/C++写一个信号与传递函数做卷积的过程……我，无语凝噎。最后在这门课考试的前一天晚上把这个实验发给了助教…于是怀着这门课可能要凉的心情，洗个澡就动身前往了通宵自习教室恶补DSP…达成第二次通宵。然而其实看懂FFT的DIT和DIF方法之后,我就膨胀得觉得自己俨然已经是一个DSP带师了,点了个烧烤,吃完大概凌晨两点就回寝室睡觉了…最后考得也很轻松,至此DSP再见。 还没提到的实验就是编译原理课的词法分析器和语法分析器,说实话,也是非常非常麻烦的存在,还偏偏就全赶在期末的时候蜂拥而来…不过反正写代码就是网上白嫖( 总结就是最后两个月,尤其是最后一个月,一堆实验轰炸,第16周边上课边考掉了选修课通信电子线路,自动控制原理和数字信号处理,第17周紧接着就考掉了必修课软件工程,数字图像处理,编译原理和接口。对于我这种平时不太认真的摸鱼选手这个期末真是太痛苦了,复习的时间太太太太少了。其中有两门课考完心态都有点爆炸,一个是选修课自动控制原理,整个年级考完都在疯狂吐槽这个课,我考完的感想也是生而为人做过的计算量最大的卷子,隔壁高中的校长(葛某人)也不敢这样出卷子啊!!!反正形容为教学事故预定((但是这个课的老师倒是丝毫不慌…害,这绝对不是一个批卷十分严谨的课,成绩出了之后确实问题不大。还有一门是必修课微机与接口,如上文所述一共一百分的卷子,最后一道综合题50分我是真真真真的白给,以至后来我进城里吃个饭看见哪哪有闸门就脑阔疼得想到最后一道题。但考虑到这门课平时的作业和大量的实验,以及老师一直说的总评会根据期末考试的情况调整各部分的比例…所以…幸好这课过了yqsNB。 好了,粗糙回顾了这学期的学习生活,其实是吐槽顺便时隔好几个月水一篇(((())))我果然不适合写这种文字啊!</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我已经上大三了，不出意外的话下个学期开始要准备考研了(其实现在就应该准备了，但是，过年要紧啊)。</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.feiyuyu.net/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/tags/%E6%BC%AB%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自动下载B站投币视频并保存至OneDrive</title>
+    <link href="https://blog.feiyuyu.net/2019/10/06/%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDB%E7%AB%99%E6%8A%95%E5%B8%81%E8%A7%86%E9%A2%91%E5%B9%B6%E4%BF%9D%E5%AD%98%E8%87%B3OneDrive/"/>
+    <id>https://blog.feiyuyu.net/2019/10/06/%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDB%E7%AB%99%E6%8A%95%E5%B8%81%E8%A7%86%E9%A2%91%E5%B9%B6%E4%BF%9D%E5%AD%98%E8%87%B3OneDrive/</id>
+    <published>2019-10-06T07:51:00.000Z</published>
+    <updated>2021-04-04T03:57:01.467Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>因为手上的OneDrive 5T账号实在太多了，不用实属可惜，于是就想存点视频到OneDrive里吧。每次都手动下载再上传到网盘又太麻烦了，那么有没有什么适合懒人的办法呢？果然网上还是有大佬给出了方案。以B站投币视频为例，想要实现将投币的视频自动保存到OneDrive里，配合<a href="http://www.feiyuyu.net/archives/1394" title="pyone">pyone</a>/onelist等程序也能在线播放岂不是美滋滋，也可以不必担心自己的B站收藏夹满是失效视频了，不是吗  <strong>方案：投币操作 -&gt; RSS 更新 -&gt; IFTTT 触发 Webhook -&gt; 服务器下载</strong></p><h3 id="自动流程"><a href="#自动流程" class="headerlink" title="自动流程"></a>自动流程</h3><p><strong>1.给视频投币</strong><img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/3b0608e520bc03dc1306e1de2f842b8c.png"> <strong>2.RSS更新</strong>(搭配<a href="http://www.feiyuyu.net/archives/1475" title="RSSHub">RSSHub</a>订阅B站投币Feed) <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/2722cd2cad3b99e8b1c52d147fbd1e72.png"> <strong>3.IFTTT 触发 webhook</strong> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/52fbf52dcbc102230829f81f3a2e6b13.png"> <strong>4.webhook收到下载请求</strong> 下载B站视频很简单，you-get 一行命令的事。 <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/035be1391914368f6eeebcbfa7b6e32a.png"> <strong>5.完成下载</strong> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/e8b0e99c8a175b76dcc394eddb3b4dbe.png"> <strong>6.rclone定时执行任务</strong> 利用rclone将服务器上下载得到的视频定时上传至OneDrive网盘</p><h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h3><p><strong>以下均已CentOS 7系统为例。</strong> 先决条件： <a href="https://www.python.org/downloads/" title="Python">Python</a> 3.2 or above <a href="https://www.ffmpeg.org/" title="FFmpeg">FFmpeg</a> 1.0 or above (Optional) <a href="https://rtmpdump.mplayerhq.hu/" title="RTMPDump">RTMPDump</a> <strong>1.安装you-get</strong>(更多安装方式可查看:<a href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" title="Github">Github</a>)</p><pre><code>pip3 install you-get</code></pre><p><strong>2.安装Nodejs</strong></p><pre><code>curl -sL https://rpm.nodesource.com/setup_10.x | bash -yum install nodejs git -y</code></pre><p><strong>3.部署<a href="https://diygod.me/" title="DIYgod">DIYgod</a>大佬写的<a href="https://github.com/DIYgod/download-webhook" title="download-webhook">download-webhook</a></strong></p><pre><code>git clone https://github.com/DIYgod/download-webhook.gityum -y install screencd download-webhooknpm installscreen -S webhook    #screen中运行npm run start        #运行后使用Ctrl+A+D隐藏screen</code></pre><p>此时 <a href="http://服务器ip:3000/">http://服务器ip:3000</a> 即为webhook的url 尝试命令</p><pre><code>curl -X POST -H &quot;Content-Type:application/json&quot; -d &#39;&#123;&quot;secret&quot;: &quot;mysecret&quot;, &quot;path&quot;: &quot;mypath&quot;, &quot;name&quot;: &quot;myvideo&quot;, &quot;url&quot;: &quot;https://www.bilibili.com/video/av66129247&quot;&#125;&#39; http://127.0.0.1:3000</code></pre><p>如果下载成功会在服务器目录下生成一个mypath的文件夹，里面存放着叫myvideo的视频。 然后在ifttt中设定applet，内容如上自动流程中的第3步。 也可使用命令<code>screen -r webhook</code>查看下载详情 <strong>4.安装rclone</strong></p><pre><code>yum install fusecurl https://rclone.org/install.sh | sudo bashrclone config</code></pre><p>接着出现以下内容</p><pre><code>Current remotes:Name                 Type====                 ====craftcloud           onedrivee) Edit existing remoten) New remoted) Delete remoter) Rename remotec) Copy remotes) Set configuration passwordq) Quit confige/n/d/r/c/s/q&gt; n     #新建与网盘的连接name&gt; example        #自定义的网盘名称，如我已经连接过的craftcloudType of storage to configure.Enter a string value. Press Enter for the default (&quot;&quot;).Choose a number from below, or type in your own value 1 / 1Fichier   \ &quot;fichier&quot; 2 / Alias for an existing remote   \ &quot;alias&quot; 3 / Amazon Drive   \ &quot;amazon cloud drive&quot; 4 / Amazon S3 Compliant Storage Provider (AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, etc)   \ &quot;s3&quot; 5 / Backblaze B2   \ &quot;b2&quot; 6 / Box   \ &quot;box&quot; 7 / Cache a remote   \ &quot;cache&quot; 8 / Dropbox   \ &quot;dropbox&quot; 9 / Encrypt/Decrypt a remote   \ &quot;crypt&quot;10 / FTP Connection   \ &quot;ftp&quot;11 / Google Cloud Storage (this is not Google Drive)   \ &quot;google cloud storage&quot;12 / Google Drive   \ &quot;drive&quot;13 / Google Photos   \ &quot;google photos&quot;14 / Hubic   \ &quot;hubic&quot;15 / JottaCloud   \ &quot;jottacloud&quot;16 / Koofr   \ &quot;koofr&quot;17 / Local Disk   \ &quot;local&quot;18 / Mega   \ &quot;mega&quot;19 / Microsoft Azure Blob Storage   \ &quot;azureblob&quot;20 / Microsoft OneDrive   \ &quot;onedrive&quot;21 / OpenDrive   \ &quot;opendrive&quot;22 / Openstack Swift (Rackspace Cloud Files, Memset Memstore, OVH)   \ &quot;swift&quot;23 / Pcloud   \ &quot;pcloud&quot;24 / Put.io   \ &quot;putio&quot;25 / QingCloud Object Storage   \ &quot;qingstor&quot;26 / SSH/SFTP Connection   \ &quot;sftp&quot;27 / Union merges the contents of several remotes   \ &quot;union&quot;28 / Webdav   \ &quot;webdav&quot;29 / Yandex Disk   \ &quot;yandex&quot;30 / http Connection   \ &quot;http&quot;31 / premiumize.me   \ &quot;premiumizeme&quot;Storage&gt; 20      #选择20 OneDrive，Google Drive等同理** See help for onedrive backend at: https://rclone.org/onedrive/ **Microsoft App Client IdLeave blank normally.Enter a string value. Press Enter for the default (&quot;&quot;).client_id&gt;        #留空Microsoft App Client SecretLeave blank normally.Enter a string value. Press Enter for the default (&quot;&quot;).client_secret&gt;    #留空Edit advanced config? (y/n)y) Yesn) Noy/n&gt; nRemote configUse auto config? * Say Y if not sure * Say N if you are working on a remote or headless machiney) Yesn) Noy/n&gt; n            #因为是服务器，所以选择nFor this to work, you will need rclone available on a machine that has a web browser available.Execute the following on your machine (same rclone version recommended) :    rclone authorize &quot;onedrive&quot;Then paste the result below:result&gt;  &#123;&quot;access_token&quot;:&quot;&quot;&#125;    #输入在客户端授权的内容(下一步将讲如何获取)[example]client_id = client_secret = token = &#123;&quot;access_token&quot;:&quot;&quot;&#125;y) Yes this is OKe) Edit this remoted) Delete this remotey/e/d&gt; y  选择yCurrent remotes:Name                 Type====                 ====craftcloud           onedriveexample              onedrivee) Edit existing remoten) New remoted) Delete remoter) Rename remotec) Copy remotes) Set configuration passwordq) Quit confige/n/d/r/c/s/q&gt; q  #选择q退出</code></pre><p>客户端授权 在本地Windows电脑上下载rclone，下载地址<a href="https://rclone.org/downloads/">https://rclone.org/downloads/</a> 然后解压出来，比如我解压到D盘，文件夹命名rclone，此时点击Win+R，然后输入cmd，确定。再输入以下命令：</p><pre><code>d:cd rclonerclone authorize &quot;onedrive&quot;#此后会出现以下信息D:\rclone&gt;rclone authorize &quot;onedrive&quot;If your browser doesn&#39;t open automatically go to the following link: http://127.0.0.1:53682/authLog in and authorize rclone for accessWaiting for code...      #弹出浏览器，选择onedrive账号登陆进行授权Got codePaste the following into your remote machine ---&gt;&#123;&quot;access_token&quot;j61aF6QzwiUX7nxesr9MMK68kcAgBWU0na0thal0EcVCBmGQHXNsTlgXuhP1Y4ln5bAC7o1ZUltCCijs-wyEM-SU2P77fRCgEoSeJEkIAA&quot;,&quot;expiry&quot;:&quot;2019-10-06T15:58:55.8424381+08:00&quot;&#125;#复制&#123;&quot;access_token&quot;xxx&#125;整个内容，粘贴至上一步中 result&gt; 处&lt;---End pasteD:\rclone&gt;</code></pre><p><strong>5.挂载OneDrive为服务器磁盘</strong> （也可不挂载，使用rclone sync/rclone copy等命令完成下载内容上传至网盘的操作，具体可查看rclone使用方法，这里我们挂载为磁盘）</p><pre><code>#新建本地文件夹，路径自己定，即下面的LocalFoldermkdir /root/OneDrive#挂载为磁盘rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding --no-check-certificate --allow-other --allow-non-empty --umask 000#DriveName为初始化配置填的name，Folder为OneDrive里的文件夹，LocalFolder为VPS上的本地文件夹。</code></pre><p><strong>6.定时上传网盘</strong> 我希望每天下载到vps的视频都自动上传至OneDrive，然后上传完后就不占用vps的磁盘空间，所以每天定时执行 mv命令。 配合 crontab 定时执行，比如每天 2:33 执行一次，日志写到 /root/rclone.log。执行 <code>crontab -e</code>，按i编辑</p><pre><code>33 2 * * * /usr/bin/mv /root/download-webhook/downloads/* /root/OneDrive &gt;&gt; /root/rclone.log 2&gt;&amp;1#其中/root/download-webhook/downloads为下载到vps的本地文件夹， /root/OneDrive 为挂载到vps的网盘空间</code></pre><p>按下ESC，输入 :wq 保存并退出。 重启下crond服务 <code>service crond restart</code></p><h3 id="更多（复读）"><a href="#更多（复读）" class="headerlink" title="更多（复读）"></a>更多（复读）</h3><p>以上流程同样适用于自动下载 YouTube \ Instagram \ Tumblr 视频、网易云音乐歌曲等，只要 RSSHub 和 you-get 支持即可。 另外对于图片，Webhook URL 参数直接传入图片地址也可以下载，所以也可以轻松实现自动下载 Bing 每日壁纸、Pixiv、甚至 Telegram 的涩图频道（这里就不做推荐了）</p><hr><p>参考教程：<a href="https://diygod.me/download-webhook/" title="优雅地下载我的B站投币视频">优雅地下载我的B站投币视频</a> <a href="https://cyhour.com/825/" title="使用 rclone 将 Google Drive 文件同步至 OneDrive">使用 rclone 将 Google Drive 文件同步至 OneDrive</a> <a href="https://www.moerats.com/archives/491/" title="在Debian/Ubuntu上使用rclone挂载OneDrive网盘">在Debian/Ubuntu上使用rclone挂载OneDrive网盘</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;因为手上的OneDrive</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GoIndex搭建Google drive网盘</title>
+    <link href="https://blog.feiyuyu.net/2019/09/14/GoIndex%E6%90%AD%E5%BB%BAGoogle-drive%E7%BD%91%E7%9B%98/"/>
+    <id>https://blog.feiyuyu.net/2019/09/14/GoIndex%E6%90%AD%E5%BB%BAGoogle-drive%E7%BD%91%E7%9B%98/</id>
+    <published>2019-09-14T12:00:49.000Z</published>
+    <updated>2021-04-04T03:57:01.457Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>GoIndex是OneIndex项目作者利用Cloudflare Workers开发的google drive文件目录程序。利用GoIndex可以实现无墙访问google drive内的文件，同时部署也非常简单，成本也几乎为0。 项目地址：<a href="https://github.com/donwa/goindex" title="GoIndex">GoIndex</a></p><h3 id="部署教程"><a href="#部署教程" class="headerlink" title="部署教程"></a>部署教程</h3><p><strong>1.访问<a href="https://install.gd.workers.dev/" title="GoIndex 代码生成">GoIndex 代码生成</a></strong> 1.1 点击获取认证码 选择登陆你要部署成goindex的谷歌账号，允许rclone访问，将生成的认证码粘贴至Auth认证码。 1.2填写目录id 打开google drive(某文件夹或共享文件夹)，看地址栏。 <a href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid">https://drive.google.com/drive/folders/{这里就是id</a>} 留空为根目录。 1.3设置根目录密码 1.4点击生成代码 复制代码粘贴到cloudflare workers中（详见下方第2步） <img src="http://www.feiyuyu.net/wp-content/uploads/2019/09/7aa7ced28603892c47c2576ab8ee9da4.png"> <strong>2.登陆<a href="https://dash.cloudflare.com/" title="cloudflare">cloudflare</a></strong> 2.1点击new Workers dashboard <img src="http://www.feiyuyu.net/wp-content/uploads/2019/09/ffaa70aff1bbaabedaf05393d86051dc.png"> 2.2注册你的subdomain 点击Create a worker。进入详情页，在Script里粘贴第1步最后生成的代码。此时右边会实时显现效果。 <img src="http://www.feiyuyu.net/wp-content/uploads/2019/09/353dbe760315896444c6597dd668ea6d.png"> 2.3保存 选择Deployed to your workers.dev subdomain，并点击Save and Deploy。此时就可以通过访问刚才注册的subdomain，访问部署好的GoIndex了。 <strong>3.自定义域名</strong> 如果不想用cloudflare的免费域名.workers.dev,可以绑定你的自定义域名。 提前解析好你的域名，选择Workers，点击Add route，填写域名，主要最后加/*， 选择刚部署好的Worker，点击save。 <img src="http://www.feiyuyu.net/wp-content/uploads/2019/09/0768d092954873da66f5f9cdf5b1a8ca.png"> 详情请查看<a href="https://github.com/donwa/goindex/issues/4">https://github.com/donwa/goindex/issues/4</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;GoIndex是OneIndex项目作者利用Cloudflare Workers开发的google</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一只多功能的Telegram机器人</title>
+    <link href="https://blog.feiyuyu.net/2019/07/19/%E4%B8%80%E5%8F%AA%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%9A%84Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <id>https://blog.feiyuyu.net/2019/07/19/%E4%B8%80%E5%8F%AA%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%9A%84Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA/</id>
+    <published>2019-07-19T08:33:25.000Z</published>
+    <updated>2021-04-04T03:57:01.461Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>一只能查快递，陪你聊天，查询美剧日剧等功能的Telegram机器人！成品可戳：<a href="https://t.me/feiyuyubot" title="肥鱼机器">肥鱼机器</a></p><p><strong>功能</strong></p><ul><li>  查快递</li><li>  列出历史查询</li><li>  聊天（包含语音、文字）</li><li>  群组聊天（使用/开头、回复机器人消息来呼叫机器人）：由于开启了隐私模式，所以只好这样啦</li><li>  美剧/日剧/电影查询</li></ul><p><strong>功能预览</strong> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/07/888.gif"> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/07/889.gif"> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/07/990.gif"> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/07/991.gif"></p><h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h3><p>Github：<a href="https://github.com/BennyThink/ExpressBot" title="项目地址">项目地址</a> 1.申请一个Telegram bot 前往<a href="https://t.me/BotFather" title="BotFather">BotFather</a>,点击<code>start</code>启用机器人之父，发送命令<code>/newbot</code>创建你自己的机器人，然后按照BotFather的提示，给机器人取名并输入消息<code>***bot</code>来自定义你的bot的用户名，然后就会生成属于你自己的机器人及其链接、token。继续发送命令<code>/mybots</code>,选择你的机器人然后选择<code>Edit bot</code>，选择<code>Edit Commands</code>，就可以在消息框下输入并发送如下指令：</p><pre><code>start         - 输入快递单号来查询query         - 查询美剧、电影yyets         - 查询下载链接weather       - 查询指定城市近期天气预报list          - 查看我的查询历史记录delete        - 删除某个单号查询记录quickdel      - 回复某条查询消息来快速删除单号查询记录help          - 帮助</code></pre><p>2.部署 需要部署在可以访问 Telegram API 的服务器上，同时支持 Python 2和 Python 3，推荐用 Python 3 已经在以下平台测试通过： <code>Windows 10：Python 2.7.13 32bit Python 3.6.3 32bit Ubuntu 16.04/14.04、CentOS 7、Debian 9： Python 2.7</code> <strong>部署方法1.自动脚本</strong> 一键脚本在 systemd的情况下运行会更好，一键脚本仅测试于 Ubuntu 16.04： 先切换到 root 用户：</p><pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/BennyThink/ExpressBot/master/install.sh &amp;&amp; bash install.sh</code></pre><p>然后按照提示操作。支持 systemd 的系统会同时安装为 systemd 服务，其他系统可以使用对应的 init 手动配置或使用<code>supervisor</code> 快捷操作</p><pre><code># 启动服务 bash install.sh start# 停止服务 bash install.sh stop</code></pre><p>注：CentOS下如果提示<code>wget: command not found</code>请先安装wget:<code>yum install wget</code></p><p><strong>部署方法2.手动配置</strong> 如果一键脚本失败，可以试试手动配置 (1)克隆代码</p><pre><code>git clone https://github.com/BennyThink/ExpressBotcd ExpressBot</code></pre><p>(2)准备环境 <em>Arch Linux</em></p><pre><code>pacman -S python python-pip python-certifi python-chardet python-future python-idna python-requests python-six python-urllib3</code></pre><p>然后从 AUR 安装 python-pytelegrambotapi <em>Ubuntu, Debian 等</em></p><pre><code>sudo apt install python3 python3-pip gitsudo pip3 install -r requirements.txt</code></pre><p><em>其他发行版、macOS</em> Python3 请使用pip3替换pip</p><pre><code>pip install setuptoolspip install -r requirements.txt</code></pre><p><em>Windows</em> 从<a href="https://www.python.org/" title="Python官网">Python官网</a>下载并安装 Python，切换到项目目录，如果是 Python 2:</p><pre><code>pip install -r requirements.txt</code></pre><p>如果是 Python 3，执行如下命令：</p><pre><code>pip3 install -r requirements.txt</code></pre><p>(3)准备ffmpeg ffmpeg是为了支持音频识别（使用ffmpe进行音频文件的转码）。 如果你是 Windows ，从<a href="https://ffmpeg.org/" title="这里">这里</a>下载 ffmpeg 的二进制exe文件（一共三个都需要），放到 PATH 中； 如果你是 Linux 发行版，直接用包管理器安装就可以（编译或者下载二进制也行），Debian 系可以使用<code>sudo apt install ffmpeg</code>，RHEL可以使用<code>yum install ffmpeg</code> (4)配置 修改<code>config.py</code>进行配置，TOKEN 为 Bot 的 API，TURING_KEY 若不配置则不启用机器人功能，TURING_KEY在<a href="http://www.turingapi.com/" title="这里">这里</a>获取。</p><pre><code>TOKEN = &#39;Your TOKEN&#39;TURING_KEY = &#39;Your Key&#39;</code></pre><p>创建单元文件：<code>vim /lib/systemd/system/expressbot.service</code> 自行替换输入如下信息</p><pre><code>[Unit]  Description=A Telegram Bot for querying expresses   After=network.target network-online.target nss-lookup.target    [Service]   Restart=on-failure  Type=simple ExecStart=/usr/bin/python /home/ExpressBot/expressbot/main.py   [Install]   WantedBy=multi-user.target</code></pre><p>重新载入 daemon、自启、启动</p><pre><code>systemctl daemon-reloadsystemctl enable expressbot.servicesystemctl start expressbot.service</code></pre><p>使用了<code>restart=on-failure</code>参数，失败退出会重启。 如果设置成always就意味着无论因为什么原因，只要进程不在了，systemd 就会立刻帮我们重启。详情可以参见systemd.service手册。 (5)运行 测试目的的话，以 nohub 或 screen 运行<code>main.py</code>，Python 3 请用python3替换为python</p><pre><code>cd /home/ExpressBot/expressbotnohup python main.py# 或者cd /ExpressBot/expressbotscreen -S tgbotpython main.py</code></pre><p>(6)计划任务 如果需要追踪更新并推送，那么咱需要定期轮询。 目前使用的定时器是 apscheduler，<code>config.py</code>中的 <code>INTERVAL</code>可以来设置间隔时间 (7)检查运行状态 systemd 控制命令：</p><pre><code># 查看运行状态sudo systemctl status expressbot.service# 启动sudo systemctl start expressbot.service# 停止sudo systemctl stop expressbot.service# 重启sudo systemctl restart expressbot.service</code></pre><p>其他系统 可以考虑使用对应系统的init，或者使用supervisor</p><p><strong>部署方法3.使用 Docker</strong> 目前支持 docker 运行，但是尚未经过详细测试。 (1)拉取镜像</p><pre><code>docker pull bennythink/expressbot:latest</code></pre><p>(2)后台运行</p><pre><code>docker run -d --restart=always -e TOKEN=&quot;TOKEN&quot; -e TURING=&quot;KEY&quot;  expressbot:v1</code></pre><p>如果想自己 build 的话，那么就下载回 Dockerfile，然后</p><pre><code>docker build -t expressbot:v1 .</code></pre><hr><p>更多详细内容请查看<a href="https://github.com/BennyThink/ExpressBot" title="项目地址">项目地址</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;一只能查快递，陪你聊天，查询美剧日剧等功能的Telegram机器人！成品可戳：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MikuTools-一个轻量的工具集合</title>
+    <link href="https://blog.feiyuyu.net/2019/06/27/MikuTools-%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%9A%84%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/"/>
+    <id>https://blog.feiyuyu.net/2019/06/27/MikuTools-%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%9A%84%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/</id>
+    <published>2019-06-26T16:12:34.000Z</published>
+    <updated>2021-04-04T03:57:01.458Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>MikuTools是一款开源的轻量的小工具合集，不过只包括了部分无需后端的工具。官方demo：<a href="https://miku.tools/" title="https://miku.tools"></a><a href="https://miku.tools/">https://miku.tools</a> Github：<a href="https://github.com/Ice-Hazymoon/MikuTools" title="https://github.com/Ice-Hazymoon/MikuTools"></a><a href="https://github.com/Ice-Hazymoon/MikuTools">https://github.com/Ice-Hazymoon/MikuTools</a> 自建demo：<a href="https://tools.feiyuyu.net/" title="https://tools.feiyuyu.net"></a><a href="https://tools.feiyuyu.net/">https://tools.feiyuyu.net</a></p><h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h3><p>1、安装Nodejs</p><pre><code>#Debian/Ubuntu系统curl -sL https://deb.nodesource.com/setup_10.x | bash -apt install -y nodejs git #CentOS系统curl -sL https://rpm.nodesource.com/setup_10.x | bash -yum install nodejs git -y</code></pre><p>2、安装yarn</p><pre><code>npm install -g yarn</code></pre><p>3、拉取项目</p><pre><code>#拉取项目git clone https://github.com/Ice-Hazymoon/MikuTools#进入文件夹cd MikuTools#安装依赖yarn</code></pre><p>4、构建</p><pre><code>#开发模式运行，不知道有啥用的，可以跳过，直接构建yarn dev#构建yarn generate</code></pre><p>此时打包后的源码在<strong>dist</strong>文件夹，然后就可以将文件夹里的源码丢到自己的网站根目录直接用了。</p><p>如果你想提前看下效果，那这里提供一个最快的运行方法，使用命令：</p><pre><code>#进入打包好的文件夹cd dist#运行端口4567，可自行修改，提前检查端口开放否python -m SimpleHTTPServer 4567</code></pre><p>5、使用Caddy 如果你服务器没有任何Web环境，比如Nginx、Apache等，那可以直接使用Caddy部署一个网站。 安装Caddy：</p><pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/caddy_install.sh &amp;&amp; chmod +x caddy_install.sh &amp;&amp; bash caddy_install.sh#备用地址wget -N --no-check-certificate https://www.moerats.com/usr/shell/Caddy/caddy_install.sh &amp;&amp; chmod +x caddy_install.sh &amp;&amp; bash caddy_install.sh</code></pre><p>配置Caddy：</p><pre><code>#请修改域名和dist文件夹绝对路径后一起复制到SSH运行！#http访问，该配置不会自动签发SSLecho &quot;http://tools.feiyuyu.net:80 &#123; root /root/MikuTools/dist gzip&#125;&quot; &gt; /usr/local/caddy/Caddyfile#https访问，该配置会自动签发SSL，请提前解析域名到VPS服务器echo &quot;https://tools.feiyuyu.net:443 &#123; root /root/MikuTools/dist tls seuff@feiyuyu.net gzip&#125;&quot; &gt; /usr/local/caddy/Caddyfile</code></pre><p>tls参数会自动帮你签发ssl证书，如果你要使用自己的ssl，改为<code>tls /root/xx.crt /root/xx.key</code>即可。后面为ssl证书路径。</p><p>启动Caddy：</p><pre><code>/etc/init.d/caddy start</code></pre><p>这样就可以打开域名进行访问了。</p><hr><p>转自：<a href="https://www.moerats.com/archives/945/" title="https://www.moerats.com/archives/945/"></a><a href="https://www.moerats.com/archives/945/">https://www.moerats.com/archives/945/</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;MikuTools是一款开源的轻量的小工具合集，不过只包括了部分无需后端的工具。官方demo：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建Telegram RSS机器人并使用RSSHub生成订阅源</title>
+    <link href="https://blog.feiyuyu.net/2019/05/04/%E6%90%AD%E5%BB%BATelegram-RSS%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B9%B6%E4%BD%BF%E7%94%A8RSSHub%E7%94%9F%E6%88%90%E8%AE%A2%E9%98%85%E6%BA%90/"/>
+    <id>https://blog.feiyuyu.net/2019/05/04/%E6%90%AD%E5%BB%BATelegram-RSS%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B9%B6%E4%BD%BF%E7%94%A8RSSHub%E7%94%9F%E6%88%90%E8%AE%A2%E9%98%85%E6%BA%90/</id>
+    <published>2019-05-03T17:51:42.000Z</published>
+    <updated>2021-04-04T03:57:01.465Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>经常逛论坛或者浏览各类咨询网站的人可能会使用到RSS，RSS（简易信息聚合）是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。话不多说了，对于Telegram重度使用者而言，用Telegram bot来实现RSS阅读，真是太方便了。 搭建之前，先推荐两个能发现当前网页RSS的扩展插件 <a href="https://greasyfork.org/zh-CN/scripts/373252-rss-show-site-all-rss" title="RSS+ : 显示当前网站所有的 RSS">RSS+ : 显示当前网站所有的 RSS</a>：可以发现 RSS 的 Tampermonkey 脚本(效果不错，很美观，只是目前发现对于RSSHub所生成的B站Feed规则有些不对) <a href="https://github.com/idealclover/Easy-to-RSS" title="Easy-to-RSS">Easy-to-RSS</a>：貌似是友校NJU的大佬做的，与RSSHub联动，可以将RSSHub的服务网址换成自己的。</p><h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h3><p>Github项目地址：<a href="https://github.com/iovxw/rssbot" title="https://github.com/iovxw/rssbot"></a><a href="https://github.com/iovxw/rssbot">https://github.com/iovxw/rssbot</a> <strong>1.申请一个Telegram bot。</strong> 前往<a href="https://t.me/BotFather" title="BotFather">BotFather</a>,点击<code>start</code>启用机器人之父，发送命令<code>/newbot</code>创建你自己的机器人，然后按照BotFather的提示，给机器人取名并输入消息<code>***bot</code>来自定义你的bot的用户名，然后就会生成属于你自己的机器人及其链接、token。继续发送命令<code>/mybots</code>,选择你的机器人然后选择<code>Edit bot</code>，选择<code>Edit Commands</code>，就可以在消息框下输入并发送如下指令：</p><pre><code>/rss       - 显示当前订阅的 RSS 列表，加 raw 参数显示链接/sub       - 订阅一个 RSS: /sub http://example.com/feed.xml/unsub     - 退订一个 RSS: /unsub http://example.com/feed.xml/unsubthis - 使用此命令回复想要退订的 RSS 消息即可退订, 不支持 Channel/export    - 导出为 OPML</code></pre><p><strong>2.服务器部署机器人</strong> 2.1 安装相关依赖环境</p><pre><code>#CentOS系统yum -y update &amp;&amp; yum -y install gcc make openssl* pkg* libssl* screen curl#Ubuntu、Debian系统apt-get -y update &amp;&amp; apt-get -y install gcc make openssl pkg-config libssl-dev screen curl</code></pre><p>2.2 安装Rust Nightly</p><pre><code>curl https://sh.rustup.rs -sSf | shsource $HOME/.cargo/env</code></pre><p>2.3 安装rssbot</p><pre><code>wget https://github.com/iovxw/rssbot/archive/v1.4.4.tar.gztar xvf v1.4.4.tar.gzcd rssbot-1.4.4cargo build --release</code></pre><p>2.4 在screen下运行rssbot</p><pre><code>cd target/releasescreen -S rssbot./rssbot DATAFILE TELEGRAM-BOT-TOKEN</code></pre><p><code>DATAFILE</code>为数据库保存路径(其实就是一个json文件，不需要手动创建)。<code>TELEGRAM-BOT-TOKEN</code>就是你创建的机器人的token。 搭建成功后，就可以对bot发送命令，来订阅你想要的RSS了。</p><h3 id="部署RSSHub"><a href="#部署RSSHub" class="headerlink" title="部署RSSHub"></a>部署RSSHub</h3><p>其实在上面一部分，我们的工作已经完成了。但对于没有Feed的网站而言，我们是不能对其生成RSS订阅的。这时，一个号称<code>万物皆可RSS</code>的项目<code>RSSHub</code>，就诞生了。 RSSHub 是一个轻量、易于扩展的 RSS 生成器, 可以给任何奇奇怪怪的内容生成 RSS 订阅源。<a href="https://docs.rsshub.app/" title="前往文档查看详情">前往文档查看详情</a> RSSHub的部署很简单，这里我以Centos7系统为例，使用Docker部署，你也可以查看<a href="https://docs.rsshub.app/install/" title="官方部署文档">官方部署文档</a> 1.安装 Docker</p><pre><code>curl -sSL https://get.docker.com/ | shsystemctl start dockersystemctl enable docker</code></pre><p>2.拉取RSSHub镜像并启动</p><pre><code>docker pull diygod/rsshubdocker run -d --name rsshub -p 1200:1200 diygod/rsshub</code></pre><p>至此，只需浏览器访问 <code>ip:1200</code>，就可以看见RSSHub已经在运行了。 3.应用配置 配置运行在 docker 中的 RSSHub, 最便利的方法是使用 docker 环境变量 以设置缓存时间为 1 小时举例, 只需要在运行时增加参数:<code>-e CACHE_EXPIRE=3600</code></p><pre><code>$ docker run -d --name rsshub -p 1200:1200 -e CACHE_EXPIRE=3600 -e GITHUB_ACCESS_TOKEN=example diygod/rsshub</code></pre><p>更多相关配置请查阅<a href="https://docs.rsshub.app/install/#%E9%85%8D%E7%BD%AE" title="官方文档">官方文档</a> 另外，对于一个已启动的Docker容器，如果我们需要添加运行参数，比如订阅Pixiv的feed时，要求我们添加P站登陆账号的参数，可以使用如下命令：</p><pre><code>docker ps       #查看当前运行Docker容器详情docker container update -e PIXIV_USERNAME=xxxxx -e PIXIV_PASSWORD=xxxx  &lt;containername&gt; </code></pre><p>关闭RSSHub时，可使用命令：</p><pre><code>docker stop rsshub</code></pre><p>如果你没有自己的服务器，当然也可以使用官方提供的<a href="https://rsshub.app/" title="rsshub.app">rsshub.app</a>,为了减轻服务器压力，更推荐自建服务，也可以使用我的自建RSSHub服务和Telegram bot：<a href="https://rss.feiyuyu.net/" title="https://rss.feiyuyu.net"></a><a href="https://rss.feiyuyu.net/">https://rss.feiyuyu.net</a>和<a href="https://t.me/feiyurss_bot" title="feiyurss_bot">feiyurss_bot</a> (能用多久是个缘，我尽量维护</p><h3 id="配合IFTTT的使用"><a href="#配合IFTTT的使用" class="headerlink" title="配合IFTTT的使用"></a>配合IFTTT的使用</h3><p>IFTTT，是一个新生的网络服务平台，通过其他不同平台的条件来决定是否执行下一条命令。即对网络服务通过其他网络服务作出反应。IFTTT得名为其口号“if this then that”。 官网：<a href="https://ifttt.com/discover" title="https://ifttt.com/discover"></a><a href="https://ifttt.com/discover">https://ifttt.com/discover</a> 在上面，我们已经讲了如何部署Telegram bot来推送RSS订阅。这部分扩展一下，我们也可以通过添加IFTTT的官方TG bot：<a href="https://t.me/IFTTT" title="IFTTT">IFTTT</a>,搭配两个官网上的小程序（Applets）：<a href="https://ifttt.com/feed" title="RSS Feed">RSS Feed</a>和<a href="https://ifttt.com/telegram" title="telegram">telegram</a>，实现RSS的推送。 你可以在tg端与IFTTT私聊或将IFTTT添加到channel或group，然后在IFTTT网站或app上<a href="https://ifttt.com/create" title="添加你的Applets">添加你的Applets</a>，点击<code>+this</code>，搜索RSS Feed，然后添加你想要的rss feed的url，确认后网页或app会回到“if this then that”，点击<code>+that</code>，搜索telegram，选择Target chat，以及自定义化Message text，最后save你的Applets并给其命名，当订阅更新时，tg端的IFTTT会自动给你选择的Target chat发推送。当然，得益于IFTTT的强大，我们也可以不用到RSS Feed这个Applets，你可以使用其Youtube、Twitter的Applets，设定Trigger，再推送到tg。 示例：<img src="https://i.loli.net/2020/03/11/B9WtbH1A4Eum3V7.jpg" alt="img"> 截图真的丑（逃。 另外，强烈建议在<a href="https://ifttt.com/settings" title="https://ifttt.com/settings"></a><a href="https://ifttt.com/settings">https://ifttt.com/settings</a>的设定中关闭URL shortening，因为bit.ly这个短链接服务，在国内体验不是很好。（光速逃</p><hr><p>最后欢迎订阅我的Telegram channel：<a href="https://t.me/feiyuyu" title="肥鱼Blog">肥鱼Blog</a> 或者RSS channel：<a href="https://t.me/rss_feiyuyu" title="肥鱼的Rss推送">肥鱼的Rss推送</a>，只有我的复读，没有女装。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSL证书链不完整问题</title>
+    <link href="https://blog.feiyuyu.net/2019/04/05/SSL%E8%AF%81%E4%B9%A6%E9%93%BE%E4%B8%8D%E5%AE%8C%E6%95%B4%E9%97%AE%E9%A2%98/"/>
+    <id>https://blog.feiyuyu.net/2019/04/05/SSL%E8%AF%81%E4%B9%A6%E9%93%BE%E4%B8%8D%E5%AE%8C%E6%95%B4%E9%97%AE%E9%A2%98/</id>
+    <published>2019-04-05T07:22:06.000Z</published>
+    <updated>2021-04-04T03:57:01.459Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>最近给博客接入CDN，国外用<a href="https://www.cloudflare.com/" title="Cloudflare">Cloudflare</a>的免费CDN，国内使用<a href="https://www.nodecache.com/price" title="nodecache">nodecache</a>的CDN。给nodecache添加好<a href="https://letsencrypt.org/" title="Let&#39;s Encrypt">Let’s Encrypt</a>证书之后，发现PC上访问博客一切正常，而在Android上用Chrome浏览器访问同样没问题，但是用夸克等浏览器会报“证书过期或不受信任”的错误。</p><h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p><strong>证书链不完整</strong> Android的WebView不能打开页面应该是与这有关，造成这个问题的主要原因是服务器配置证书的证书链不全造成的。 每个设备中都会存有一些默认的可信的根证书，但很多CA是不使用根证书进行签名的，而是使用中间层证书进行签名，因为这样做能更快的进行替换（这句可能不对，原文是 because these can be rotated more frequently）。</p><p>如果你的服务器上没有中间件证书，这样的结果就是你的服务器上只有你的网站的证书，客户端的浏览器里只有CA的根证书，这样就会导致证书信任链不全。这种中间层证书不全的问题多出现在移动端的浏览器上（目前来看ios基本没有出现问题，Andorid各个版本都有这个问题）。</p><p>当服务器上的证书中的信任链不全的情况下，浏览器会认为当前的链接是一个不安全的，会阻止页面的打开。</p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p><strong>补全证书链</strong> 1.比较方便的是使用这个在线的工具：<a href="https://certificatechain.io/" title="https://certificatechain.io/"></a><a href="https://certificatechain.io/">https://certificatechain.io/</a> 进入这个网站，粘贴进你的证书（只包含你的用户证书），或者上传你的证书，它就会给出补全后的证书文件，你只需要粘贴回你的文件或者下载覆盖就可以了，然后在服务器上重新部署就可以解决问题。</p><p>由于这里只需要上传证书，所以是安全的，不需要担心不安全的问题。</p><p>如果不喜欢用在线的工具，可以使用下面这个本地的工具，PHP写的，在命令行中运行： <a href="https://github.com/spatie/ssl-certificate-chain-resolver" title="Github ssl-certificate-chain-resolver">Github ssl-certificate-chain-resolver</a></p><p>2.Let’s Encrypt 工具生成的证书有以下几个文件 域名.key 证书密钥 域名.cer 域名证书 fullchain.cer 含中间证书的，完整证书链 切换使用fullchain.cer后可恢复正常</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;最近给博客接入CDN，国外用&lt;a href=&quot;https://www.cloudflare.com/&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>国行Android内置Google框架无法登陆账号的解决</title>
+    <link href="https://blog.feiyuyu.net/2019/04/05/%E5%9B%BD%E8%A1%8CAndroid%E5%86%85%E7%BD%AEGoogle%E6%A1%86%E6%9E%B6%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86%E8%B4%A6%E5%8F%B7%E7%9A%84%E8%A7%A3%E5%86%B3/"/>
+    <id>https://blog.feiyuyu.net/2019/04/05/%E5%9B%BD%E8%A1%8CAndroid%E5%86%85%E7%BD%AEGoogle%E6%A1%86%E6%9E%B6%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86%E8%B4%A6%E5%8F%B7%E7%9A%84%E8%A7%A3%E5%86%B3/</id>
+    <published>2019-04-04T18:05:21.000Z</published>
+    <updated>2021-04-04T03:57:01.463Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>如果在路由器端设置了基于“<strong>国内 IP 白名单</strong>”或 <strong>GFWList</strong> 的智能代理 可能会在自带 Google 框架的<strong>国行</strong> Android 手机(原厂 ROM) 上 登录 Google Play 时会遇到 <strong>DF-DFERH-01</strong> 错误 在手机/平板开启 Shadowsocks(R) / V2Ray 客户端时，一般不会出现此错误 <img src="https://i.loli.net/2020/03/11/tB7KOpZu3VUkWIw.jpg"><img src="https://i.loli.net/2020/03/11/uUSYQib28DV6vMK.jpg"></p><h3 id="原因分析"><a href="#原因分析" class="headerlink" title="原因分析"></a>原因分析</h3><p>国行 Android 设备内置的 Google 框架会请求 <strong>services.googleapis.cn</strong> 而不是 <strong>services.googleapis.com</strong> 域名，而前者在中国大陆境内会被解析到来自北京的服务器，然而 Google Play 还没有回归中国。</p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>在路由器上把 <strong>services.googleapis.cn</strong> 强行解析到海外 IP，目前是 <strong>172.217.0.74</strong> <em>如果未来有变，此域名解析到的最新海外 IP 可在 <strong><a href="http://ping.pe/services.googleapis.com" title="ping.pe">ping.pe</a></strong> 查询到</em> 如果你的路由器也在用 <strong>Pavadan</strong>固件 ，可以在 <code>内部网络(LAN) -&gt; DHCP 服务器 -&gt; 高级设置</code> 中 DHCP 服务器详细: 选择 <strong>DHCPv4</strong> 然后在 <code>自定义配置文件 &quot;dnsmasq.servers&quot;</code> 中加入</p><pre><code>server=/services.googleapis.cn/172.217.0.74</code></pre><p>最后在 <code>自定义配置文件 &quot;hosts&quot;</code> 中加入</p><pre><code>172.217.0.74 services.googleapis.cn</code></pre><p>然后保存设置即可。 其实方法应该蛮多的，改hosts，添加例外规则等都可以尝试下 转自<a href="https://bbs.letitfly.me/d/860" title="LetITFly BBS">LetITFly BBS</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;如果在路由器端设置了基于“&lt;strong&gt;国内 IP 白名单&lt;/strong&gt;”或</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用UU加速器国内中转，改善网络出口质量</title>
+    <link href="https://blog.feiyuyu.net/2019/03/28/%E4%BD%BF%E7%94%A8UU%E5%8A%A0%E9%80%9F%E5%99%A8%E5%9B%BD%E5%86%85%E4%B8%AD%E8%BD%AC%EF%BC%8C%E6%94%B9%E5%96%84%E7%BD%91%E7%BB%9C%E5%87%BA%E5%8F%A3%E8%B4%A8%E9%87%8F/"/>
+    <id>https://blog.feiyuyu.net/2019/03/28/%E4%BD%BF%E7%94%A8UU%E5%8A%A0%E9%80%9F%E5%99%A8%E5%9B%BD%E5%86%85%E4%B8%AD%E8%BD%AC%EF%BC%8C%E6%94%B9%E5%96%84%E7%BD%91%E7%BB%9C%E5%87%BA%E5%8F%A3%E8%B4%A8%E9%87%8F/</id>
+    <published>2019-03-28T08:17:31.000Z</published>
+    <updated>2021-04-04T03:57:01.462Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>我们知道UU加速器针对国服是免费的，所以就有了本篇文章。 <strong>注意：此方法仅为拯救长城宽带等质量极差的网络，正常质量的网络就没必要这么搞了。</strong></p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>1.打开UU加速器，找一个国服游戏，选择模式一，然后找一个节点连上。 <img src="https://i.loli.net/2020/03/11/wx4yWVkrYq8uKQT.png" alt="img"> 2.更改路由表 管理员模式下打开cmd，执行命令<code>ipconfig</code>，查看UU连接详情。 <img src="https://i.loli.net/2020/03/11/EvG8fTFwnadrOc7.png" alt="img"> 执行命令<code>route add xxx.xxx.xxx.xxx mask 255.255.255.255 10.36.220.12</code></p><pre><code>route add xxx.xxx.xxx.xxx mask 255.255.255.255 10.36.220.12#添加一条路由：发往xxx.xxx.xxx.xxx这个网段的全部要经过网关10.36.220.12route del xxx.xxx.xxx.xxx mask 255.255.255.255#删除一条路由，删除时不需要网关</code></pre><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p>原本： <img src="https://i.loli.net/2020/03/11/b9oYygRp7GMx26X.jpg" alt="img"> 中转后： <img src="https://i.loli.net/2020/03/11/NJUd1CeQKYhonmO.jpg" alt="img"> 测速： <img src="https://i.loli.net/2020/03/11/vOGjgkU4XiKRpyc.png" alt="img"> <img src="https://i.loli.net/2020/03/11/ZEjeRKTDV3WY8so.jpg" alt="img"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;我们知道UU加速器针对国服是免费的，所以就有了本篇文章。</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chrome浏览器关闭QUIC</title>
+    <link href="https://blog.feiyuyu.net/2019/03/18/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%B3%E9%97%ADQUIC/"/>
+    <id>https://blog.feiyuyu.net/2019/03/18/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%B3%E9%97%ADQUIC/</id>
+    <published>2019-03-18T12:25:51.000Z</published>
+    <updated>2021-04-04T03:57:01.456Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="QUIC是什么"><a href="#QUIC是什么" class="headerlink" title="QUIC是什么"></a>QUIC是什么</h3><p><strong>QUIC（Quick UDP Internet Connection）</strong>是谷歌制定的一种基于 UDP 的低时延互联网传输层协议。 因为TCP协议连接建立的成本相对较高，但是可以通过TCP快速打开（TCP Fast Open）来减少建立连接时的握手次数。但是该技术目前应用较少。 和TCP相反，UDP协议是无连接协议。客户端发出UDP数据包后，只能“假设”这个数据包已经被服务端接收。这样的好处是在网络传输层无需对数据包进行确认，但存在的问题就是为了确保数据传输的可靠性，应用层协议需要自己完成包传输情况的确认。 与 TCP 协议相比，UDP 更为轻量，但是错误校验也要少得多。这意味着 UDP 往往效率更高（不经常跟服务器端通信查看数据包是否送达或者按序），但是可靠性比不上 TCP。通常游戏、流媒体等应用均采用 UDP，而网页、邮件、远程登录等大部分的应用均采用 TCP。 此时，QUIC协议就登场了。QUIC协议可以在1到2个数据包（取决于连接的服务器是新的还是已知的）内，完成连接的创建。</p><h3 id="为什么要关闭"><a href="#为什么要关闭" class="headerlink" title="为什么要关闭"></a>为什么要关闭</h3><p>因为 QUIC 为了实现 UDP 的高效，会把一些 TCP 转为 UDP，但是<strong>在国内部分地区的运营商都会针对 UDP 协议QOS限速或者丢包，</strong>这就导致 <strong>UDP 效率低下</strong>，或许速度会比正常使用TCP协议还慢很多。 而谷歌的服务器，例如 Google搜索、Youtube等，都部署了 QUIC 服务，这意味着当你使用<strong>已开启 QUIC 功能的基于Chromium内核浏览器</strong>访问谷歌网站的时候，会尝试使用 QUIC 方式传输数据。而<strong>碰巧你当地运营商对 UDP协议歧视</strong>，然后疯狂限速或丢包，这时候你的速度就会很感人。 <strong>注意：各地区的运营商对 UDP协议的态度不一样，有的地区QOS严重，有的地区则很轻，所以关闭 QUIC 只对部分地区用户会有加速效果！</strong> 又或者你使用酸酸乳代理，而服务端没有开启 UDP 转发功能(或者防火墙没开放 UDP)，那么你可能会遇到打开 优土鳖视频后，视频会一直缓冲无法加载，或者是首次打开总是慢很多（因为浏览器在尝试）。 <strong>注意：QUIC适用于一切基于 Chromium 的浏览器，如果不是这个内核的浏览器就没必要看了。</strong></p><h3 id="如何关闭QUIC"><a href="#如何关闭QUIC" class="headerlink" title="如何关闭QUIC"></a>如何关闭QUIC</h3><p>首先打开你基于Chromium内核的浏览器，地址栏输入： <code>chrome://flags/#enable-quic</code> 然后就会看到如下图，在下拉框中可以选择 <strong>默认/已启用/已禁用 (Default/Enabled/Disabled)</strong> 三个选项，我们只需要把选项改为 <strong>已禁用(Disabled)</strong> 即可。 修改后，需要重启浏览器生效。 <img src="https://i.loli.net/2020/03/11/KVIeLhzRNyp1uUX.png" alt="img"></p><p>转自：<a href="https://51.ruyo.net/5262.html">https://51.ruyo.net/5262.html</a> <a href="https://www.echoteen.com/turnoff-quic.html">https://www.echoteen.com/turnoff-quic.html</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;QUIC是什么&quot;&gt;&lt;a href=&quot;#QUIC是什么&quot; class=&quot;headerlink&quot; title=&quot;QUIC是什么&quot;&gt;&lt;/a&gt;QUIC是什么&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;QUIC（Quick UDP Internet</summary>
+        
+      
+    
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/categories/%E6%BC%AB%E8%B0%88/"/>
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/tags/%E6%BC%AB%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>斐讯K2路由器刷机教程</title>
+    <link href="https://blog.feiyuyu.net/2019/03/08/%E6%96%90%E8%AE%AFK2%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B/"/>
+    <id>https://blog.feiyuyu.net/2019/03/08/%E6%96%90%E8%AE%AFK2%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B/</id>
+    <published>2019-03-08T11:10:44.000Z</published>
+    <updated>2021-04-04T03:57:01.465Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>过了一个寒假，宿舍原来的路由器极壹S时不时就抽风，上个网难受得鸭皮（当然运营商也有锅），不过既然解决不了运营商的问题，换个路由器还是能加钱解决的。这谁顶得住啊（逃!<img src="https://i.loli.net/2020/03/11/cAHZmQt5NUzwKTb.png" alt="img"></p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p><a href="https://www.right.com.cn/forum/forum.php?mod=attachment&aid=MTg4MjU3fGViOTA5YjI0fDE1NTIwMzc0MDJ8NDMwNzQ5fDI2MTAyOA==" title="RoutAckProV1B2.rar">RoutAckProV1B2.rar</a> <a href="https://pan.baidu.com/s/1slym23j" title="路由器刷breed Web控制台助手v4.8版本">路由器刷breed Web控制台助手v4.8版本</a> <a href="https://pan.baidu.com/s/1slqkvF3#2a2n" title="降级版本固件K2_V22.6.506.28">降级版本固件K2_V22.6.506.28</a> <a href="http://woo.iytc.net/?dir=uploads/K2" title="固件k2_163_v19_breed（官改自带breed）">固件k2_163_v19_breed（官改自带breed）</a> <a href="http://opt.cn2qq.com/padavan/RT-AC54U-GPIO-1-PSG1208-64M_3.4.3.9-099.trx" title="H大的padavan固件">H大的padavan固件</a> 下图放出具体路由器可下载的padavan固件：<a href="http://opt.cn2qq.com/padavan/" title="下载地址">下载地址</a> <img src="https://i.loli.net/2020/03/11/iaJM6bL5Zdc2WDz.png" alt="img"></p><h3 id="刷机过程"><a href="#刷机过程" class="headerlink" title="刷机过程"></a>刷机过程</h3><p><strong>0.首先确认出厂固件版本</strong> 如果你现在是官方固件版本大于V21.4.6.12而小于V22.5.11.5的，直接在WEB页面的“手动升级”菜单，选择上述准备工作中提供的<a href="http://woo.iytc.net/?dir=uploads/K2" title="固件k2_163_v19_breed（官改自带breed）">固件k2_163_v19_breed（官改自带breed）</a>进行升级： <img src="https://i.loli.net/2020/03/11/OnPNv643yZJjkMx.jpg" alt="img"> 而后你的路由器固件中将已经集成了目前最新的breed，进入breed，选择任意第三方固件刷入即可。 <strong>1.其他官方固件先开启telnet，而后刷入breed</strong> 新的K2版本更改了加密算法，无法直刷，需要先开启telnet，刷入breed，然后在breed中刷入固件。 对于K2_V22.6.511.69，可参考<a href="https://www.right.com.cn/forum/thread-325258-1-1.html" title="此贴">此贴</a>。 对于K2_V22.6.507.43（博主买到的），开启telnet需要先进行降级操作，经过测试，可下载上述准备工作中提供的<a href="https://pan.baidu.com/s/1slqkvF3#2a2n" title="降级版本固件K2_V22.6.506.28">降级版本固件K2_V22.6.506.28</a>，在路由器管理后台进行降级。 然后下载<a href="https://www.right.com.cn/forum/forum.php?mod=attachment&aid=MTg4MjU3fGViOTA5YjI0fDE1NTIwMzc0MDJ8NDMwNzQ5fDI2MTAyOA==" title="RoutAckProV1B2.rar">RoutAckProV1B2.rar</a>，确保windows启用Telnet客户端。<img src="https://i.loli.net/2020/03/11/ZVNPDLrxvkYblBK.png" alt="img"> 接着路由器不插wan口，电脑无线连接上路由器或用网线连接lan口和电脑插口（总之需要不联网状态），打开RoutAckPro，重启路由器，当路由器由红灯变为黄灯（绿灯为联网状态），立即点击打开Telnet按钮。 <img src="https://i.loli.net/2020/03/11/ruLS9wQU4XPebR8.png" alt="img"> 最后下载<a href="https://pan.baidu.com/s/1slym23j" title="路由器刷breed Web控制台助手v4.8版本">路由器刷breed Web控制台助手v4.8版本</a>刷入breed。右击以管理员省份运行(关闭杀毒软件，很重要),用网线连入电脑，连接路由LAN口，不要连WAN。打开电脑登录192.168.2.1 看看能不能进入路由，能进入说明电脑网络正常。用手按住复位键10秒，松开，等待2分钟，这时已经恢复出厂设置，然后点击<strong>开始刷机</strong>，刷机过程中，无需手动操作，2-3分钟后，成功刷入。 <img src="https://i.loli.net/2020/03/11/WO8LyF9KVZlBaCz.png" alt="img"> 由于控制台助手v4.8版本集成懒人刷固件模式，无需登录breed Web控制台，可直接在提示界面选择固件刷入，而博主由于用此模式并没探测到进入breed，所以选择手动进入。 <strong>2.进入breed，刷入固件</strong> 电脑网线连接路由器任一lan口，断开路由器电源，按住路由器复位键5s左右（不松手），接通电源，10s后松开复位键。此时访问浏览器192.168.1.1，即进入路由器Breed界面。首先建议先备份相应的数据。 <img src="https://i.loli.net/2020/03/11/S6PBtjb24FRhHVM.png" alt="img"> 这里放一张K2各种可刷固件的对比图，博主个人选择了<a href="http://opt.cn2qq.com/padavan/RT-AC54U-GPIO-1-PSG1208-64M_3.4.3.9-099.trx" title="改华硕的Padavan固件">改华硕的Padavan固件</a>。<img src="https://i.loli.net/2020/03/11/HPvsWN4AV9pYRLD.png" alt="img"> 如图设置并选择固件，即可刷入。 <img src="https://i.loli.net/2020/03/11/1K6xamU3uPBId8W.png" alt="img"> 默认配置 新固件网关：192.168.123.1 管理账号：admin/admin wifi:1234567890</p><h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>不多说了，我好了！<img src="https://i.loli.net/2020/03/11/QR4CJeoHTnbqKSu.png" alt="img"></p><hr><p>更多可参考：<a href="https://www.right.com.cn/forum/thread-208753-1-1.html" title="[k2] 斐讯K2 V22.5.9.163官方固件定制版【V1.9】">[k2] 斐讯K2 V22.5.9.163官方固件定制版【V1.9】</a> <a href="https://www.right.com.cn/forum/thread-161324-1-1.html" title="改华硕[N14U N54U]5G 2G的7620老毛子Padavan固件(私人云储存 aria2 QOS)">改华硕[N14U N54U]5G 2G的7620老毛子Padavan固件(私人云储存 aria2 QOS)</a> 其他路由器刷机教程参见：<a href="http://www.feiyuyu.net/archives/996" title="K2P刷机教程">K2P刷机教程</a>，<a href="http://www.feiyuyu.net/archives/1270" title="极路由3刷固件Padavan完整教程">极路由3刷固件Padavan完整教程</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>太极（Taichi）——实现Xposed模块的新方法</title>
+    <link href="https://blog.feiyuyu.net/2019/02/20/%E5%A4%AA%E6%9E%81%EF%BC%88Taichi%EF%BC%89%E2%80%94%E2%80%94%E5%AE%9E%E7%8E%B0Xposed%E6%A8%A1%E5%9D%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/"/>
+    <id>https://blog.feiyuyu.net/2019/02/20/%E5%A4%AA%E6%9E%81%EF%BC%88Taichi%EF%BC%89%E2%80%94%E2%80%94%E5%AE%9E%E7%8E%B0Xposed%E6%A8%A1%E5%9D%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/</id>
+    <published>2019-02-20T14:50:08.000Z</published>
+    <updated>2021-04-04T03:57:01.464Z</updated>
+    
+    <content type="html"><![CDATA[<p>太极已经有<a href="https://taichi.cool/README_CN.html" title="官网">官网</a>了，写得肯定比我详细（逃 :huaji:</p><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>太极分两种版本，一种太极普通版（不用解锁Bootloader，无需Root，不需要刷机就能使用 Xposed 模块的一个APP），另一种太极·Magisk版。</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p><strong>太极普通版</strong> <a href="https://www.coolapk.com/apk/me.weishu.exp" title="酷安下载">酷安下载</a> 首先添加应用到太极中 下载 Xposed 模块然后安装到你的手机上 在“模块管理”中启用需要的 Xposed 模块 强制停止对应的应用，Xposed 模块即可生效 <em>注意： 应用创建过程中必须首先卸载，然后才能正常安装；因此，请确保你已经对应用的数据做了备份。开发者不对任何数据丢失的情况负责。 应用创建后，可能与MIUI/华为等第三方ROM的系统分身功能冲突；如果需要使用太极，请删除全部系统分身应用。 某些Xposed 模块可能支持不好，后续会逐渐改进；</em> <strong>太极·Magisk版</strong> <a href="https://www.lanzous.com/i31t25a" title="太极Magisk模块下载">太极Magisk模块下载</a> 安装好 Magisk 刷入 太极 提供的 magisk 模块 安装好太极app 下与普通版同</p><h3 id="两种版本的异同"><a href="#两种版本的异同" class="headerlink" title="两种版本的异同"></a>两种版本的异同</h3><p>太极·Magisk 是增强版的太极。 普通版的 太极 无法作用于系统APP，并且创建 APP 需要先卸载。太极·Magisk 借助一个 magisk 模块注入系统，从而可以作用所有的 APP；可以实现 Xposed 框架的完整功能。 具体来说，太极·Magisk 与普通版的太极有何区别？ 太极·Magisk 可以拦截系统，因此可以额外支持系统级别的 Xposed 模块；如边缘手势/核心破解/绿色守护/应用控制器等。 太极·Magisk 不需要修改 APP，因此可以做到 秒添加 APP；再也不用烦心地等待。 由于 太极·Magisk 不再需要修改 APP，因此 可以完美解决 微信/QQ 等应用无法被其他应用识别的问题。 太极·Magisk 有能力对系统做更多地控制，因此可以做到更加稳定。 与rovo89 的 Xposed 相比，太极·Magisk 又有什么特点？ 太极·Magisk 支持 Android 9.0。 太极·Magisk 不影响全局。可以只对特定的应用开启 Xposed 功能，无需使用 Xposed 的APP 运行起来就跟系统没有 Xposed 一样；完美契合某些金融/银行类APP。 太极·Magisk 针对APP的模块，无需重启即刻生效。 太极·Magisk 更不易被检测。太极的弱侵入特性不再修改 运行时，也不在全局环境中留下任何踪影；因此只要想要做到，可以轻松逃过各种代码类型的检测。</p><h3 id="界面预览"><a href="#界面预览" class="headerlink" title="界面预览"></a>界面预览</h3><p><img src="https://i.loli.net/2020/03/11/edKsr42METawNAF.png" alt="img"> <img src="https://i.loli.net/2020/03/11/TrByCai6k2uv8ZW.png" alt="img"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;太极已经有&lt;a href=&quot;https://taichi.cool/README_CN.html&quot; title=&quot;官网&quot;&gt;官网&lt;/a&gt;了，写得肯定比我详细（逃 :huaji:&lt;/p&gt;
+&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="https://blog.feiyuyu.net/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件" scheme="https://blog.feiyuyu.net/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ASUS电脑棒初体验——将电视变为电脑</title>
+    <link href="https://blog.feiyuyu.net/2019/02/17/ASUS%E7%94%B5%E8%84%91%E6%A3%92%E5%88%9D%E4%BD%93%E9%AA%8C%E2%80%94%E2%80%94%E5%B0%86%E7%94%B5%E8%A7%86%E5%8F%98%E4%B8%BA%E7%94%B5%E8%84%91/"/>
+    <id>https://blog.feiyuyu.net/2019/02/17/ASUS%E7%94%B5%E8%84%91%E6%A3%92%E5%88%9D%E4%BD%93%E9%AA%8C%E2%80%94%E2%80%94%E5%B0%86%E7%94%B5%E8%A7%86%E5%8F%98%E4%B8%BA%E7%94%B5%E8%84%91/</id>
+    <published>2019-02-17T13:05:01.000Z</published>
+    <updated>2021-04-04T03:57:01.455Z</updated>
+    
+    <content type="html"><![CDATA[<p>介绍：Chromebit CS10 搭载Chrome OS，可在2秒内开机，配备2GB内存、16GB eMMC 储存空间、双频 802.11ac Wi-Fi、Bluetooth 4.0、USB2.0接口和 HDMI接口。只需将HDMI接口插入电视或PC显示屏，即刻拥有一台低资源消耗的电脑。 <img src="https://i.loli.net/2020/03/11/p7PiXLj4kRAGNnE.png" alt="img"> <img src="https://i.loli.net/2020/03/11/ONCqray3InJWbtE.jpg" alt="img"></p><h3 id="使用图"><a href="#使用图" class="headerlink" title="使用图"></a>使用图</h3><p><strong>锁屏界面</strong> <img src="https://i.loli.net/2020/03/11/wGCm5dlgnPQSiJy.jpg" alt="img"> <strong>桌面</strong> <img src="https://i.loli.net/2020/03/11/ZzUsW72xAiSILeg.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/7V5hFqgAvjirSUY.jpg" alt="img"> <strong>Chrome首页</strong> <img src="https://i.loli.net/2020/03/11/lYnEX8mVwAMvpx1.jpg" alt="img"> <strong>Youtube</strong> <img src="https://i.loli.net/2020/03/11/9AnIcpERx25NP61.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/pEHPzoGJRKtuSir.jpg" alt="img"> <strong>Netflix</strong> <img src="https://i.loli.net/2020/03/11/7lGbm5HCd1hsOBc.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/OIZHq8dyazYSKxU.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/hJm2Oad5fE9tT86.jpg" alt="img"> <strong>Halihali</strong> <img src="https://i.loli.net/2020/03/11/c7BWhxyvoiup9YO.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/tHC4mZQ3rgUsMOk.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/ThFkdrWbHsaPZwi.jpg" alt="img"> <strong>Bilibili</strong> <img src="https://i.loli.net/2020/03/11/I6FGhBy1RKcJbf4.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/D2khAZpNCHBvPeX.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/oVWnpReNAHUyKYw.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/xTsEctb83q6nNVm.jpg" alt="img"> <strong>扩展/应用</strong> <img src="https://i.loli.net/2020/03/11/lx7mdwuWJKvM5ap.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/XMBIW2amVsCpryd.jpg" alt="img"> <img src="https://i.loli.net/2020/03/11/doHGhpBcXJPCaUI.jpg" alt="img"></p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>因为Chromebit相当于一台小型主机，电视做屏幕，所以想要控制它需要自备一套键鼠，由于Chromebit只配备一个USB2.0接口，所以若不是共用一个USB接收器的无线键鼠，最好配一个USB Hub，或者亦可配备支持蓝牙的无限键鼠。博主是上闲鱼收了一个这玩意，中上方是它的触摸板，用一个转接口也可以用来控制平板/手机，只需30元左右即可，还是蛮不错的。 <img src="https://i.loli.net/2020/03/11/uQilvoNh4xknRsU.jpg" alt="img"> 另外查了一下ChromeOS官方提供的名单，目前Chromebit还不支持Play store，也就是说无法在Chromebit上安装安卓应用，不过至少显示已经提上日程了。<img src="https://i.loli.net/2020/03/11/YnUhtC67RNQDGgc.jpg" alt="img"> 当然，还有大佬做了将apk转换成arc插件的项目：<a href="https://github.com/vladikoff/chromeos-apk/blob/master/archon.md" title="Github">Github</a> 另外用Chromebit登陆<a href="https://www.google.com/chromebook/offers/">https://www.google.com/chromebook/offers/</a> 可以领取100G谷歌云端网盘存储，免费两年。 之前家里的小米盒子3刷了原生安卓TV，本以为可以爽看Netflix了，没想到还需要Netflix授权过的电视盒子才能观看，而将网页转成apk或直接观看网页版Netflix都属实有些不方便，现在虽然说通过Chromebit仍然是看网页版Netflix，不过由于这是专业的浏览器，操作起来还是舒服不少。另外通过安装插件Tampermonkey，可实现不少脚本，解析VIP视频、跳过验证什么什么的…总之Chromebit真香。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;介绍：Chromebit CS10 搭载Chrome OS，可在2秒内开机，配备2GB内存、16GB eMMC 储存空间、双频 802.11ac Wi-Fi、Bluetooth 4.0、USB2.0接口和</summary>
+        
+      
+    
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/categories/%E6%BC%AB%E8%B0%88/"/>
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/tags/%E6%BC%AB%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>程序员找工作黑名单</title>
+    <link href="https://blog.feiyuyu.net/2019/02/06/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%89%BE%E5%B7%A5%E4%BD%9C%E9%BB%91%E5%90%8D%E5%8D%95/"/>
+    <id>https://blog.feiyuyu.net/2019/02/06/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%89%BE%E5%B7%A5%E4%BD%9C%E9%BB%91%E5%90%8D%E5%8D%95/</id>
+    <published>2019-02-06T14:20:31.000Z</published>
+    <updated>2021-04-04T03:57:01.467Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文地址：<a href="https://github.com/shengxinjing/programmer-job-blacklist" title="Github">Github</a> ?我也只是围观群众，背后的真相大家自己判断，我只是单纯的收藏一些链接，不喜勿喷，欢迎大家关注我<a href="http://weibo.com/woniuppp" title="微博">微博</a>和提 <a href="https://github.com/shengxinjing/programmer-job-blacklist/issues" title="issues">issues</a> 来参与维护这个名单</p><p>最近的事情 让我意识到 有些同行也是劣迹斑斑，需要记录一下 以后大家招聘注意</p><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>谢谢 <a href="https://github.com/shengxinjing/programmer-job-blacklist/issues/20" title="issues">issues</a> 提醒 首先，每一个程序猿，每一个公司都有黑点，但是如果把黑点放大了，黑名单就没存在的意义了。就拿这几个例子来吧 1.世纪佳缘认为白帽子，是违法的 虽然这件事是我怒开 repo 的<a href="https://www.zhihu.com/question/47775182" title="起因">起因</a>，但是他没有拖欠员工工资或不付工资</p><p>2.与创始人说的股份，那是个人争取的事 也没拖欠工资或不付工资 只是记住以后记得留个心眼，和合伙人不是只写代码就可以的</p><p>3.华为清理 34 岁以上员工，也是按照合同裁员，给赔偿 大公司更新换代，裁员没有任何问题，不裁员的公司早晚倒闭 华为也没有拖欠工资 只是我个人觉得，因为这件事，不想去华为工作 仅此而已，害怕到了34就被干掉</p><p>4.有些事情，应该被记住</p><h3 id="程序员黑名单"><a href="#程序员黑名单" class="headerlink" title="程序员黑名单"></a>程序员黑名单</h3><p><a href="https://www.zhihu.com/question/289146339?from=groupmessage&isappinstalled=0&utm_medium=social&utm_oi=581028265741783040&utm_source=wechat_session" title="如何看待摩拜前端负责人小春（张耀春）疑似性骚扰女下属？">如何看待摩拜前端负责人小春（张耀春）疑似性骚扰女下属？</a></p><h3 id="普通程序员"><a href="#普通程序员" class="headerlink" title="普通程序员"></a>普通程序员</h3><p>杭州有赞 <a href="https://www.zhihu.com/question/309428750" title="如何看待“有赞”年会公开宣布996工作制？">如何看待“有赞”年会公开宣布996工作制？</a> <a href="https://www.zhihu.com/question/310419862" title="有赞会得到法律的惩罚吗？">有赞会得到法律的惩罚吗？</a> <a href="https://maimai.cn/web/gossip_detail?encode_id=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTk2MDc3MzAsImlhdCI6MTU0ODY1NDIxOX0.JSAyjakN-V_ZBQfjKxOl3MZKBcV7uLHyPZ1N-1mKXJI" title="脉脉匿名区的有赞员工">脉脉匿名区的有赞员工</a></p><p>便利蜂 <a href="https://zhuanlan.zhihu.com/p/55856617" title="年底组织数学考试，考试不及格就开除。">年底组织数学考试，考试不及格就开除。</a> <a href="https://maimai.cn/web/gossip_detail?encode_id=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTk3MzA4MjAsImlhdCI6MTU0ODY1NDI3OH0.UwkUFUh0wXgox30vxMCYyiRZW1dhzgWZKExIC6PT0V4" title="脉脉匿名区的便利蜂">脉脉匿名区的便利蜂</a></p><p>上海碧华信息技术有限公司 <a href="https://juejin.im/post/59bb3de35188257e7a427a6d" title="Android开发者的艰难讨薪路程">Android开发者的艰难讨薪路程</a></p><p>世纪佳缘 <a href="https://www.zhihu.com/question/47775182" title="白帽事件">白帽事件</a></p><p>西山居 <a href="https://www.zhihu.com/question/40739038" title="如何看待西山居近期的大规模「劝退」">如何看待西山居近期的大规模「劝退」</a></p><p>百度无人车 <a href="https://www.zhihu.com/question/52768740?sort=created" title="如何看待为了挑战百度无人车安全性，李彦宏试乘时让工程师人为拦车？">如何看待为了挑战百度无人车安全性，李彦宏试乘时让工程师人为拦车？</a></p><p>触控科技 <a href="https://www.zhihu.com/question/55756584/answer/146106517" title="如何看待触控与廖大解约？">如何看待触控与廖大解约？</a></p><p>华为 <a href="https://www.zhihu.com/question/55618811" title="华为清理 34 岁以上员工">华为清理 34 岁以上员工</a> <a href="http://www.williamlong.info/archives/4894.html" title="任正非回应华为清理老员工：华为不养吃白饭的人">任正非回应华为清理老员工：华为不养吃白饭的人</a></p><p>音悦台 <a href="https://www.zhihu.com/question/22461542" title="你为什么从音悦台离职？">你为什么从音悦台离职？</a></p><p>珠海时代互联 <a href="https://www.zhihu.com/question/54987066" title="在珠海时代互联(优品科技)工作是怎样一番体验">在珠海时代互联(优品科技)工作是怎样一番体验</a> <a href="https://www.v2ex.com/t/348047#reply50" title="第一次听说工资可以打八折">第一次听说工资可以打八折</a></p><p>阿里钉钉 <a href="https://www.zhihu.com/question/57732499" title="如何看待阿里「步数垫底罚站一周」">如何看待阿里「步数垫底罚站一周」</a></p><p>4399 <a href="https://www.zhihu.com/question/22048775" title="你为什么从 4399 离职？">你为什么从 4399 离职？</a></p><p>酷派 <a href="https://www.zhihu.com/question/59878776" title="如何看待酷派在毕业入职前夕疑似解约 300 余名校招应届毕业生？">如何看待酷派在毕业入职前夕疑似解约 300 余名校招应届毕业生？</a></p><p>蛋壳公寓 <a href="https://zhuanlan.zhihu.com/p/27831054" title="我在蛋壳公寓的打工记录">我在蛋壳公寓的打工记录</a></p><p>明星衣橱 <a href="https://maimai.cn/article/topic?id=21179" title="如何看待明星衣橱有钱搞VR试衣间，却拖欠员工工资达1年以上？">如何看待明星衣橱有钱搞VR试衣间，却拖欠员工工资达1年以上？</a> <em>腾讯新闻</em> <a href="https://xw.qq.com/tech/20170904089402/TEC2017090408940200" title="黄晓明投的明星衣橱被爆长期拖欠薪资 员工已求助法律解决">黄晓明投的明星衣橱被爆长期拖欠薪资 员工已求助法律解决</a> <a href="https://xw.qq.com/cmsid/20170906A02KJP00" title="欠款欠薪没融资，明星衣橱老板要携小三跑路了？">欠款欠薪没融资，明星衣橱老板要携小三跑路了？</a> <em>新浪财经</em> <a href="http://finance.sina.com.cn/chanjing/gsnews/2017-09-26/doc-ifymenmt6937590.shtml" title="明星衣橱生死局:拖欠员工工资 认为讨薪的是落井下石|融资|张晨|浙江永强_新浪财经_新浪网">明星衣橱生死局:拖欠员工工资 认为讨薪的是落井下石|融资|张晨|浙江永强_新浪财经_新浪网</a></p><h3 id="技术合伙人"><a href="#技术合伙人" class="headerlink" title="技术合伙人"></a>技术合伙人</h3><p>青云 <a href="https://www.zhihu.com/question/47442360" title="知乎：你如何看青云员工期权合同欺诈事件？">知乎：你如何看青云员工期权合同欺诈事件？</a></p><p>衣格鹿 <a href="https://www.zhihu.com/question/38295860/answer/75732778" title="作为一个技术合伙人，如果碰到了这样的公司这样的事情，你该怎么办？">作为一个技术合伙人，如果碰到了这样的公司这样的事情，你该怎么办？</a> <a href="https://www.zhihu.com/question/38333196/answer/75901815" title="被「技术合伙人」销毁删除代码数据、关停服务器，撕逼反咬是一种什么样的体验？">被「技术合伙人」销毁删除代码数据、关停服务器，撕逼反咬是一种什么样的体验？</a></p><p>丁香园 <a href="https://www.zhihu.com/question/48607258" title="如何看待冯大辉（Fenng）从丁香园离职？">如何看待冯大辉（Fenng）从丁香园离职？</a></p><p>4399 <a href="https://www.zhihu.com/question/23552172" title="曹政（caoz）是不是被 4399 的蔡文胜的虚假承诺欺骗了？">曹政（caoz）是不是被 4399 的蔡文胜的虚假承诺欺骗了？</a> <a href="https://www.zhihu.com/question/23554339" title="如何看待蔡文胜把曹政给坑了这件事？">如何看待蔡文胜把曹政给坑了这件事？</a></p><p>55海淘 <a href="https://www.zhihu.com/question/43651618" title="在 55 海淘工作是怎么样一种体验？">在 55 海淘工作是怎么样一种体验？</a></p><p>异乡好居 <a href="https://www.zhihu.com/question/46294596" title="如何看待异乡好居老板娘控告程序员删代码？">如何看待异乡好居老板娘控告程序员删代码？</a> <a href="https://zhuanlan.zhihu.com/p/20907546" title="我为什么“明目张胆”地和异乡好居撕逼？因为我是千千万万普通程序员的一名">我为什么“明目张胆”地和异乡好居撕逼？因为我是千千万万普通程序员的一名</a></p><p>北京展程科技 <a href="http://mp.weixin.qq.com/s/C5aDa0pzoUGk6_4q-qKCaQ" title="就算老公一毛钱股份都没拿到，在我心里，他依然是最牛逼的创业者">就算老公一毛钱股份都没拿到，在我心里，他依然是最牛逼的创业者</a> <a href="https://www.zhihu.com/question/56175498" title="如何评价《就算老公一毛钱股份都没拿到，在我心里，他依然是最牛逼的创业者》里面这位 CEO 的所作所为？">如何评价《就算老公一毛钱股份都没拿到，在我心里，他依然是最牛逼的创业者》里面这位 CEO 的所作所为？</a> <a href="https://mp.weixin.qq.com/s?__biz=MzA3MjA4MDI5OQ==&mid=2651728497&idx=1&sn=4a44f4da1c8450aafdd59608d1ccfe97&key=ffe67a077c969a8bcd4e189116725132332291db2178c0be737bc6ebbe76b14b33eeeb9feb29c85e37e04b8914fc96f0b3df454d6d557560d886a43cbd6c43fbc9beade7732f6df78c8485a2f7d01aaf&ascene=0&uin=MTA1MTg0NzQ0MA==&devicetype=iMac+MacBookPro8,1+OSX+OSX+10.11.6+build(15G1217)&version=12010210&nettype=WIFI&fontScale=100&pass_ticket=s6mb9CuZGxkN8n8xyrkfgTaSA/lrAhiGOafJkPjKj5Hy0YaGkmuwxc5+1DGanVEN" title="对那个创业者的妻子提一个问题，一个建议">对那个创业者的妻子提一个问题，一个建议</a> <a href="https://mp.weixin.qq.com/s?__biz=MzUyMDAwOTUwMA==&mid=2247483654&idx=1&sn=9694290fbec136b4db8ca96aaaae1610&key=ce5474c1928dba09e4eff02c16454389d8599a9d326d5d4afb783846e1c1734b3712a9ae998194fa10745212d2542b2ecd067168a2b7b09826236d58b0930a59c0f525fc54e3aed6903ac50943b387d6&ascene=0&uin=MTA1MTg0NzQ0MA==&devicetype=iMac+MacBookPro8,1+OSX+OSX+10.11.6+build(15G1217)&version=12010210&nettype=WIFI&fontScale=100&pass_ticket=s6mb9CuZGxkN8n8xyrkfgTaSA/lrAhiGOafJkPjKj5Hy0YaGkmuwxc5+1DGanVEN" title="作为除当事人外最有权力发言的人，谈谈《就算老公一毛钱股份都没拿到，在我心里，他依然是最牛逼的创业者》">作为除当事人外最有权力发言的人，谈谈《就算老公一毛钱股份都没拿到，在我心里，他依然是最牛逼的创业者》</a></p><p>乐曼多科技 <a href="https://www.zhihu.com/question/56707020" title="如何评价成都乐曼多公司打人事件？">如何评价成都乐曼多公司打人事件？</a> <a href="https://www.zhihu.com/question/56705233" title="怎么看待《街篮》手游研发商，成都乐曼多科技近日发生的殴打程序员事件？">怎么看待《街篮》手游研发商，成都乐曼多科技近日发生的殴打程序员事件？</a></p><p>北京聚道科技有限公司 <a href="http://weibo.com/ttarticle/p/show?id=2309404098747628943708" title="汉东官场算什么，我被创投圈“暗算”的经历，沙书记都架不住">汉东官场算什么，我被创投圈“暗算”的经历，沙书记都架不住</a></p><h3 id="不确定的"><a href="#不确定的" class="headerlink" title="不确定的"></a>不确定的</h3><p>神舟深圳总部 <a href="http://www.zhihu.com/question/49016853?utm_source=qq&utm_medium=social" title="神舟电脑深圳总部是否常在校招之后出现大规模离职？为什么？如何评价？">神舟电脑深圳总部是否常在校招之后出现大规模离职？为什么？如何评价？</a></p><h3 id="选公司"><a href="#选公司" class="headerlink" title="选公司"></a>选公司</h3><p>建议大家在选择公司的时候摸摸底子 <a href="http://tianyancha.com/">http://tianyancha.com</a> ，发现有问题直接问负责人省的吃哑巴亏。 <a href="https://www.zhihu.com/question/38718862" title="知乎合集：有哪些公司给你留下「还好没去这家公司」的印象？">知乎合集：有哪些公司给你留下「还好没去这家公司」的印象？</a></p><h3 id="当技术合伙人建议"><a href="#当技术合伙人建议" class="headerlink" title="当技术合伙人建议"></a>当技术合伙人建议</h3><p>选自<a href="http://weibo.com/1577826897/EwLWXoxtG" title="冯大辉的微博">冯大辉的微博</a> 只写代码和当合伙人，还是有很大差别的，我觉得上面的建议很中肯</p><h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>最后说一下心得，竟然还有希望 GitHub 处理这个 repo，原因是想维护github这份纯净，还把 GitHub 被墙和我挂钩，我真是醉了，就像一群待宰的羔羊，心想着只要老实一点，宰的就是别人不是我一样</p><p>我只是记录一下自己看到过的事件，我自己下次换工作的时候防止踩坑，仅此而已</p><p>我也没有那么愤世嫉俗，比如我以后换工作，还是会考虑百度阿里的，但是会避免上面出现的坑，比如百度无人车我就不去啦，阿里的其他很多部门还是很棒的，希望到时候不会因为这个名单把我 pass 吧?</p><p><em>求star，支持我继续把这个名单维护下去,谢谢支持</em></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;原文地址：&lt;a href=&quot;https://github.com/shengxinjing/programmer-job-blacklist&quot; title=&quot;Github&quot;&gt;Github&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/categories/%E6%BC%AB%E8%B0%88/"/>
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/tags/%E6%BC%AB%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PyOne-又一款OneDrive目录浏览系统</title>
+    <link href="https://blog.feiyuyu.net/2019/02/01/PyOne-%E5%8F%88%E4%B8%80%E6%AC%BEOneDrive%E7%9B%AE%E5%BD%95%E6%B5%8F%E8%A7%88%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://blog.feiyuyu.net/2019/02/01/PyOne-%E5%8F%88%E4%B8%80%E6%AC%BEOneDrive%E7%9B%AE%E5%BD%95%E6%B5%8F%E8%A7%88%E7%B3%BB%E7%BB%9F/</id>
+    <published>2019-02-01T00:15:27.000Z</published>
+    <updated>2021-04-04T03:57:01.459Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>PyOne是一款基于Python-Flask的onedrive文件本地化浏览系统，使用MongoDB储存文件列表，使用redis缓存数据，支持绑定多个onedrive网盘且支持离线下载，极大的提高使用效率。</p><h3 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h3><p>demo：<a href="https://pyone.feiyuyu.net/" title="https://pyone.feiyuyu.net"></a><a href="https://pyone.feiyuyu.net/">https://pyone.feiyuyu.net</a></p><p><img src="https://i.loli.net/2019/01/31/5c52e6deb72c4.png" alt="20190131201440.png"> <img src="https://i.loli.net/2019/01/31/5c52e726a080e.png" alt="20190131201621.png"></p><h3 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h3><h1 id="简单易用"><a href="#简单易用" class="headerlink" title="简单易用"></a>简单易用</h1><p>只需简单设置，即可做一个onedrive文件列表分享程序。</p><h1 id="功能丰富"><a href="#功能丰富" class="headerlink" title="功能丰富"></a>功能丰富</h1><p>可设置文件夹密码。只需在文件夹添加.password文件，内容为密码内容，即可在该文件夹设置密码 可设置README。</p><h1 id="后台强大"><a href="#后台强大" class="headerlink" title="后台强大"></a>后台强大</h1><p>防盗链设置。 后台上传文件。 后台更新文件。 后台设置统计代码 后台管理onedrive文件。 直接删除onedrive文件 直接在后台给文件夹添加.password和README和HEAD 直接在后台编辑文本文件。 上传本地文件至onedrive 支持创建文件夹 支持移动文件（仅限单文件）</p><h1 id="支持绑定多网盘"><a href="#支持绑定多网盘" class="headerlink" title="支持绑定多网盘"></a>支持绑定多网盘</h1><h1 id="支持离线下载"><a href="#支持离线下载" class="headerlink" title="支持离线下载"></a>支持离线下载</h1><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>Github地址：<a href="https://github.com/abbeyokgo/PyOne" title="https://github.com/abbeyokgo/PyOne"></a><a href="https://github.com/abbeyokgo/PyOne">https://github.com/abbeyokgo/PyOne</a> 1.安装宝塔</p><pre><code>#Centos系统yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh#Ubuntu系统wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh#Debian系统wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</code></pre><p>然后到<strong>软件管理-运行环境-选择安装Nginx、MongoDB和Redis</strong>。（Nginx安装时间较长）</p><p><img src="https://i.loli.net/2019/01/31/5c52e8d48b8ae.png" alt="QQ截图20190131160944.png"></p><p>2.下载源码</p><pre><code>git clone https://github.com/abbeyokgo/PyOne.git</code></pre><p>3、安装依赖</p><pre><code>cd /root/PyOnepip install -r requirements.txt</code></pre><p>4.运行</p><pre><code>#复制配置文件cp config.py.sample config.pycp supervisord.conf.sample supervisord.conf#运行gunicorn -w4 -b 0.0.0.0:34567 run:app</code></pre><p>然后试着访问：<a href="http://ip:34567/">http://ip:34567</a> 看看能正常显示，如果不能，请在宝塔的安全里开启端口。 5.安装Aria2</p><pre><code>git clone https://github.com/abbeyokgo/aria2_installer.gitcd aria2_installersh install_aria2.sh</code></pre><p>6.绑定域名 先确保域名已经解析到你的服务器ip 打开宝塔-网站-添加站点 设置反代：宝塔-网站-点击域名-反向代理，设置值<a href="http://127.0.0.1:34567/">http://127.0.0.1:34567</a> 然后勾选启用反向代理 添加nginx配置：宝塔-网站-点击域名-配置文件。找到以下内容，添加以下三行。</p><pre><code>location /     &#123;        ...        proxy_buffering off;        proxy_cache off;        proxy_set_header X-Forwarded-Proto $scheme;        ...    &#125;</code></pre><p><img src="https://i.loli.net/2019/01/31/5c52ebf44d6f2.png" alt="snipaste_2018-11-19_10-45-18.png"></p><p>做完以上操作，应该就可以访问你的域名了！</p><p>7.开机启动 网站源码下有个<strong>supervisord.conf</strong>，主要内容如下： <code>[program:pyone] command = gunicorn -k eventlet -b 0.0.0.0:34567 run:app directory = /root/PyOne autorestart = true</code> 主要修改两个地方： 端口号：即34567那个端口号，修改为自己选的，或者不改动 源码目录：directory修改为你选的网站目录 修改之后运行下面的命令（记得修改为正确的目录），设置开机启动：</p><pre><code>echo &quot;supervisord -c /root/PyOne/supervisord.conf&quot; &gt;&gt; /etc/rc.d/rc.localchmod +x /etc/rc.d/rc.localsupervisord -c /root/PyOne/supervisord.conf</code></pre><h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><p>文档：<a href="https://wiki.pyone.me/cuo-wu-zhi-dao/" title="错误指导">错误指导</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://blog.feiyuyu.net/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【轻小说】青春猪头少年不会梦到兔女郎学姐</title>
+    <link href="https://blog.feiyuyu.net/2019/01/23/%E3%80%90%E8%BD%BB%E5%B0%8F%E8%AF%B4%E3%80%91%E9%9D%92%E6%98%A5%E7%8C%AA%E5%A4%B4%E5%B0%91%E5%B9%B4%E4%B8%8D%E4%BC%9A%E6%A2%A6%E5%88%B0%E5%85%94%E5%A5%B3%E9%83%8E%E5%AD%A6%E5%A7%90/"/>
+    <id>https://blog.feiyuyu.net/2019/01/23/%E3%80%90%E8%BD%BB%E5%B0%8F%E8%AF%B4%E3%80%91%E9%9D%92%E6%98%A5%E7%8C%AA%E5%A4%B4%E5%B0%91%E5%B9%B4%E4%B8%8D%E4%BC%9A%E6%A2%A6%E5%88%B0%E5%85%94%E5%A5%B3%E9%83%8E%E5%AD%A6%E5%A7%90/</id>
+    <published>2019-01-23T11:40:12.000Z</published>
+    <updated>2021-04-04T03:57:01.461Z</updated>
+    
+    <content type="html"><![CDATA[<p>[hermit autoplay=”false” mode=”circulation” preload=”auto”]netease_playlist#:2636635701[/hermit] 图书馆里不可能有兔女郎栖息。梓川咲太见到了颠覆常识的一幕——他与野生的兔女郎邂逅了。而且她还不是一般的兔女郎。她是和咲太就读一个高中的学生，是现在处于隐退状态的人气女演员，樱岛麻衣学姐。听说，从几天前开始，周围的人变得无法看到她，她来到图书馆，是为了验证这一点。 这与网上正在风传的不可思议现象『青春期综合症』是否有关系呢。想要探究其中原因，并与麻衣越走越近的咲太，决定解开这个谜团。但是事态却朝着出人意料的方向发展——？ 在被天空与大海包围的城市中，关于我和她的恋爱故事开场了。 『樱花庄』组合献上的崭新青春物语——</p><h2 id="第一章-学姐是兔女郎"><a href="#第一章-学姐是兔女郎" class="headerlink" title="第一章 学姐是兔女郎"></a>第一章 学姐是兔女郎</h2><p>这一天，梓川咲太与野生的兔女郎邂逅了。 黄金周的最后一天。 从所住的公寓骑自行车飙车约二十分钟。映入眼帘的是小田急江之岛线，相铁泉野线，横滨市营地铁三线交叉的湘南台站附近的街道。是个没什么高大建筑的平静郊外居民区。 咲太一边看着左边的车站，一边在路口右转。之后不到一分钟，就到了目的地——图书馆。 咲太在停满了一半左右的停车场停好自行车，进入了图书馆内。 不管来多少次，都不大适应图书馆特有的寂静。身体稍微有些紧张。 这是附近最大的图书馆，来的人自然也不少。刚进门的的地方是放有杂志和报纸的区域，在那里，一个身为常客的大叔今天也表情复杂地读着体育新闻。是喜欢的球队昨天输了么。 来到借书的柜台前，看到里面自习用的课桌大半都坐满了。有高中生也有大学生，开着笔记本电脑的工薪阶层的身影也很惹眼。 咲太一边在远处看着他们，一边来到了摆放着当代小说的书架前。以稍稍俯视的姿势，看着按照五十音图的顺序整理好的书脊。在找的是『ゆ』列的书。矮小的书架只达到172cm的咲太的腰部。 立刻就找到了妹妹要的书。作者是『由比浜栞奈』。书名是『王子大人给的毒苹果』。记得是四五年前发售的书。妹妹似乎很中意同一个作者的前作，决定要看完她所有的作品。 咲太从矮小的书架里抽出了陈旧积灰的书。 打算把书拿去借书的柜台而抬起头。就在这个瞬间，『那个』进入视线。 隔着书架的正对面，站着一只兔女郎。 「……」 眨眼数次。本来怀疑是幻觉，但看来不是。轮廓和存在都很清晰。 脚上穿着泛光的高跟鞋。包裹着袖长双腿的是透出肌肤颜色的黑丝。同样黑色的紧身服强调着纤细却又凹凸有致的身体曲线，胸虽然不大但依旧有沟可撸。 手腕上戴着强调着兔女郎身份的白色衬口，脖子上当然也戴有黑色蝴蝶结。 除去高跟鞋的话身高大概是165cm。端正的脸庞上浮现着有些无聊似的表情，让人感到成熟的倦怠感和色气。 咲太最开始怀疑这是不是在拍什么戏。但环顾四周也看不到有像是电视台工作人员的大人在。她完全是一个人。根本没人管。真让人吃惊，这是一只野生兔女郎。 自然，在下午的图书馆里，她的存在非常惹眼。不知是不是该说不大相称……说到底，咲太能够想到的兔女郎出没的地方也就只有拉斯维加斯的赌场或是稍微有点那个的店之类的了，总之就是走错了片场。 但是真正让咲太感到惊愕的理由尚在别处。 明明她打扮得这么花哨惹眼，却没有人看着她。 「干什么啊这是」 下意识出了声。附近的图书管理员投来示意『请保持安静』的视线。咲太一边以肢体语言回应一边想着『不不不，应该还有更该主意的人的吧』。 但正因如此，咲太心中出现了一种奇妙的确信。 谁都没有在意兔女郎。恐怕这并非是故意不去在意，而是根本没有注意到。 一般来说，有只刺激神经的兔子小姐在旁边的话，面露难色地与六法全书做斗争的学生会抬起头。看着报纸的大叔也会装作在读报纸的样子进行偷窥。图书管理员也会小心提醒『那样的打扮有些不合适……』。 奇怪。明显很奇怪。 这完全就像是只有咲太才能看见的幽灵一样。 背后渗出冷汗。 兔女郎不理动摇的咲太，拿起一本书，走向了里面的自习区。 在途中，她看着自习中的女大学生的脸，对她伸出舌头做着鬼脸。像是要确认对方看不看得见似的，把手伸到操作着手提电脑的工薪族的脸面前，在他的脸与屏幕之间上下甩。看到两人都没有反应，她露出了满足的笑容。 那之后，她坐到了最里面的空座位上。 坐在正对面座位上查着东西的男大学生没有注意到她。就算她做出拉起稍微有些下滑的紧身服领口的动作，他也完全没有反应。明明是一定会进入视线范围内的…… 过了一会儿，那个大学生不知是不是查完了资料，跟个没事儿人似的做起了离开的准备。然后，又跟个没事儿人似的走了。走的时候也没有偷偷瞥一眼她的胸口。 「……」 稍稍思考了一下后，咲太接替大学生坐到了空着的座位上。 目不转睛地盯着眼前的兔女郎。露出的双肩延伸出来的双手的柔和曲线。从脖子到胸口的白皙肌肤。由于随着呼吸慢慢起伏的这些部位显得莫名煽情。提倡『认真好学』的图书馆里的气氛都要变得奇怪了。不，已经相当奇怪了。 不一会，便和从书上抬起视线的她四目相对了。 「……」 「……」 面面相觑眨了两次眼。 先开口的是她。 「真是令人吃惊」 莫名透着欢悦的调皮的口吻。 「你居然还能看到我啊」 说得好像其他人都看不见自己一样。 但这样理解她的话大概没有错吧。因为事实上，周围的人们谁都没有注意到浑身充满着违和感的她…… 「那么再见」 她关上书站起身来。 本来应该就此别过。以后把今天的经历当做笑谈也行，但咲太有着不能简单放手的理由。 理由就是，咲太认识她。 在同一所高中上学的高他一年级的学姐。县立峰之原高中三级。名字也知道。而且是全名。 樱岛麻衣。 那就是兔女郎的名字。 「那个」 面对打算离去的白皙后背小声说道。 她突然停住了脚步。 麻衣用视线问道『什么？』。 「你是樱岛学姐吧？」 注意着音量说出了她的名字。 「……」 麻衣一瞬间露出了惊讶的神情。 「这种叫法也就表示，你是峰之原高中的学生？」 麻衣再次回到座位上，直勾勾地看着咲太。 「我是二年一班的梓川咲太。梓川服务Services站的『梓川』加上花咲太郎的『咲太』，梓川咲太」 「我是樱岛麻衣。樱岛麻衣的『樱岛』加上樱岛麻衣的『麻衣』」 「我知道。毕竟学姐是名人」 「是么」 麻衣一副兴趣缺缺的样子单手撑着脸颊把视线移向窗外。由于姿势稍微有点前倾，胸部的沟 壑被强调了出来。目光自然地被吸引了过去。真是大饱眼福。 「梓川咲太君」 「是」 「给你一个忠告」 「忠告？」 「忘了今天看到的事」 在咲太开口说话之前，麻衣便接着说了下去。 「因为把这件事跟谁说了的话，会被认为是脑子有问题的人，过上脑子有问题的一生」 原来如此，这的确是忠告。 「还有，永远不要和我扯上关系」 「……」 「懂了的话就回答『是』」 「……」 麻衣有些不快地看着无言的咲太，但她立刻又取回了刚才那副没精打采的表情，离开了座位。她把书放回原来的书架后，便走向了图书馆的出口。 那期间，果然还是没有任何人注意到麻衣。走过借书的柜台前时，图书管理员们也只是默默地继续着自己的工作。看着被黑丝包裹的长腿入神的只有咲太而已。 在看不见麻衣的身影了之后，留在图书馆的咲太趴倒在了桌上。 「就算说要我忘掉」 自言自语道。 「那么刺激的兔子小姐姿态，想忘也忘不掉吧」 从全露的肩膀道胸口的诱人肌肤。由于麻衣单手撑脸而被强调出来的胸口沟壑。残留在鼻腔里的香气。只有咲太能听见的小声呢喃。直勾勾地注视着他的澄澈眼眸。这一切都刺激着咲太雄性的部分，身体的某处变得非常有精神。 拜此所赐，就算想站起来，也因在意周围人的目光而无法做到。 看来只有老实坐一会了。 这就是虽然有很多事想问却没有立刻追上麻衣的理由。 第二天早上，咲太从『被兔子群扑倒』的奇怪的梦中醒来了。 「按气氛来说应该出现兔女郎才对吧……」 一边对自己的梦提着要求一边打算起身。 「嗯？」 但怎么也起不来。左肩感觉特别重。 掀开被子，明白了重的理由。 一只穿着睡衣的少女紧抱咲太左臂蜷成一团睡着。天真无邪的睡脸。不知是不是因为没了被子感到寒冷，更加靠近咲太了。 她是今年满十五岁的妹妹，枫。 「枫，早上该起床了」 「哥哥，好冷……」 她似乎睡昏了头，根本没打算要起床，于是咲太硬是托着她，支起了身子。 「好重！」 我家亲妹妹身高162cm，在女生中算高的了。最近发育得也不错，可以通过两手感受到她从从女孩子到女人的成长。 「枫的一半，是由『对哥哥的心意』构成的」 「这什么无厘头的设定。有一半是由温柔构成的头痛药么？话说，醒了就快起来」 注：感冒药『百服咛』的广告，『百服咛的一半是由温柔构成的』 「呣<del>」 枫一脸不满地从咲太的腕中下来了。不知是不是因为这一年间面庞变得成熟了，言行和外表完全不搭调。拜此所赐，兄妹间别无歹意的肌肤接触也给人一种微妙的背德感。 「还有，你也该从潜入我床上这种事中毕业了吧」 并且，也是时候别穿配兜帽的熊猫睡衣睡觉了。 「还不是因为哥哥不立刻起床，明明枫都来叫你了的」 不满的表情看起来比年龄显得幼稚。 「就算这样，你也不小了啊」 「啊，哥哥一大早就陷入了兴奋状态对吧」 「谁会对亲妹妹发情啊」 轻轻敲了敲她的脑门后赶紧走出了房间。 「啊</del>，等等我」 那之后，做好两人份的早餐，和枫一起就餐。先吃完的咲太两三下搞定了去学校的准备， 「哥哥走好」 在面带笑容的枫的注视之下，一个人出了家门。 出了公寓所在的小区后，立刻开始打哈欠了。恐怕是昨天看了太多刺激性的东西，因为兴奋而没怎么睡好。并且，从奇怪的梦中醒来也不算是件好事。 一边连续打哈欠，一边穿过了居民街。途中过了一座桥。越是靠近车站，周围的建筑物就变得越高，越密集。人影也开始增加，所有人都和咲太一样，走向同一个方向。 在干道上过了一个路口，路过商务大楼，家电量贩店，终于看到了车站。 从家里出来走了大约十分钟。 位于神奈川县藤泽市中心的藤泽站。上班，上学的工薪族和学生不紧不慢地交错来往。 车站一楼小田急线的站台。上行往新宿，下行走折反式路线前往片濑江之岛，二楼则是JR的东海道线和湘南新宿线的检票口。 咲太顺着人流上了楼梯。不过是走向了JR检票口的反方向。 沿着通道走了三十米左右，来到了小田急百货店的大楼前。并不是现在就要去百货店买东西。再说，现在店都还没开门。在那关着的门的右侧，有着另一个藤泽站。 江之岛电车。通称江之电的站台。途中会停十三站，是能在三十分钟左右到达镰仓的单程路线。 咲太刷了IC卡通过检票口时，电车正好进站。窗边是奶油色，上下则是绿色，给人一种怀旧感。四节车厢显得很短。 咲太走上站台，乘上了最前面的车厢。 穿着校服的小学，中学，高中生乘客较多。剩下的则是穿着西装的成年人。虽然在搬来这里之前一直感觉是条观光路线，但对于当地居民来说，这是日常乘坐的上班上学的交通手段。 咲太靠在内侧车门附近时 「早」 有人过来打招呼了。 一边打着哈欠一边来到身边的，是个给人一种『他是不是隶属于某个有名男性偶像事务所啊』印象的帅哥。整个面部结构有些尖锐，一眼看上去有些威压感，但一笑起来眼角就会下拉，浮出很有亲和力的幼稚感。在女孩子看来，这似乎就是魅力所在。 他的名字是国见佑真。以正选队员的身份活跃在篮球部里的二年级学生。有女友。 「哈……」 「喂喂，没你这样看着人的脸叹气的吧」 「一大早就被国见爽朗的表情闪瞎眼了。忧伤」 「真的么」 「是真的」 进行着意义不大的对话时，发车的铃声响起，车门关上了。 拖着沉重的身体跑起来的电车，前进的速度让人觉得他似乎还在缓慢加速阶段。正这么想着，速度就突然又慢了一截，车停在了下一站，石上站。 「呐，国见」 「嗯？」 「樱岛学姐是……」 「真是可惜啊」 明明咲太还什么都没有说，佑真便抢先把手搭在了他肩上。 「你安慰我干啥」 「虽然咲太对牧之原以外的女孩子感兴趣这一点让人很开心，不过，哎呀<del>，不管再怎么说，那个人的难度也太高了吧」 「我既没有向她告白，也没说过喜欢她啊」 「那是怎么了？」 「我在想她到底是个怎样的人」 「嗯</del>，那当然是，出名的人吧？」 「嗯，也是」 没错。樱岛麻衣是很出名的人。恐怕县立峰之原高中的在校学生全都知道她的事。不，大概七八成日本国民都认识她吧。她就是被这样形容也毫不夸张的，真正的名人。 「六岁以童星身份在演艺圈出道。当时，在每天早间播出的，她的出道作拥有可与过去的大红作品比肩的收视率和人气，她便一跃成为了焦点人物」 之后，以此为契机，她又出演了很多部电影，广播剧，广告。真的就是人气高到没有哪天在电视上看不到她。 虽然在出道两三年过后，一时间的『不论什么都能扯上樱岛麻衣』的势头消退下去了，但同时认准她作为演员的实力的死忠FANS也增加了不少。 很多童星在个位数年龄就退役了，但她到了中学也还顺利地继续着演艺事业。这一点就已经足够厉害了，但她之后还有更大的突破。 樱岛麻衣到了十四岁，成长为了一名成熟的美少女，以当时上映的电影为契机再次急速引起了人们的注意。以至于不到一周，所有杂志的封面就都被她的笑脸所淹没了。 「我比较喜欢中学时代的樱岛麻衣。呃，怎么说呢？可爱与性感与神秘感的融合让人无法自拔啊」 不只是佑真，很多男孩子都为他而心动。 她的人气再一次达到了巅峰。但正在这时，麻衣突然公开表示停止艺人活动——这是麻衣即将中学毕业时的事。没有明确的理由。 那之后只过了两年零几个月。 听说那个樱岛麻衣在自己所读的高中的时候着实吃了一惊。 纯粹是怀着『艺人是真正存在的啊』这样的惊讶与感叹。 「还传出了很多传闻呢。『那么火是不是因为潜规则啊』之类的，『是制作人的情人吧』之类的」 「那时候还是小学生吧」 「是中学之后出现的传闻。最初这种八卦的矛头都是指向给她当经纪人的妈妈的。现在她妈妈是成立了演艺事务所的老板了吧？上周才在电视上看到过」 「哦<del>，这倒是不知道。不过，传闻说到底也都是些不着边际的东西吧」 「也有无风不起浪这种说法」 「那风不见得是自己吹起来的。现在就是这样的时代」 通过网络，情报一瞬间就能传播的很广，并为人所共有。就算情报本身并不真实……对于接受情报的一方来说，真伪并不是很重要。会不会成为话题，会不会成为梗子，是否有趣，有没有可以炒作的要素，会不会看到以后觉得『活该』——这种程度就够了。 「从咲太口中说出来说服力就是不一般」 这句话就暂且装作没听见吧。 依旧缓缓前行的电车通过了柳小路，鹄沼，湘南海岸公园，江之岛等四个站。 一看窗外，正好经过唯一在公路上的路段。看到窗外近旁有汽车等着通过的感觉很不可思议。但正想『哦』一声的时候，列车又回到了通常的路线上。 到了这里，周围的建筑物和电车之间的距离近得像随时都可能撞上一样。感觉从窗子伸出手就能够到民宅的石墙，甚至要担心车身不会不经常被院子里树木的枝叶刮到。 和我的担心相反，电车悠然度过了房子之间，到了腰越站。 「不过，在学校也没见过她和谁在一起就是了」 「嗯？」 「樱岛前辈啊。这是咲太你提出的话题吧」 「啊，是这样来着」 「看她一直都是独来独往的」 与其说是不与同班同学打交道，不如说是在疏远学校。樱岛麻衣给了咲太这样的印象。 「听篮球部的学长说，高一最开始的时候好像根本就不来学校」 「为什么？」 「工作。发表隐退宣言过后不也还有决定了上映档期的作品么？」 「啊，是这样啊」 但是，那样的话做完所有工作再发表停止活动的宣言不就好了。如果是有什么不得不先宣布的理由当然另当别论…… 「似乎是在暑假之后才每天上学的」 「……那可真是，不好过啊」 很容易想象到麻衣秋天来上学时教室里的情景。经过同学们通过一年的交往，各自间的关系与小团体之间的势力分化应该已经完全固定下来了。 「结果会怎样，想必你也猜到了」 佑真应该也想到了同样的情景。 班上已经固定下来的形态不容易改变。每个人都为自己有容身之处而感到安心，都据守于那片安身之处，疲于保持在班内的地位。 到第二学期才上学的麻衣一定是被当成难于应付的存在了吧。麻衣是艺人。当然是会在意，但也不能随意去接触。积极地去找麻衣搭话的话会引人注目。引人注目就可能会有人在背后说『好烦』，『得意忘形』之类的坏话。因此自己在班上会被孤立。这么做就没有补救机会了，大家都很清楚这一点。这就是名为学校的空间。 因此，麻衣没有得到与学校亲近的机会。 说到底，虽然大家每天嘴上都说着『好无聊』，『就没什么好玩的事么</del>』之类的话，但都没有真心去追求什么变化。 就连咲太也是这样。什么都不发生比较好。感觉轻松就好。身心都不用疲劳就好。无聊最棒。平稳万岁。 开车铃响，门『噗咻』地一声闭上。 再次跑起来的电车依旧缓缓地在民宅之间穿行。 眼前是建筑物的墙。墙过了还是墙。房子过了还是房子。这之间偶尔会出现些小间隙，随后，正当我以为接下来又是不断的墙与房子的循环的瞬间，视野毫无征兆地变得开阔起来。 海。 看到了无边无际的蓝色海洋。海洋在朝阳的照射下泛出阵阵波光。 空。 看到了无边无际的蔚蓝天空。早晨清澈的空气筑出一片由蓝到白的渐变色。 在那中心的是，笔直延伸的水平线。这一瞬间的车窗有着吸引车内实现的魔力。 电车在面对相模湾的七里浜的海岸线上跑了一段时间。这是右边有江之岛，左边能看见作为海水浴场广为人知的由比浜的很有魅力的一段路。 「你为什么突然提起樱岛学姐啊」 「国见你喜欢兔女郎么？」 咲太看着窗外说道。 「不，不是喜欢」 「那是超喜欢？」 「没错，超喜欢」 「那就不告诉你」 「啊？什么啊。告诉我啦」 佑真轻轻捅着咲太的侧腹。 「如果国见在图书馆里遇到了很有魅力的兔女郎，会怎么做？」 「会去看第二眼」 「对吧」 「然后，紧盯着看」 这才是正常人的反应。至少可以说是正常雄性的反应。 「于是，这和樱岛学姐有什么关系么？」 「要说有的话是有，但我也说不准呢<del>」 「什么啊」 看咲太敷衍过去，佑真似乎没想要追问，只是随便笑了笑。 继续沿着海岸线前进的电车又经过了一个站之后，到达了咲太就读的峰之原高中所在的七里浜站。 车门一开就闻到了海潮的味道。 穿着同样校服的学生们陆陆续续地下到了站台上。简约的检票口处只设置着一台读取月票IC卡的像稻草人一样的机器。虽然白天有工作人员站在一旁，但在咲太他们上学的这个时间是没人的。 「说起来，小枫还好么？」 「妹妹可不会给你」 「别这么见外啦，哥」 「国见你还有可爱的女朋友的吧」 「说起来也是啊」 「女朋友听见会炸毛的」 「无所谓。反正上里生气的表情我也喜欢。嗯？哦，说曹操曹操到」 循着好像注意到了什么的佑真的视线看去，发现樱岛麻衣正一个人走在前面十多米处。长手长脚，小脸蛋。模特一样的修长身材。明明穿的都是一样的校服，看起来就是和其他学生不一样。无论是包裹着两腿的黑色裤袜，遮着臀部的裙子，刚好合身的夹克……这些都不搭调。给人一种穿着借来的衣服的感觉。明明都已经是高三了，制服却还是完全不适合麻衣。 倒是在那周围聊着天的女子三人组更适合穿校服。对着社团的学长精力充沛地喊『早上好！』的高一学生还更合适一些。就连轻轻踹向朋友背部的男生都更有青春活力。 从车站到学校这段短短的上学路上充满了峰之原高中的学生们愉快的欢声笑语。 在那之中一个人无言地走着的麻衣的身影看起来很孤独。彷徨于平凡的县立高中的异类。异质的存在。丑小鸭。那就是樱岛麻衣在这个地方的印象。 不，不仅如此，谁都没有注意麻衣。明明那个『樱岛麻衣』就在这里，却都看都不看一眼。闹起来的学生一个都没有。这就是峰之原高中的『日常』。 硬要说的话，麻衣的存在就像是『空气』。而其他所有人都接受了这一点。那副光景让咲太想起了昨天在湘南台的图书馆看到了人们的反应。奇怪的不安刺激着腹部。 「呐，国见」 「嗯？」 「你看得见樱岛前辈的吧？」 「当然，看的清清楚楚的。我眼睛可是很好的哦。两只都是二点零」 这样一问，佑真给出了理所当然的答复。昨天那个绝对有问题。 「那就回头见了」 「好」 咲太和今年分到不同班级的佑真在二楼的走廊里道别，走进了二年一班的教室。班上的同学已经来了一半。 咲太坐到了靠窗第一排的位置上。拜『梓川』这个姓氏所赐，春季的座次差不多都在同样的位置。只要没有『相川』，『相泽』之类的姓，学号就是一号。这个『第一』总让人觉得弊大于利。但进入了这所峰之原高中之后，感觉如果每次都能在春天坐在窗边的话，这个学号也并没有那么糟糕。 要说为什么的话，那是因为这所学校的窗外能望到海。 能够看见好几面从早上开始就盼望着起风的冲浪风帆。 「呐」 「……」 「叫你呢」 注意到附近的声音后抬起头来。 正对面，一个女孩子隔着课桌一脸不高兴地俯视着咲太。她是在班上最惹眼的女生集团的中心人物。名字是上里沙希。 大大的眼睛睁得圆圆的。及肩的头发向内大幅度卷了起来。画了点淡妆，嘴唇呈漂亮的粉色。在男生间被评价为『可爱』。 「无视是不是太过分了？」 「抱歉。本以为教室里还没有会跟我搭话的人」 「我说你啊……」 这时打铃了。 接着，班主任进入了教室。 「啊，真是的。有重要的事要跟你说，下课后来楼顶。绝对要来啊」 砰地拍了拍桌子后，上里沙希回到了斜后方的自己的位置上。 「也不征求一下我的看法么」 咲太自言自语了一句后，便手撑着脸颊凝视起大海。 海今天依旧在那里。仅仅是，『存在』着。 「这下可麻烦了……」 就算被女生在放学后叫出去，咲太也没有一点开心的感觉。也没有一丁点的心动。 毕竟，上里沙希是国见佑真的女朋友。 放学后，咲太虽然装作忘记约定，一路走到了鞋柜前，但最后还是乖乖转身走上了屋顶。是因为想到逃了的话之后会更麻烦，才改变了想法。虽然有点不同，不过也算是欲速则不达了。 明明是这样，先来的上里沙希却立刻找起了麻烦。 「好慢！」 真是无比窝心。 「今天轮到我打扫卫生」 「谁管那种事」 「那么，有什么事？」 「我就开门见山地说了」 说完这句前言，沙希便直勾勾地瞪着咲太说道。 「老是和在班上格格不入的梓川在一起的话，佑真会掉价的」 「……」 感觉被说了很厉害的话。跟她自己说的一样，果然开门见山。 「明明今天是第一次跟上里同学对话，上里同学倒是很了解我呢」 以机器猫一样的语气回话。 「『送进医院事件Event』，这事大家都知道」 「啊啊……『送进医院事件』啊」 咲太没什么兴趣似的暧昧回应道。 「佑真这样很可怜，所以你以后不要再跟他说话了」 「按照你的说法，现在的上里同学也很可怜，身价正在暴跌，这就没问题么？」 屋顶上也有其他学生。他们的视线明显注意着被不和谐的气氛包围着的咲太和沙希。 也有操作着智能手机的家伙。是在进行实况转播么。真是辛苦他们了。 「我无所谓。毕竟是为了佑真好」 「原来如此。真是厉害啊，上里同学」 「啊？你夸我做什么？」 具体说来这句话是带着点揶揄的感觉，但她似乎没听懂咲太的讽刺。 「不过，我倒是觉得不用担心。国见他应该没问题。他是不会仅因为被人看到和我在一起而掉价的。他可是连自家母亲做的便当都会每天说着『好吃』，并满怀感激地吃下去的好到不能再好的家伙」 虽然佑真自己笑着说在单亲家庭里长大的人无论谁都会珍惜母亲，但就算笨蛋也明白事情没有那么单纯。变得更加叛逆的人绝对也是有的。 「综上所述，佑真是好到上里同学可能都配不上的好人所以放心吧」 「你找茬么？」 「是被找。是上里来找我的茬的吧？」 不知是不是因为感觉冒火，省略掉了『同学』二字。 「就是这个！这个『上里』的叫法也让人火大！凭什么佑真叫你就用名字，叫身为女友的我却非要用『上里』这个姓氏啊」 她抓住了奇怪的地方，突然转移话题。虽然想说『鬼知道』但还是闭嘴忍住了。不想再被她深切的爱搞得心烦意乱了。 不过，或许，代替『鬼知道』说出来的另一句话，才是最不应该说的。 「火气那么大，上里你大姨妈来了？」 「什！」 沙希的脸突然间变得通红。 「去死！蠢货！去死！给我去死！」 完全陷入混乱的沙希一边谩骂着一边回到了校舍中。楼顶的门被砰地一声猛然关上了。 一个人留在当场的咲太挠着头反省道。 「……糟了，不小心说中了」 为了不在校舍里和上里沙希偶遇，咲太在屋顶吹了一会海风后才回家。 来到鞋柜前时天空已经染成了红色。 直接回家的学生已经没了踪影。在这个不早不晚时段留在学校的只有进行社团活动的学生了。没有人气的鞋柜前非常安静，时不时听到的社团活动的喊声也显得遥远。『现在这里只有自己一个人』的感觉更加强烈了。 前往车站的道路几乎是包场状态。不一会就到了的七里浜站果然也是空荡荡的。刚放学时挤满峰之原高中的学生的小站台上现在也只有寥寥几个人影。 在那之中，咲太发现了某个人的身影。在站台一端凛然伫立着的女生。她散发着一种拒绝与周围接触的气氛。耳机的线从耳边耷拉下来，延伸到了校服上衣的口袋里。 是樱岛麻衣。 沐浴着夕阳的侧脸显得有种忧愁美，明明只是站在那里却美得像幅画。直教人想要远眺一会儿……但是现在有别的兴致带动了咲太。 「你好」 咲太靠近她打招呼道。 「……」 没有回应。 「你好</del>」 比刚才更大声了。 「……」 果然还是没有反应。 不过，总感觉麻衣注意到了咲太的存在。 在寂静的车站站台上，等着电车的只有咲太，麻衣，还有其他三个峰之原高中的学生。刚才来了两个像是游客的大学生情侣，现在正在向工作人员出示一日乘车券『上下君』。 来到站台正中间的情侣一下就注意到了麻衣的存在。 「呐，那个」 「果然，是她吧？」 他们指指点点小声交谈的声音传了过来。不知麻衣有没有注意到，总之她依旧是面朝着轨道的方向。 「喂，别这样啦<del>」 女性发出一点想要阻止的感觉都没有的撒娇声。他们卿卿我我的对话在寂静的车站中显得很刺耳。 咲太忍不下去看向那边，发现男的正把智能手机的摄像头对着麻衣。 在他正要按下快门时，咲太切入了镜头。啪嚓一声。一定拍到咲太的上半身了。 「什，什么啊，你！」 男人虽然一瞬间露出了惊愕的表情，但还是强势地站了出来。在女友面前面对区区高中生肯定是不能缩的吧。 「我是人」 认真地回答了问题。应该没有答错 。 「啊？」 「你们是偷拍狂么？」 「什么！才，才不！」 「都老大不小了，别做些伤面子的事啊，大哥。我看着都觉得不好意思了——作为你的同类来说」 「所以说不是！」 「反正也就想像立了大功似的发个带照片的推特吧」 「！？」 不知是不是说中了，男人的脸上一瞬间染上了怒色和羞色。 「想要引人注目的话，我给你拍张照片，附上『偷拍狂』的注解传上去如何？」 「……」 「小学的时候老师有教过的吧？『己所不欲，勿施于人』这句话」 「啰，啰嗦，蠢货！」 最终只挤出这句话的男人拉着女友的手，乘上了来到站台的前往镰仓的电车。在只有一条线路的车站，上下行的电车会交互来到同一个站台。 漫不经心地看着开出去的电车的咲太感受到了背后的视线。 战战兢兢地转过身去，看到麻衣正在有些不耐烦似地取下耳机。 与咲太四目相对， 「谢谢」 她如此说道。 「咦？」 对于麻衣意外的反应，咲太发出了惊讶的声音。 「你觉得我会说『别做多余的事』然后冲你发火？」 「是的」 「心中冲你发火，以此将就一下」 「那么还请你不要说出来啊」 再说，在她说出那句话的时候，就已经完全表明她没在『将就』了。 「那种事我已经习惯了」 「那种事，就算习惯了也会有所损失吧」 「……」 麻衣似乎对这句话感到意外，眼里浮现出了惊讶的神色。 「损失……确实是那样啊」 不知是有什么好开心的，麻衣的嘴角浮现出了小小的笑容。 咲太感觉现在是个对话的好机会，于是便站到了麻衣身边。 但先提出问题的却是麻衣。 「为什么在这种不早不晚的时间来这儿？」 「被班上的女生叫到楼顶了」 「告白？这么受欢迎啊，真是意外」 「告白出来的是憎恨」 「什么啊」 「被当面说了『非常讨厌你』」 「最近流行这种款啊」 「至少我是有生以来头一遭。樱岛学姐才是，为什么在这种不早不晚的时间……？」 「为了不碰巧撞见你，打发了一会儿时间」 从麻衣的脸上上看不出是认真的还是玩笑。如果确认到是『认真』的话会很不爽，所以咲太选择了不多去问。 转身看着时刻表，改变了话题。 「现在准确时间是多久？」 「没戴表么？」 伸出两手示意她自己没戴手表。 「那就看手机」 「我没有」 「你是想强调你的是『智能手机』么？」 「手机，智能机都没有。也不是『今天忘带了』的意思」 并不是没带，只是没有而已。 「……真的？」 麻衣的表情充满了怀疑。 「真的。虽然以前用过，但被我弄得粉碎最后扔到海里去了」 现在还清楚的记得。那是来看峰之原高中的发榜那天的事…… 重量约二十克。一部能够连接整个世界的方便通信机器离开了咲太的手，划出平缓的抛物线后掉进了海中。 「垃圾要丢进垃圾桶里」 受到了正经的指责。 「下次会这样做的」 「你一定没有朋友吧」 不能用手机联络就无法和朋友交往……现在就是这样的时代。麻衣说中了。因为电话，邮件地址，ID的交换是交朋友最初的契机，所以没有这个的话，就会被社会的规则抛下。在名为学校的狭小世界中，无法遵循规则的人从最开始就会被抛弃。拜此所赐，入学的时候交朋友真是费了番功夫。 「朋友的话有两个之多啊」 「两个算多？」 「我倒是觉得朋友两个就足够了。反正和他们做一辈子朋友就好了」 智能机上登录的号码，邮件地址，ID之类的数量没有意义。并不见得多就好。这是咲太的观点。 说到底，朋友的分界线到底在哪里……这也是个问题。对咲太来说就是『深夜打电话去商量也会勉强陪聊』这种程度的关系。 「嗯哼</del>」 麻衣随便地应和着，从上衣的口袋里取出了智能机。机器上套着红色带兔耳朵的保护套。 她把手机的画面朝向咲太，显示的时间是四点三十七分，还有一分钟电车就要来了。正这么想着的时候，麻衣手上的智能机振动了起来，显示着来电。 看见画面上写着『经纪人』。 麻衣点击了拒绝来电。振动停止了。 「没问题么？」 「电车要来了……而且就算不接也知道那个人要说的事」 不知是不是错觉，话说到后半像是在怄气。 前往藤泽的电车慢慢驶入了站台…… 和麻衣从同一个车门上车，并肩坐在了空着的座位上。 车门关闭，电车慢悠悠地跑了起来。乘客的数量不多不少。座位坐满了八成，有几人站着。 二人无言地坐了两站。海也看不见了，电车行哐啷哐啷地行驶在居民区的正中。 「话说昨天那个」 「我不是让你忘了那事么」 「樱岛学姐扮兔女郎的样子太性感我忘不掉」 一直忍着的哈欠打了出来。 「所以昨晚一直在兴奋，根本没睡好」 愤愤地看着麻衣。 「喂，你！该不会是以我为对象想象了什么奇怪的事情吧」 本以为会招来污蔑的眼神和辛辣的骂声，却看到了她面红耳赤，慌张的状态。 ​﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿‌﻿‍﻿​﻿‌﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‌﻿​﻿‍﻿​﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‍﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿​﻿​﻿​﻿‍﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿​﻿‍﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‍﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‍﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‍﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿‌﻿‌﻿‌﻿‌﻿‍﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿​﻿​﻿‌﻿​﻿​﻿​﻿​﻿‌﻿​﻿​﻿‍﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿​﻿​﻿‍﻿​﻿‌﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿​﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‍﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿‌﻿‍﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‌﻿​﻿‌﻿​﻿​﻿‍﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿‌﻿‌﻿‌﻿​﻿‍﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿‌﻿​﻿‌﻿‍﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿‌﻿‍﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿‍﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿‌﻿​﻿‌﻿‍﻿​﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‍﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿‌﻿‌﻿‌﻿​﻿‍﻿​﻿‌﻿​﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‍﻿​﻿​﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿​﻿​﻿​﻿‌﻿​﻿​﻿‍﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‍﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‍﻿​﻿‌﻿‌﻿​﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿​﻿‌﻿​﻿​﻿​﻿​﻿​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‍﻿​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‍﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‍﻿‌﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿‌﻿‌﻿​﻿​﻿​﻿​﻿‍﻿‌﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿​﻿‍﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿​﻿​﻿​﻿​﻿​﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‍﻿​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿‍﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‍﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿​﻿‌﻿​﻿​﻿‌﻿‍﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿‌﻿​﻿​﻿‍﻿​﻿‌﻿‌﻿​﻿​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‍﻿​﻿​﻿​﻿​﻿​﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‍﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿​﻿​﻿​﻿‍﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿​﻿​﻿‍﻿​﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‍﻿​﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‌﻿‌﻿‌﻿‌﻿‍﻿​﻿​﻿​﻿​﻿​﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‍﻿‌﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿‌﻿‌﻿‍﻿‌﻿‌﻿​﻿‌﻿​﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿​﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿​﻿​﻿‌﻿‍﻿‌﻿​﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿‍﻿‌﻿​﻿​﻿‌﻿‌﻿‌﻿‌﻿​﻿‍﻿‌﻿​﻿​﻿‌﻿​﻿‌﻿‌﻿​ 她像是忍耐着害羞似的抬起眼瞪过来。这动作看起来非常可爱。 但立刻又把动摇压了下去， 「我，我是不会在意被比自己年龄小的男生当做性妄想对象这种小事的」 然后像是补充说明一样，说了这样一个借口。她的脸颊依旧染着红色。一眼就能看出来是在逞强。说不定内心意外的很少女。 「能离我远点么」 麻衣像是驱赶着不干净的东西似的，推着咲太的肩。 「呜哇<del>，我好受伤」 「感觉我光是被你看着就会怀孕」 「孩子叫什么好呢？」 「你啊……」 麻衣的视线温度降到了冰点以下。看来是太得意忘形了。 「我叫你忘记的不是打扮……」 「那昨天那个到底是什么？」 咲太坦率地接上了麻衣转移的话题。本来就是打算问这件事才开口的。 「呐，梓川咲太君」 「记住我的名字了呢」 「人的名字我听一次就会记住」 真想要这样的技能啊。是在现在已经隐退了的演艺活动中培养出来的吗。感觉应该是那样。 「我听过你的传闻」 「传闻……呢」 能够想象是什么传闻。就连今天都因为那件事被叫到了楼顶。 「虽然准确的说不是『听说』，而是『看到』——」 麻衣一边说着一边从夹克的口袋里拿出智能机。打开了某个论坛。 「你中学是在横滨那边念的呢」 「是的」 「引发了暴力事件，把三个同级生送进了医院」 「我意外的是个武斗派呢</del>」 「因为这件事，明明本来打算升学到横滨的高中，却在二次招生的时候特意搬家到这边考了峰之原高中」 「……」 「其他还有不少，要我继续说么？」 「……」 「刚才好像有人说了『己所不欲，勿施于人』这种了不起的话呢」 「被调查一下也没什么。倒不如说我很荣幸樱岛学姐能对我感兴趣」 「网络真是厉害啊。连这样的个人情报都能大大方方地被晒出来」 「是啊」 漫不经心地回答道。 「不过，没人保证上面写的就是事实呢」 「学姐你怎么想？」 「稍微动脑子思考一下就明白了吧。引发了那么大案件的人怎么可能跟没事人似的来上高中」 「这句话真想给班上的同学听听啊」 「既然『不是』，就自己去和班上的同学说清楚啊」 「传闻不就是空气一样的东西么。『这样的气氛』——这种意思上的空气……最近已经变得不『读』不行了的『空气』」 「是啊」 「『空气』这种东西，不去『读』就会被当成废物……制造出这种『空气』的人们都没有当事者的自觉，就算想要热心地对他们说明事实，也总是会被反泼一句『什么啊，好冷』」 真正要与之战斗的不是眼前的人，所以说什么都没用。但只要做了什么，就会遭到从看不见的地方发出的集中轰炸。 「明明如此，还要说『和空气战斗真是蠢透了』这种话」 「所以你就不去理会误解，在战斗前就放弃了」 「不管怎么说，反正我没有和不动脑筋想想，就相信那些空口无凭的传闻或帖子的单纯家伙成为朋友的自信，所以也就无所谓了」 「说得恶意满满呢」 从麻衣的笑容中看到了理解。 「接下来轮到学姐了」 「……」 麻衣一瞬间露出了不快的表情。但因为先问了咲太的事，所以似乎只好无奈地开口了。 「是在四连休的第一天发现不对劲的」 也就是说四天前。五月三日，宪法纪念日。 「那天我心血来潮去了江之岛的水族馆」 「一个人？」 「不行么？」 「我还以为你可能会有恋人之类的」 「那种玩意从没有过」 麻衣很无趣似地撅起了嘴。 「咦<del>」 「我是处女你不爽么？」 麻衣像是戏弄咲太一样，抬头看着他的脸。 「……」 「……」 四目相对。 麻衣的脸渐渐变红了。红到了脖子。好像是因『处女』这个单词感到害羞，明明是自己说出来的…… 「啊</del>，我没啥处女情结哦」 「是，是么……总之！我发现，明明水族馆非常热闹，有很多全家出动的人家，但是却没一个人认出我来」 恼羞成怒的麻衣的侧脸显得有些幼稚。以前只知道她成熟的外表所以感觉有些新鲜。指出这一点的话话题就又要脱线了，所以咲太把它藏在了心中。 「最初以为是错觉。毕竟停止演艺活动已经两年了，大家也都看鱼看的入迷」 语调慢慢变得沉重了起来。 「但在回家路上进入咖啡店的瞬间就明确了。因为没人招呼『欢迎光临』，也没人带我入座」 「说不定是自助的店呢」 「是家老咖啡店。是除了吧台就剩下四张桌子左右的小店」 「那是不是之前去的时候学姐做了什么会被拒绝入内的事啊？」 「没可能的好么」 因生气而昂起头的麻衣，狠狠地踩了咲太一脚。 「学姐，脚」 「脚怎么了？」 麻衣一脸认真。看上去真像是『不知道发生了什么』，真厉害。真不愧是职业演员。 「不，我很荣幸能被踩」 明明是开玩笑，麻衣却有些败兴的样子。还趁着旁边的男性下车的机会稍稍从咲太身边挪开了。 「玩笑而已啊」 「我觉得至少有几分认真」 「嗯，那是当然，作为男性被美女学姐踩肯定是开心的」 「好好好。话题都没法继续了你快闭嘴。说到哪了？」 「说到被咖啡店禁止入内的事了」 「我可要生气了哦」 这样说着的麻衣的视线很尖锐，怎么看都是已经生气了。 咲太为了表达反省的意思，做出了封口的手势。 「跟店里的人搭话也没反应，其他的客人也完全没注意到我」 麻衣保持着不快的表情说了下去。 「当时我就惊呆了。逃也似的回去了」 「逃到了哪？」 「藤泽站。但是到了之后什么事也没发生。大家都普通地看得见我。都一脸『是那个樱岛麻衣』的惊讶表情。所以觉得江之岛的事果然是错觉……但还是很在意，所以去调查了在其他地点会不会发生同样的事」 「所以就穿了兔女郎装？」 「打扮成那样的话，一定会被死盯着看吧。再不被人发现就不能说是错觉了」 的确如此。那天咲太的反应就能证明其效力之高。 「于是，在其他地方……也就是说在湘南台也发生了同样的事么……」 「没错。我还有点期待现在世界上的人是不是都看不见我了呢」 不知为何以带着点责备的眼神看着咲太。 「今天上学也是普普通通的……现在也是」 麻衣若无其事地示意车门内侧附近。穿着其他高中的校服的男生看着智能机，是不是朝这边瞥几眼。当然，看的是麻衣而不是咲太。 「明明是这么奇怪的体验，学姐却显得很开心呢」 咲太坦率地说出了感想。现在的麻衣身上看不出悲壮感。 「那当然是开心的」 「你认真的？」 不明所以，用目光表达出疑问。 「我至今为止都一直生活在别人的注目中好么？我是一直在意着他人的视线活过来的。所以从小就一直有一个愿望。那就是去到谁都不认识我的世界」 看起来不像是在说假话。但就算说这是演技，也不会有任何人感到怀疑，毕竟她是麻衣。她可是从童星做到女演员的实力派女优。 在说着这些话的同时，咲太注意到麻衣在看着电车里悬挂着的广告。那是小说的电影化作品的宣传。主演的女优是最近刚捧出来的红人。年龄应该和麻衣差不多。 是在意演艺圈的动向么。还是说感到怀念呢。不，应该不是这种感觉。像是在看着遥远的世界一般的麻衣的眼睛深处，摇曳着某种类似『意犹未尽』的感情。 换而言之，就是留恋或是执着。 「学姐？」 「……」 「樱岛学姐？」 「我听到了的」 眨了眨眼后，麻衣侧目看向了咲太。 「我很满足于现状。所以不要来妨碍我」 「……」 不经意间，电车已经停在了终点站藤泽站的站台前。车门打开了。咲太慌忙追上先站起身来的麻衣。 「这样你就明白了吧。我是多么奇怪的女人」 「……」 「别再和我扯上关系了」 干脆地放下话后，麻衣便加快速度通过了检票口。像是说『就此别过』似的和咲太拉开了距离。 咲太想着反正这也是他回家的路，便朝着渐渐远去的麻衣的背影追了过去。通过走廊，进入了JR站里。麻衣在站内一角的投币式储物柜前驻足，从里面拿出了一个纸袋。然后又快步走到了卖面包的店前。 「请给我一个奶油面包」 对老奶奶开口道。 老奶奶没有反应，不知是不是没听到。 「请给我一个奶油面包」 麻衣重复了一边要买的东西。 但老奶奶果然还是没有反应。像是没看到麻衣似的，从后面来的上班族手中接过千元钞票。像是听不见麻衣的声音似的，将菠萝包递给一个初中女生。 「麻烦给我一个奶油面包」 咲太走到麻衣身旁，大声对老奶奶说道。 「好，奶油面包对吧」 咲太接下从奶奶从柜台里侧递出的纸袋，交出了一百三十日元。 离开面包店几步路远后，把奶油面包的纸袋交给了麻衣。 麻衣有些过意不去似的低下了头。 「其实是不是有点不方便？」 「是呢。吃不到这里的奶油面包有点困扰」 「就是说啦」 「不过……你真的相信我那些脑子有问题的话么？」 「这种事该怎么称呼，我是知道的」 「……」 「是青春期综合症吧」 麻衣的眉毛跳了一下。 虽然没听说『不能被别人看到』这种案例，但『能听到他人的心声』，『能预见某人的未来』，『谁和谁的人格互换了』之类的超自然现象的传闻倒是有很多。看看这方面的咨询论坛的话，还会出来更多。 正经的精神科医生断定说这是多愁善感的不安定内心导致的臆想。自称的专家表示这是现代社会产生的新型恐慌症状，感到有趣的一般人中也有持『是集体催眠的一种吧』这样的观点的人。也有人认为，这是一种因为过分美好的理想与不合意的现实之间的巨大落差造成的压力的具现化。 唯一的共通点就是，他们并没有把这当回事。大部分大人都在说『那种事肯定是错觉』。 在这种无责任的意见交换中，不知不觉，发生在麻衣身上的这种不可思议的现象被称作了『青春期综合症』，连是谁命名的都不知道。 「青春期综合症什么的不是常见的都市传说么」 没错，正如麻衣所言。都市传说。普通来说谁都不会相信。所有人都会做出和麻衣一样的反应。就算看到了不可思议的状况，也会认为是错觉。就算亲身经历了也不会坦率地接受。因为咲太他们生活在不可能会发生这种事的『常识』中。 但是，咲太有着绝对能证明其存在的证据。 「为了让学姐相信『我相信学姐』这件事，有个东西想让学姐看看」 「想让我看的东西？」 麻衣诧异地皱起眉头。 「能稍微陪我一会么」 对于咲太的提案，麻衣稍事思考后， 「……知道了」 小声点头道。 麻衣被咲太带来的地方，是从车站出来大概走十分钟就能到的，居民街一角。 「这里是？」 麻衣眼望着的是七层楼的公寓。 「是我家」 「……」 疑惑与轻蔑交杂的视线从旁边刺了过来。 「什么也不会做的」 『大概不会吧』小声补充一句。 「你刚刚说了什么对吧？」 「我说，如果被学姐诱惑的话，没有能够把持得住的自信」 「……」 麻衣的嘴闭成了一条线。 「咦？学姐，你在紧张么？」 「进，紧张？谁，谁紧张？」 「说话都在打结」 「我，我是不会在意进比自己年龄小的男生房间这种小事的」 麻衣哼了一声，便大步走向了入口。咲太一边忍着笑一边立刻追到麻衣身边。 坐电梯上了五楼。右手第三间便是咲太所住的屋子。 「我回来了<del>」 在玄关打了招呼却没有回应。如果是平常，妹妹枫或许会在玄关埋伏着吓人一跳，但今天可能是因为回家时间与往常不同而不开心了。或者说只是睡着了么，也可能是专心读书没注意到哥哥回家…… 「请进」 把穿着鞋子僵在玄关的麻衣叫了进来。 进来立刻就去了咲太的房间。 麻衣把包和纸袋放到墙角后，便坐到了床上。不经意间看了看纸袋里面，发现了兔耳。今天也打算在什么地方扮野生兔女郎么。 「嗯哼</del>很整洁嘛」 环视着房间的麻衣无心地说出了感想。 「因为没东西给我散乱嘛」 「看起来是这样」 能称为家具的东西只有桌椅和窗。房间空荡荡的。 「学姐你……」 「呐」 麻衣插话道。 「有什么事么？」 「别叫『学姐』了。我又不记得有当过你的学姐」 「樱岛同学？」 「姓太长了吧」 「那，麻衣……呜，嘎」 被麻衣往下扯了扯领带 「加上『同学』」 「本来我还想一口气缩短两人的距离的……」 「我不喜欢没有礼貌的人」 空气一瞬间变得紧张了起来。导致这种紧张的是麻衣。这种容不得插入玩笑的，表面看起来甚至能说是有些守旧的价值，果然也是在演艺圈培养出来的吧。 「那么，麻衣同学」 「『梓川』也与你给我的印象不是很相符，就叫你咲太君好了」 『梓川』在麻衣眼中到底是什么印象啊。 「于是？咲太君想让我看什么？」 「不先把手放开的话看不见的」 麻衣的手放开了领带。咲太起身松开了领带，解开衬衫的扣子，又自然地脱下了里面的T恤，露出了上半身。 「你，你干嘛要脱！」 提高音量的麻衣尴尬地把头扭向了一边。 「不，不是说好什么都不会做的么。肮脏！变态！暴露狂！」 麻衣一边骂着一边畏畏缩缩地将视线移回咲太身上。 这时，麻衣发出了纯粹惊讶的声音。 「啊」 咲太的胸口刻着三条张牙舞爪的伤痕。像是被巨大的兽爪撕过一样，从右肩撕裂到了侧腹部。 非常大的蚯蚓似的痕迹。看到的瞬间就知道不正常。就算被熊袭击了也不会这样吧。挨了一下挖掘机可能刚刚好。但是很可惜，咲太没有和挖掘机战斗过。 「你是被突变体袭击了么？」 「我还不知道学姐对美漫有兴趣」 「只看电影就是了」 「……」 「……」 麻衣目不转睛地看着伤口。 「是真的吧」 「你觉得会有做这种特殊化妆的傻帽么」 「能摸一下么？」 「请」 站起身来的麻衣伸出手来。手指碰到了肩部的伤口。 「嗷呜<del>」 「喂，别发出奇怪的声音」 「那里很敏感，请温柔一点」 「这样？」 麻衣的手指抚摸着伤口。 「非常舒服」 麻衣面不改色地狠狠拧起咲太侧腹部。 「好痛，好痛！快放开我！」 「你看起来很开心的样子」 「真的很痛好么！」 不知是不是玩够了，她移开了手指。 「于是？这个伤是怎么来的？」 「不，我也不知道」 「啊？什么意思啊。你是想给我看这个的吧」 「不，不是。这个怎么都无所谓。请不要在意」 「很在意好么。说到底，不是的话你为什么要脱啊」 「回家后习惯马上换衣服，一不小心就」 咲太一边解释，一边从上了锁的书桌抽屉里拿出了一张照片递给麻衣。 「是这个」 「……！？」 视线落到照片上的瞬间，麻衣的眼睛惊得瞪大了。然后立刻露出了严肃的表情，她的表情中灌满了迫切想要咲太做出说明的意志。 「什么啊这是」 照片里是中学一年级的女生。夏季校服遮不完的双臂双腿上刻着无数变成了紫色的淤青和让人痛心的划伤。 「这是我妹妹枫」 咲太知道，被校服包裹着的腹部和背后也有同样的伤。 「……是被施暴了么？」 「不是。只是在网络上被欺负了而已」 「……不知道你说的是什么意思」 这也难怪。毕竟与妹妹被欺负的事有关的人基本都是这种反应。 「好像是因为无视了人家发来的邮件之类的事情，被班上带头的女孩子讨厌了。被在同班同学使用的SNS的群里发了『差劲』，『去死』，『恶心』，『烦人』，『别来学校了』之类的话」 咲太一边说着一边解开了皮带。 「就这样，在某一天枫的身体就变成了那样」 「真的？」 「最开始我也觉得是被谁施暴了。但那个时候已经没有上学了，都没有怎么出过门。反而就怀疑起是不是枫想不开，自己弄的」 脱下裤子，挂在椅背上以防褶皱。 「毕竟认为『被欺负是自己的错』而自责的人也是有的啊」 麻衣不知为何看着别处。 「我选择了翘课呆在枫身边。因为想知道事实」 「呐，说之前能麻烦你点事么？」 「什么？」 「你，为什么要脱啊」 看了看映在窗子里的自己的样子。内裤一条。不，还穿着袜子。 「因为，我习惯回家换衣服的啊」 「那就快把衣服换上」 打开衣柜找着替换衣物。这期间，咲太也继续说着。 「呃，说到哪了来着？」 「说到翘课呆在妹妹的身边了吧？」 「枫用智能机看SNS的瞬间，身上就有增加了新的伤痕。突然大腿就裂了个口子。还出了血……每次看留言就会出现淤青，还不断增加」 那简直就像是内心的痛苦表现在了身体上一样。 「……」 麻衣不知该如何应对，陷入了思考。 「刚才说的就是我相信青春期综合症真正存在的理由」 「……虽然难以置信，但没有专门准备这种照片来编故事骗我的理由呢」 咲太接过麻衣递回来的照片，锁进了抽屉里。 「你胸口那三条伤口也是那时候来的？」 点了点头。 「毕竟不是人能弄出来的」 「只是，为什么会受这种伤我完全不懂。早上一起来就浑身是血被送到医院……还以为活不成了呢」 「难道那就是『送进医院事件』的真相？」 「是。是我被送进了医院」 「这不是完全相反么。果然传闻就是不能信」 麻衣叹了口气，重新坐正了。 这时，门突然打开，三毛猫那须野『喵</del>』地叫了一声，进入房间。紧跟着， 「哥哥，在里面……么？」 穿着熊猫睡衣的枫从门缝里看进来。 「咦？」 困惑的声音。 咲太的房间里是，只穿着一条内裤的哥哥，和坐在床上的年长女性一名。 「……」 「……」 「……」 三份沉默。三人的视线一瞬便交汇了。只有猫——那须野天真无邪地蹭着咲太的脚。 最初做出行动的是枫。 「对，对不起！」 一边道歉一边出了房间。不过立刻又打开一个门缝窥视着房内的情况。交互看了咲太和麻衣几次后，对咲太招手，说着『这边这边』。 「怎么？」 咲太抱起那须野回应道。站到门口，枫踮起脚尖双手捂着嘴耳语道。 「要，要找小姐上门先给我说一声啊！」 「枫，你误会了很不得了的事」 「这除了叫小姐上门并享受制服Play之外，还能是什么情况！」 「你到底是在哪学到那种词汇的」 「一个月前读的小说里有出现做那种工作的姐姐。据说是将悲哀的男性引导向天国的好姐姐」 「嗯，解释倒是因人而异。但一般来说，看到这个状况不都会认为是哥哥带女朋友回家了么？」 「我才不会去想象那种最糟糕的事态」 「妹妹啊，最糟糕是啥」 「最糟就是最糟。糟到和地球毁灭一样」 「好，那我就带着毁灭地球的觉悟去交女朋友吧！」 「呐，是不是差不多可以继续说了？」 听到麻衣开口，再次转向房间里。这时，枫贴到了背上。两手放在咲太的右肩上，藏在咲太身后偷偷看着麻衣。只是，不知是不是因为太高，不怎么藏得住。在麻衣看来，枫应该基本暴露在外吧。 「哥哥，有去被推销去买什么奇怪的古董么？」 「没有」 「有约好一起去看画展么？」 「没有约过」 「买英语对话的教材……」 「你放心我我没被推销过。我这又不是被推销约会钓上了。这个人是学校的学姐」 注:是一种推销方式，顾名思义 「我是樱岛麻衣，初次见面」 被麻衣搭话的枫像是遇到肉食动物的小动物一样敏捷地藏到了咲太背后。然后把嘴贴到背后，通过震动传达着什么。 「呃，她说『初次见面，我叫梓川枫』」 「是么」 「『这孩子叫那须野』好像是这么说的」 抱起猫让麻衣看得清楚点。『喵<del>』地叫了一声的那须野的身体伸展开来。 「谢谢你告诉我」 枫听到麻衣的声音一瞬间探出头来，但从咲太手中抢过那须野后便立刻脱兔似的逃出了房间，砰地一声关上了门。 明明在咲太面前话那么多，对外人却一直都是这样。以前佑真来玩的时候也是，没有咲太夹在中间对话就无法成立。 「不好意思。她极度怕生还请见谅」 「别在意。等下也这样告诉你妹妹，『伤都治好了真是太好了呢』」 很不可思议，连伤疤都消失得干干净净。这一点确实是太好了。毕竟是女孩子。明明如此，为什么咲太的伤却没有消失呢，这一点还留有疑问……不过那不是现在该考虑的事，咲太选择了专心面对麻衣。 麻衣两手撑着床翘起了脚。 「不过，真是稀奇啊，她居然不认识我」 「那是……因为她不怎么看电视」 「哼</del>」 一副不知是接受还是没接受的表情。 「于是，言归正传……麻衣同学，回来路上说了『想去到谁也不认识我的世界』这句话。这又有多少真心的成分呢？」 「百分之百」 「真的？」 「……如果去了那样的世界，也就吃不到奶油面包了，所以有时候还是会纠结一下呢」 麻衣从包里拿出奶油面包，双手捧着小小地咬了一口。 「我是在认真问的」 「……」 麻衣闭嘴咀嚼着。 等了十秒左右，她吞下去之后 「我也是认真回答的」 这样说道， 「想法也会随着时间改变的不是么？」 「嗯，也是」 「那么轮到我发问了。为什么要问这种事？」 「枫是通过和网络环境保持距离，姑且控制住了事态」 不看SNS群。也不看留言板。也不通过群体邮件交流。枫的智能机被解约，咲太的则是被丢进了海里。这个家里也没有电脑。 「『姑且』呢」 「做检查的医生说这和『认为肚子疼肚子就真的会疼』是一个道理。断言受伤的原因在枫自己……」 虽然那个医生的话无法完全接受，但也不能全盘否定。被朋友的坏话伤到，心不断裂开，然后以伤口的形式表现在了肉体上。在旁边看着枫的咲太只能得出这一种结论，也能够理解精神状态影响到身体状况这种感觉。遇到讨厌的事，身体状态也不会好。不喜欢的食物光是看到就会想吐，因为不喜欢游泳课而发烧了之类的……这样的经验谁都有的吧。 但是就算事态的程度完全不同，『觉得肚子痛的话就会怎样怎样』的话在咲太看来是一矢中的。 「于是？」 「简而言之就是说，把受伤的理由解释成枫的臆想」 「这我知道。于是，你想说我也是完全一样么？」 「毕竟麻衣同学在学校不就完美地扮演着『空气』么？」 「……」 麻衣面不改色。虽然看起来对咲太的指摘有一点兴趣，却只是用眼神说着『于是？』，兴趣索然地催促着咲太说下去。这种表现，普通人是做不到的。 「也就是说，我觉得为了不让状况继续恶化，麻衣同学还是回到演艺圈会比较好」 咲太刻意地移开视线，故作轻松地说道。没有必要去算计什么。就算站在同一擂台上战斗也没有胜算。 「你什么意思」 「在电视上那么显眼的话，就算麻衣同学再怎么完美地扮演空气，周围也无法置之不理的吧。就像隐退之前那样」 「哼~」 「而且那样的话麻衣同学也能做自己想做的事了，岂不是万事大吉」 咲太一边偷偷看着她的情况，一边说出了最后一句。 「……」 麻衣的眉毛跳了一下。那是不仔细看的话根本注意不到的细微变化。 「什么啊，我想做的事是……」 语气依旧平平淡淡。 「——是回到演艺圈」 「我什么时候说过这种话？」 她『唉』地叹了一口气，看上去很扫兴。但咲太认为那应该是演技。 「如果没有兴趣的话，为什么会在电车里死死地盯着电影的广告？」 咲太立刻尖锐地反问道。 「只是因为那是喜欢的小说电影化，有点在意而已」 「不是想要自己去演女主角？」 「你很烦啊，咲太君」 从容的笑容。麻衣的假面很难摘下。 就算如此，咲太也没有放弃。 「我觉得去做自己想做的事就好。毕竟你有那个实力，更有实绩。而且，还有等着你回归的经纪人，这还有什么问题可言吗？」 「……跟那个人没关系」 沉静的声音。但是，有种仿佛是从心底涌上来的地震一般的感情支配着语言。证据就是麻衣吊起眉梢瞪了过来。 「别说多余的话」 看样子是踩到地雷了。 「……」 麻衣无言地站了起来。 「啊，厕所的话出门右转」 「我要回去了！」 麻衣拽起包，猛地打开了门。 「咿呀」 发出悲鸣的是端着茶盘的枫，好像是刚好来到门前。明明刚才还穿着睡衣，现在却换上了衬衣和吊带裙。 「那，那个，那个……不来杯茶么」 看到怒气冲天的麻衣，枫完全吓傻了。 「谢谢」 麻衣一瞬间做出笑脸，谢过之后拿起杯子一饮而尽。 「多谢款待」 麻衣轻轻地把杯子放回枫拿着的盘子里，走向了玄关。 咲太慌忙跑出房间，向麻衣追去。 「啊，等等，麻衣同学！」 「什么啊！」 麻衣正在穿鞋。 「这个」 拿起装着兔女郎装的纸袋给她看。 「送你了！」 「那至少让我送……」 你回家，在说完之前 「家很近不用了！」 麻衣就喷出了明显的怒火，冲出了玄关。 虽然想要追出去， 「哥哥，会被逮捕的！」 但被枫指出自己只穿着一条内裤这一点，只得放弃了。 走廊里只剩下咲太和枫。 「……」 「……」 呆立数秒后，二人的视线自然地落到了纸袋里。 兔女郎装备一套。 「这个要怎么办？」 「我想想……」 总之先拿出兔耳，戴在了手上拿着茶盘无法反抗的枫头上。 「枫，枫才不会穿！」 枫为了不让剩下的茶洒出来，踏着慎重的脚步尽可能快地逃进了客厅里。 强扭的瓜不甜，于是暂时放弃了让枫穿上。一边祈祷着她有一天能变得对兔女郎Play感兴趣，一边把兔女郎装收进了衣柜里。 「这样就好了」 不那么好的是麻衣那边。完全惹怒她了。 「明天不好好道歉可不行」</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;[hermit autoplay=”false” mode=”circulation” preload=”auto”]netease_playlist#:2636635701[/hermit]</summary>
+        
+      
+    
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/categories/%E6%BC%AB%E8%B0%88/"/>
+    
+    
+    <category term="漫谈" scheme="https://blog.feiyuyu.net/tags/%E6%BC%AB%E8%B0%88/"/>
+    
+    <category term="情感" scheme="https://blog.feiyuyu.net/tags/%E6%83%85%E6%84%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>临时生成一个 Windows 系统</title>
+    <link href="https://blog.feiyuyu.net/2019/01/20/%E4%B8%B4%E6%97%B6%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA-Windows-%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://blog.feiyuyu.net/2019/01/20/%E4%B8%B4%E6%97%B6%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA-Windows-%E7%B3%BB%E7%BB%9F/</id>
+    <published>2019-01-20T04:25:35.000Z</published>
+    <updated>2021-04-04T03:57:01.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>卖个萌就水过一篇文章了(：</p><p><img src="https://i.loli.net/2019/01/20/5c43f46f47d69.png" alt="CAADAQADKAAD07cWHCDXwRmErH_QAg.png"></p><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>推荐一个网站，打开后可以临时生成一个 Windows 系统，免费使用 15 分钟，网速快并且可以访问 Google/Youtube 等网站。 <a href="https://demo.glyptodon.com/" title="点击前往">点击前往</a></p><h3 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h3><p><img src="https://i.loli.net/2019/01/20/5c43f59ed36b6.png" alt="QQ图片20190120121413.png"> <img src="https://i.loli.net/2019/01/20/5c43f70841eaf.png" alt="QQ图片20190120122008.png"></p><p>（绝没有给miwa打广告 </p><p>消息来源：<a href="https://twitter.com/Titzanyic/status/1085373984877744134" title="twitter">twitter</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;卖个萌就水过一篇文章了(：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/01/20/5c43f46f47d69.png&quot; alt=&quot;CAADAQADKAAD07cWHCDXwRmErH_QAg.png&quot;&gt;&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="https://blog.feiyuyu.net/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件" scheme="https://blog.feiyuyu.net/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你的专属工具集-uTools</title>
+    <link href="https://blog.feiyuyu.net/2019/01/20/%E4%BD%A0%E7%9A%84%E4%B8%93%E5%B1%9E%E5%B7%A5%E5%85%B7%E9%9B%86-uTools/"/>
+    <id>https://blog.feiyuyu.net/2019/01/20/%E4%BD%A0%E7%9A%84%E4%B8%93%E5%B1%9E%E5%B7%A5%E5%85%B7%E9%9B%86-uTools/</id>
+    <published>2019-01-20T03:33:50.000Z</published>
+    <updated>2021-04-04T03:57:01.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>官网：<a href="https://u.tools/" title="前往">前往</a> 下载：<a href="https://u.tools/download.html" title="前往">前往</a></p><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>uTools是一个极简、插件化、跨平台的现代化桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。 通过快捷键（默认alt+space）就可以快速呼出这个搜索框。它相当聪明，可以支持输入、拖拽、自动粘贴等作为输入源，相应的插件也早已准备就绪，统一的设计风格和操作方式，助你高效的得到结果。 当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。</p><h3 id="界面预览"><a href="#界面预览" class="headerlink" title="界面预览"></a>界面预览</h3><p><img src="https://i.loli.net/2019/01/20/5c43e8782fc50.png" alt="QQ图片20190120111747.png"></p><h3 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h3><p>这个就不介绍了吧 插件名字已经一目了然了。(就是懒 :huaji: 博主只用来传图片到图床（终于有方便的方法传到sm图床了，还能记住历史图片</p><p><a href="https://u.tools/docs/guide/about-uTools.html" title="使用文档">使用文档</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;官网：&lt;a href=&quot;https://u.tools/&quot; title=&quot;前往&quot;&gt;前往&lt;/a&gt; 下载：&lt;a href=&quot;https://u.tools/download.html&quot; title=&quot;前往&quot;&gt;前往&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;简介&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="https://blog.feiyuyu.net/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件" scheme="https://blog.feiyuyu.net/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小巧好用的鼠标手势-Mouselnc</title>
+    <link href="https://blog.feiyuyu.net/2019/01/20/%E5%B0%8F%E5%B7%A7%E5%A5%BD%E7%94%A8%E7%9A%84%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF-Mouselnc/"/>
+    <id>https://blog.feiyuyu.net/2019/01/20/%E5%B0%8F%E5%B7%A7%E5%A5%BD%E7%94%A8%E7%9A%84%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF-Mouselnc/</id>
+    <published>2019-01-20T03:04:19.000Z</published>
+    <updated>2021-04-04T03:57:01.465Z</updated>
+    
+    <content type="html"><![CDATA[<p>官网：<a href="https://shuax.com/project/mouseinc/" title="前往">前往</a> 直接下载：<a href="https://shuax.com/mi" title="点击">点击</a></p><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>MouseInc非常小巧，只有200KB左右，CPU、内存资源占用低。 郑重承诺永久免费，无广告，不扫描硬盘，不上传隐私。 便携化设计，单文件，无依赖，放在哪里都能运行。 配置文件采用json格式，第一次运行时会自动释放MouseInc.json。（注意保证目录可写哦）</p><h3 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h3><p><strong>鼠标手势</strong> 按住右键滑动即可开始使用。 配置细微，可自由修改手势宽度，颜色，识别灵敏度等。 支持黑名单，支持特定软件自定义手势，支持复合动作。 功能非常强大，比如下面的操作： 选中一个网址，画P直接打开ping命令。 选中文本以后，画S直接打开浏览器搜索。</p><p><strong>高质量截图</strong> 这个截图可以保留窗口阴影，半透明（包括win7和win10的毛玻璃特效）。 可以保留鼠标指针形状，可以加入透明网格特效。按下Ctrl+PrtSc可以快速体验。</p><p><strong>截图参考</strong> 可以把截图半透明置顶显示在屏幕上，方便参考内容或对比。 鼠标手势画一个四边形（下右上左）即可体验。</p><p><strong>OCR文字识别</strong> 鼠标手势画一个四边形（下左上右）即可体验。</p><p><strong>按键回显</strong> 可在屏幕上显示您所有的键盘按键，方便您在录制视频包含按键信息。 绝对不要在输入密码的时候打开这个功能！</p><p><strong>边缘滚动</strong> 在屏幕四边滚动滚轮，可以触发特殊操作。 目前有音量调节和程序切换功能。</p><p><strong>复制增强</strong> 选中文字快速按下两次Ctrl+C后，会弹出一个快捷操作菜单，可以进行搜索等。</p><p><strong>快速音量调节</strong> 按住Alt时，滚动滚轮可以快速调节音量大小。</p><p><strong>滚轮穿透</strong> 可使得滚轮可以直接滚动未激活窗口。 win10自带此功能，推荐老系统win7开启。</p><p><strong>自然滚动</strong> 把内容滚动方向改变为随屏幕方向。 保持和Mac OS X一致（滚轮反向）。</p><p><a href="https://docs.shuax.com/MouseInc/#/feature" title="效果查看">效果查看</a> <a href="https://docs.shuax.com/MouseInc/#/" title="使用手册">使用手册</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;官网：&lt;a href=&quot;https://shuax.com/project/mouseinc/&quot; title=&quot;前往&quot;&gt;前往&lt;/a&gt; 直接下载：&lt;a href=&quot;https://shuax.com/mi&quot; title=&quot;点击&quot;&gt;点击&lt;/a&gt;&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="https://blog.feiyuyu.net/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件" scheme="https://blog.feiyuyu.net/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Two songs sung by miwa</title>
+    <link href="https://blog.feiyuyu.net/2018/12/23/Two-songs-sung-by-miwa/"/>
+    <id>https://blog.feiyuyu.net/2018/12/23/Two-songs-sung-by-miwa/</id>
+    <published>2018-12-23T11:44:47.000Z</published>
+    <updated>2021-04-04T03:57:01.459Z</updated>
+    
+    <content type="html"><![CDATA[<p>片想い是<a href="https://zh.wikipedia.org/wiki/Miwa" title="miwa">miwa</a>的第8张单曲，于2012年2月1日由Sony Music Records发行。 再见（サヨナラ）收录在<a href="https://zh.wikipedia.org/wiki/Miwa" title="miwa">miwa</a>第三张专辑《Delight》中，于2013年5月22日由Sony Music Records发行。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;片想い是&lt;a href=&quot;https://zh.wikipedia.org/wiki/Miwa&quot; title=&quot;miwa&quot;&gt;miwa&lt;/a&gt;的第8张单曲，于2012年2月1日由Sony Music Records发行。 再见（サヨナラ）收录在&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="情感" scheme="https://blog.feiyuyu.net/tags/%E6%83%85%E6%84%9F/"/>
+    
+  </entry>
+  
+</feed>

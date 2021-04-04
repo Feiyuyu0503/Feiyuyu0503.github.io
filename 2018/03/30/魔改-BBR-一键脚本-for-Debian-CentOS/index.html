@@ -59,7 +59,8 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+</head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -390,18 +391,16 @@
 <h2 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h2><p><strong><strong>只需 <code>运行脚本第一项+重启+运行脚本第二项</code>。一般用户只需使用此版本，并建议使用该版本。此版本不需要编译的过程，直接安装 v4.10.2 内核。</strong></strong></p>
 <pre><code># Debian 7+
 # fool
-wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/3.4.2/tcp_nanqinlang-fool-1.2.2.shbash tcp_nanqinlang-fool-1.2.2.sh
-</code></pre>
+wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/3.4.2/tcp_nanqinlang-fool-1.2.2.shbash tcp_nanqinlang-fool-1.2.2.sh</code></pre>
 <p>  <strong>这个是 <code>CentOS</code> 平台的版本，尚处于测试版，请勿在重要环境使用。</strong></p>
 <pre><code># CentOS 6/7
 # only 64 bit
 # devel
 wget https://raw.githubusercontent.com/nanqinlang-tcp/tcp_nanqinlang/master/General/CentOS/bash/tcp_nanqinlang-1.3.2.sh
-bash tcp_nanqinlang-1.3.2.sh
-</code></pre>
+bash tcp_nanqinlang-1.3.2.sh</code></pre>
 <h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p><strong>出现四个选项供以选择：</strong></p>
 <h3 id="安装内核"><a href="#安装内核" class="headerlink" title="安装内核"></a>安装内核</h3><p><strong>用于安装内核<code>必须使用此命令安装内核并重启！</code></strong></p>
-<p>**确认内核更换完成后，<code>重启你的 vps</code>**<strong>重启开机后，<code>再次运行该脚本，选择第二项: 安装并开启算法</code></strong></p>
+<p><strong>确认内核更换完成后，<code>重启你的 vps</code>**</strong>重启开机后，<code>再次运行该脚本，选择第二项: 安装并开启算法</code>**</p>
 <h3 id="开启算法"><a href="#开启算法" class="headerlink" title="开启算法"></a><strong>开启算法</strong></h3><p><strong>用于编译并启用魔改 BBR 算法</strong></p>
 <h3 id="检查运行状态"><a href="#检查运行状态" class="headerlink" title="检查运行状态"></a>检查运行状态</h3><p><strong>用于检查 tcp_nanqinlang 是否已被 加载 (installed) 和 启用 (running)</strong></p>
 <h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h3><p><strong>不会删除已安装的内核，仅移除 sysctl.conf 中的相关设置项。然后重启机器后</strong> <strong>，魔改 BBR 才会停止运作。</strong></p>

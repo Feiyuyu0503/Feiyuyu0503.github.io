@@ -59,7 +59,8 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+</head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -392,50 +393,40 @@
 /sub       - 订阅一个 RSS: /sub http://example.com/feed.xml
 /unsub     - 退订一个 RSS: /unsub http://example.com/feed.xml
 /unsubthis - 使用此命令回复想要退订的 RSS 消息即可退订, 不支持 Channel
-/export    - 导出为 OPML
-</code></pre>
+/export    - 导出为 OPML</code></pre>
 <p><strong>2.服务器部署机器人</strong> 2.1 安装相关依赖环境</p>
 <pre><code>#CentOS系统
 yum -y update &amp;&amp; yum -y install gcc make openssl* pkg* libssl* screen curl
 
 #Ubuntu、Debian系统
-apt-get -y update &amp;&amp; apt-get -y install gcc make openssl pkg-config libssl-dev screen curl
-</code></pre>
+apt-get -y update &amp;&amp; apt-get -y install gcc make openssl pkg-config libssl-dev screen curl</code></pre>
 <p>2.2 安装Rust Nightly</p>
 <pre><code>curl https://sh.rustup.rs -sSf | sh
-source $HOME/.cargo/env
-</code></pre>
+source $HOME/.cargo/env</code></pre>
 <p>2.3 安装rssbot</p>
 <pre><code>wget https://github.com/iovxw/rssbot/archive/v1.4.4.tar.gz
 tar xvf v1.4.4.tar.gz
 cd rssbot-1.4.4
-cargo build --release
-</code></pre>
+cargo build --release</code></pre>
 <p>2.4 在screen下运行rssbot</p>
 <pre><code>cd target/release
 screen -S rssbot
-./rssbot DATAFILE TELEGRAM-BOT-TOKEN
-</code></pre>
+./rssbot DATAFILE TELEGRAM-BOT-TOKEN</code></pre>
 <p><code>DATAFILE</code>为数据库保存路径(其实就是一个json文件，不需要手动创建)。<code>TELEGRAM-BOT-TOKEN</code>就是你创建的机器人的token。 搭建成功后，就可以对bot发送命令，来订阅你想要的RSS了。</p>
 <h3 id="部署RSSHub"><a href="#部署RSSHub" class="headerlink" title="部署RSSHub"></a>部署RSSHub</h3><p>其实在上面一部分，我们的工作已经完成了。但对于没有Feed的网站而言，我们是不能对其生成RSS订阅的。这时，一个号称<code>万物皆可RSS</code>的项目<code>RSSHub</code>，就诞生了。 RSSHub 是一个轻量、易于扩展的 RSS 生成器, 可以给任何奇奇怪怪的内容生成 RSS 订阅源。<a target="_blank" rel="noopener" href="https://docs.rsshub.app/" title="前往文档查看详情">前往文档查看详情</a> RSSHub的部署很简单，这里我以Centos7系统为例，使用Docker部署，你也可以查看<a target="_blank" rel="noopener" href="https://docs.rsshub.app/install/" title="官方部署文档">官方部署文档</a> 1.安装 Docker</p>
 <pre><code>curl -sSL https://get.docker.com/ | sh
 systemctl start docker
-systemctl enable docker
-</code></pre>
+systemctl enable docker</code></pre>
 <p>2.拉取RSSHub镜像并启动</p>
 <pre><code>docker pull diygod/rsshub
-docker run -d --name rsshub -p 1200:1200 diygod/rsshub
-</code></pre>
+docker run -d --name rsshub -p 1200:1200 diygod/rsshub</code></pre>
 <p>至此，只需浏览器访问 <code>ip:1200</code>，就可以看见RSSHub已经在运行了。 3.应用配置 配置运行在 docker 中的 RSSHub, 最便利的方法是使用 docker 环境变量 以设置缓存时间为 1 小时举例, 只需要在运行时增加参数:<code>-e CACHE_EXPIRE=3600</code></p>
-<pre><code>$ docker run -d --name rsshub -p 1200:1200 -e CACHE_EXPIRE=3600 -e GITHUB_ACCESS_TOKEN=example diygod/rsshub
-</code></pre>
+<pre><code>$ docker run -d --name rsshub -p 1200:1200 -e CACHE_EXPIRE=3600 -e GITHUB_ACCESS_TOKEN=example diygod/rsshub</code></pre>
 <p>更多相关配置请查阅<a target="_blank" rel="noopener" href="https://docs.rsshub.app/install/#%E9%85%8D%E7%BD%AE" title="官方文档">官方文档</a> 另外，对于一个已启动的Docker容器，如果我们需要添加运行参数，比如订阅Pixiv的feed时，要求我们添加P站登陆账号的参数，可以使用如下命令：</p>
 <pre><code>docker ps       #查看当前运行Docker容器详情
-docker container update -e PIXIV_USERNAME=xxxxx -e PIXIV_PASSWORD=xxxx  &lt;containername&gt; 
-</code></pre>
+docker container update -e PIXIV_USERNAME=xxxxx -e PIXIV_PASSWORD=xxxx  &lt;containername&gt; </code></pre>
 <p>关闭RSSHub时，可使用命令：</p>
-<pre><code>docker stop rsshub
-</code></pre>
+<pre><code>docker stop rsshub</code></pre>
 <p>如果你没有自己的服务器，当然也可以使用官方提供的<a target="_blank" rel="noopener" href="https://rsshub.app/" title="rsshub.app">rsshub.app</a>,为了减轻服务器压力，更推荐自建服务，也可以使用我的自建RSSHub服务和Telegram bot：<a target="_blank" rel="noopener" href="https://rss.feiyuyu.net/" title="https://rss.feiyuyu.net"></a><a target="_blank" rel="noopener" href="https://rss.feiyuyu.net/">https://rss.feiyuyu.net</a>和<a target="_blank" rel="noopener" href="https://t.me/feiyurss_bot" title="feiyurss_bot">feiyurss_bot</a> (能用多久是个缘，我尽量维护</p>
 <h3 id="配合IFTTT的使用"><a href="#配合IFTTT的使用" class="headerlink" title="配合IFTTT的使用"></a>配合IFTTT的使用</h3><p>IFTTT，是一个新生的网络服务平台，通过其他不同平台的条件来决定是否执行下一条命令。即对网络服务通过其他网络服务作出反应。IFTTT得名为其口号“if this then that”。 官网：<a target="_blank" rel="noopener" href="https://ifttt.com/discover" title="https://ifttt.com/discover"></a><a target="_blank" rel="noopener" href="https://ifttt.com/discover">https://ifttt.com/discover</a> 在上面，我们已经讲了如何部署Telegram bot来推送RSS订阅。这部分扩展一下，我们也可以通过添加IFTTT的官方TG bot：<a target="_blank" rel="noopener" href="https://t.me/IFTTT" title="IFTTT">IFTTT</a>,搭配两个官网上的小程序（Applets）：<a target="_blank" rel="noopener" href="https://ifttt.com/feed" title="RSS Feed">RSS Feed</a>和<a target="_blank" rel="noopener" href="https://ifttt.com/telegram" title="telegram">telegram</a>，实现RSS的推送。 你可以在tg端与IFTTT私聊或将IFTTT添加到channel或group，然后在IFTTT网站或app上<a target="_blank" rel="noopener" href="https://ifttt.com/create" title="添加你的Applets">添加你的Applets</a>，点击<code>+this</code>，搜索RSS Feed，然后添加你想要的rss feed的url，确认后网页或app会回到“if this then that”，点击<code>+that</code>，搜索telegram，选择Target chat，以及自定义化Message text，最后save你的Applets并给其命名，当订阅更新时，tg端的IFTTT会自动给你选择的Target chat发推送。当然，得益于IFTTT的强大，我们也可以不用到RSS Feed这个Applets，你可以使用其Youtube、Twitter的Applets，设定Trigger，再推送到tg。 示例：<img src="https://i.loli.net/2020/03/11/B9WtbH1A4Eum3V7.jpg" alt="img"> 截图真的丑（逃。 另外，强烈建议在<a target="_blank" rel="noopener" href="https://ifttt.com/settings" title="https://ifttt.com/settings"></a><a target="_blank" rel="noopener" href="https://ifttt.com/settings">https://ifttt.com/settings</a>的设定中关闭URL shortening，因为bit.ly这个短链接服务，在国内体验不是很好。（光速逃</p>
 <hr>

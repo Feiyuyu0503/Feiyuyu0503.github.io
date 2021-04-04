@@ -59,7 +59,8 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+</head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -388,17 +389,13 @@
         <div class="entry-content">
           <h3 id="功能："><a href="#功能：" class="headerlink" title="功能："></a>功能：</h3><p>已完成的： 不间断监测 SMTP邮件提醒 TG机器人提醒 掉线时间统计 准确率提升 平均延时显示 未完成： 比较漂亮的邮件模板</p>
 <h3 id="用法："><a href="#用法：" class="headerlink" title="用法："></a>用法：</h3><p>*下载</p>
-<pre><code>wget -q https://teduis.com/Script/TcpCheck.sh &amp;&amp; chmod +x TcpCheck.sh
-</code></pre>
+<pre><code>wget -q https://teduis.com/Script/TcpCheck.sh &amp;&amp; chmod +x TcpCheck.sh</code></pre>
 <p>*建议先安装screen以保持脚本不间断运行 Centos</p>
-<pre><code>yum install screen -y
-</code></pre>
+<pre><code>yum install screen -y</code></pre>
 <p>Ubuntu/Debian</p>
-<pre><code>apt-get install screen -y
-</code></pre>
+<pre><code>apt-get install screen -y</code></pre>
 <p>*安装</p>
-<pre><code>./TcpCheck.sh install
-</code></pre>
+<pre><code>./TcpCheck.sh install</code></pre>
 <p>*配置 同目录下新建config.conf，加入以下内容：</p>
 <pre><code>SMTP_ENABLE=&quot;1&quot;    #是否开启SMTP
 TG_ENABLE=&quot;1&quot;   #是否开启Telegram提醒
@@ -410,21 +407,17 @@ Myemail=&quot;mail@example.net&quot;    #收件邮箱
 SMTP_SSL=&quot;1&quot;    #是否开启SMTP的SSL
 TG_API_URL=&quot;api.telegram.org&quot;  #Telegram API地址（可以反代）
 Telegram_Bot_Api_Key=&quot;1234564444:sdnasbdjasdjasbdjbcs&quot;  #Telegram bot api key
-Telegram_User_ID=&quot;22222222&quot;   #你的Telegram 用户ID
-</code></pre>
+Telegram_User_ID=&quot;22222222&quot;   #你的Telegram 用户ID</code></pre>
 <p>*如何获取Telegram用户ID? 点击<a target="_blank" rel="noopener" href="https://t.me/get_id_bot" title="Telegram_get_id_bot">Telegram_get_id_bot</a>向它发送/start即可获取自己的用户ID。</p>
 <h3 id="重要"><a href="#重要" class="headerlink" title="重要"></a>重要</h3><p>在配置好脚本后，请使用与填写的Telegram用户ID相同的TG私聊你自己的bot，并点击开始，否则机器人无法直接私聊你。 任意目录下新建一个文件，填写需要监测的IP/域名与端口，格式： <code>IP/域名 端口 备注(可以不写)</code> 例</p>
 <pre><code>8.8.8.8 53 googledns
 114.114.114.114 53
-google.com 80 googleweb
-</code></pre>
+google.com 80 googleweb</code></pre>
 <p>*使用</p>
 <pre><code>screen -S TcpCheck   #关掉SSH窗口后可继续运行，运行`screen -r TcpCheck`以查看
-./TcpCheck.sh -f &#39;文件位置&#39;
-</code></pre>
+./TcpCheck.sh -f &#39;文件位置&#39;</code></pre>
 <p>*查看log</p>
-<pre><code>./TcpCheck.sh -l
-</code></pre>
+<pre><code>./TcpCheck.sh -l</code></pre>
 <hr>
 <p>转载自：<a target="_blank" rel="noopener" href="https://teduis.com/archives/tcpingmonitor.html" title="JiuHome">JiuHome</a></p>
 

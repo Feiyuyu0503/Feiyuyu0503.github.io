@@ -59,7 +59,8 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+</head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <div class="scrollbar" id="bar">
@@ -389,28 +390,23 @@
           <h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>因为手上的OneDrive 5T账号实在太多了，不用实属可惜，于是就想存点视频到OneDrive里吧。每次都手动下载再上传到网盘又太麻烦了，那么有没有什么适合懒人的办法呢？果然网上还是有大佬给出了方案。以B站投币视频为例，想要实现将投币的视频自动保存到OneDrive里，配合<a target="_blank" rel="noopener" href="http://www.feiyuyu.net/archives/1394" title="pyone">pyone</a>/onelist等程序也能在线播放岂不是美滋滋，也可以不必担心自己的B站收藏夹满是失效视频了，不是吗  <strong>方案：投币操作 -&gt; RSS 更新 -&gt; IFTTT 触发 Webhook -&gt; 服务器下载</strong></p>
 <h3 id="自动流程"><a href="#自动流程" class="headerlink" title="自动流程"></a>自动流程</h3><p><strong>1.给视频投币</strong><img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/3b0608e520bc03dc1306e1de2f842b8c.png"> <strong>2.RSS更新</strong>(搭配<a target="_blank" rel="noopener" href="http://www.feiyuyu.net/archives/1475" title="RSSHub">RSSHub</a>订阅B站投币Feed) <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/2722cd2cad3b99e8b1c52d147fbd1e72.png"> <strong>3.IFTTT 触发 webhook</strong> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/52fbf52dcbc102230829f81f3a2e6b13.png"> <strong>4.webhook收到下载请求</strong> 下载B站视频很简单，you-get 一行命令的事。 <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/035be1391914368f6eeebcbfa7b6e32a.png"> <strong>5.完成下载</strong> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/e8b0e99c8a175b76dcc394eddb3b4dbe.png"> <strong>6.rclone定时执行任务</strong> 利用rclone将服务器上下载得到的视频定时上传至OneDrive网盘</p>
 <h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h3><p><strong>以下均已CentOS 7系统为例。</strong> 先决条件： <a target="_blank" rel="noopener" href="https://www.python.org/downloads/" title="Python">Python</a> 3.2 or above <a target="_blank" rel="noopener" href="https://www.ffmpeg.org/" title="FFmpeg">FFmpeg</a> 1.0 or above (Optional) <a target="_blank" rel="noopener" href="https://rtmpdump.mplayerhq.hu/" title="RTMPDump">RTMPDump</a> <strong>1.安装you-get</strong>(更多安装方式可查看:<a target="_blank" rel="noopener" href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" title="Github">Github</a>)</p>
-<pre><code>pip3 install you-get
-</code></pre>
+<pre><code>pip3 install you-get</code></pre>
 <p><strong>2.安装Nodejs</strong></p>
 <pre><code>curl -sL https://rpm.nodesource.com/setup_10.x | bash -
-yum install nodejs git -y
-</code></pre>
+yum install nodejs git -y</code></pre>
 <p><strong>3.部署<a target="_blank" rel="noopener" href="https://diygod.me/" title="DIYgod">DIYgod</a>大佬写的<a target="_blank" rel="noopener" href="https://github.com/DIYgod/download-webhook" title="download-webhook">download-webhook</a></strong></p>
 <pre><code>git clone https://github.com/DIYgod/download-webhook.git
 yum -y install screen
 cd download-webhook
 npm install
 screen -S webhook    #screen中运行
-npm run start        #运行后使用Ctrl+A+D隐藏screen
-</code></pre>
+npm run start        #运行后使用Ctrl+A+D隐藏screen</code></pre>
 <p>此时 <a target="_blank" rel="noopener" href="http://服务器ip:3000/">http://服务器ip:3000</a> 即为webhook的url 尝试命令</p>
-<pre><code>curl -X POST -H &quot;Content-Type:application/json&quot; -d &#39;&#123;&quot;secret&quot;: &quot;mysecret&quot;, &quot;path&quot;: &quot;mypath&quot;, &quot;name&quot;: &quot;myvideo&quot;, &quot;url&quot;: &quot;https://www.bilibili.com/video/av66129247&quot;&#125;&#39; http://127.0.0.1:3000
-</code></pre>
+<pre><code>curl -X POST -H &quot;Content-Type:application/json&quot; -d &#39;&#123;&quot;secret&quot;: &quot;mysecret&quot;, &quot;path&quot;: &quot;mypath&quot;, &quot;name&quot;: &quot;myvideo&quot;, &quot;url&quot;: &quot;https://www.bilibili.com/video/av66129247&quot;&#125;&#39; http://127.0.0.1:3000</code></pre>
 <p>如果下载成功会在服务器目录下生成一个mypath的文件夹，里面存放着叫myvideo的视频。 然后在ifttt中设定applet，内容如上自动流程中的第3步。 也可使用命令<code>screen -r webhook</code>查看下载详情 <strong>4.安装rclone</strong></p>
 <pre><code>yum install fuse
 curl https://rclone.org/install.sh | sudo bash
-rclone config
-</code></pre>
+rclone config</code></pre>
 <p>接着出现以下内容</p>
 <pre><code>Current remotes:
 
@@ -542,8 +538,7 @@ r) Rename remote
 c) Copy remote
 s) Set configuration password
 q) Quit config
-e/n/d/r/c/s/q&gt; q  #选择q退出
-</code></pre>
+e/n/d/r/c/s/q&gt; q  #选择q退出</code></pre>
 <p>客户端授权 在本地Windows电脑上下载rclone，下载地址<a target="_blank" rel="noopener" href="https://rclone.org/downloads/">https://rclone.org/downloads/</a> 然后解压出来，比如我解压到D盘，文件夹命名rclone，此时点击Win+R，然后输入cmd，确定。再输入以下命令：</p>
 <pre><code>d:
 cd rclone
@@ -559,19 +554,16 @@ Paste the following into your remote machine ---&gt;
 &#123;&quot;access_token&quot;j61aF6QzwiUX7nxesr9MMK68kcAgBWU0na0thal0EcVCBmGQHXNsTlgXuhP1Y4ln5bAC7o1ZUltCCijs-wyEM-SU2P77fRCgEoSeJEkIAA&quot;,&quot;expiry&quot;:&quot;2019-10-06T15:58:55.8424381+08:00&quot;&#125;
 #复制&#123;&quot;access_token&quot;xxx&#125;整个内容，粘贴至上一步中 result&gt; 处
 &lt;---End paste
-D:\rclone&gt;
-</code></pre>
+D:\rclone&gt;</code></pre>
 <p><strong>5.挂载OneDrive为服务器磁盘</strong> （也可不挂载，使用rclone sync/rclone copy等命令完成下载内容上传至网盘的操作，具体可查看rclone使用方法，这里我们挂载为磁盘）</p>
 <pre><code>#新建本地文件夹，路径自己定，即下面的LocalFolder
 mkdir /root/OneDrive
 #挂载为磁盘
 rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding --no-check-certificate --allow-other --allow-non-empty --umask 000
-#DriveName为初始化配置填的name，Folder为OneDrive里的文件夹，LocalFolder为VPS上的本地文件夹。
-</code></pre>
+#DriveName为初始化配置填的name，Folder为OneDrive里的文件夹，LocalFolder为VPS上的本地文件夹。</code></pre>
 <p><strong>6.定时上传网盘</strong> 我希望每天下载到vps的视频都自动上传至OneDrive，然后上传完后就不占用vps的磁盘空间，所以每天定时执行 mv命令。 配合 crontab 定时执行，比如每天 2:33 执行一次，日志写到 /root/rclone.log。执行 <code>crontab -e</code>，按i编辑</p>
 <pre><code>33 2 * * * /usr/bin/mv /root/download-webhook/downloads/* /root/OneDrive &gt;&gt; /root/rclone.log 2&gt;&amp;1
-#其中/root/download-webhook/downloads为下载到vps的本地文件夹， /root/OneDrive 为挂载到vps的网盘空间
-</code></pre>
+#其中/root/download-webhook/downloads为下载到vps的本地文件夹， /root/OneDrive 为挂载到vps的网盘空间</code></pre>
 <p>按下ESC，输入 :wq 保存并退出。 重启下crond服务 <code>service crond restart</code></p>
 <h3 id="更多（复读）"><a href="#更多（复读）" class="headerlink" title="更多（复读）"></a>更多（复读）</h3><p>以上流程同样适用于自动下载 YouTube \ Instagram \ Tumblr 视频、网易云音乐歌曲等，只要 RSSHub 和 you-get 支持即可。 另外对于图片，Webhook URL 参数直接传入图片地址也可以下载，所以也可以轻松实现自动下载 Bing 每日壁纸、Pixiv、甚至 Telegram 的涩图频道（这里就不做推荐了）</p>
 <hr>
