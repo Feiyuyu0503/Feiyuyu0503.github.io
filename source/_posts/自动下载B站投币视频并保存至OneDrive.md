@@ -17,7 +17,7 @@ date: 2019-10-06 15:51:00
 
 ### 自动流程
 
-**1.给视频投币**![](http://www.feiyuyu.net/wp-content/uploads/2019/10/3b0608e520bc03dc1306e1de2f842b8c.png) **2.RSS更新**(搭配[RSSHub](http://www.feiyuyu.net/archives/1475 "RSSHub")订阅B站投币Feed) ![](http://www.feiyuyu.net/wp-content/uploads/2019/10/2722cd2cad3b99e8b1c52d147fbd1e72.png) **3.IFTTT 触发 webhook** ![](http://www.feiyuyu.net/wp-content/uploads/2019/10/52fbf52dcbc102230829f81f3a2e6b13.png) **4.webhook收到下载请求** 下载B站视频很简单，you-get 一行命令的事。 ![](http://www.feiyuyu.net/wp-content/uploads/2019/10/035be1391914368f6eeebcbfa7b6e32a.png) **5.完成下载** ![](http://www.feiyuyu.net/wp-content/uploads/2019/10/e8b0e99c8a175b76dcc394eddb3b4dbe.png) **6.rclone定时执行任务** 利用rclone将服务器上下载得到的视频定时上传至OneDrive网盘
+**1.给视频投币**![](https://i.loli.net/2021/04/07/dAaWEpjK2YTl64X.png) **2.RSS更新**(搭配[RSSHub](http://www.feiyuyu.net/archives/1475 "RSSHub")订阅B站投币Feed) ![](https://i.loli.net/2021/04/07/dVQGBZxS6AMHtJ5.png) **3.IFTTT 触发 webhook** ![](https://i.loli.net/2021/04/07/1eMrRqksQgEB3jD.png) **4.webhook收到下载请求** 下载B站视频很简单，you-get 一行命令的事。 ![](https://i.loli.net/2021/04/07/xjhibYn3KMoIl8z.png) **5.完成下载** ![](https://i.loli.net/2021/04/07/Yo4zKNhbxOjdqfD.png) **6.rclone定时执行任务** 利用rclone将服务器上下载得到的视频定时上传至OneDrive网盘
 
 ### 搭建教程
 

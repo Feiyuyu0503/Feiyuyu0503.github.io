@@ -23,7 +23,7 @@ date: 2019-07-19 16:33:25
 *   群组聊天（使用/开头、回复机器人消息来呼叫机器人）：由于开启了隐私模式，所以只好这样啦
 *   美剧/日剧/电影查询
 
-**功能预览** ![](http://www.feiyuyu.net/wp-content/uploads/2019/07/888.gif) ![](http://www.feiyuyu.net/wp-content/uploads/2019/07/889.gif) ![](http://www.feiyuyu.net/wp-content/uploads/2019/07/990.gif) ![](http://www.feiyuyu.net/wp-content/uploads/2019/07/991.gif)
+**功能预览** ![](https://i.loli.net/2021/04/07/Jjm8UhYtXTr3Wcz.gif) ![](https://i.loli.net/2021/04/07/3sSQV7KpTx8rDUy.gif) ![](https://i.loli.net/2021/04/07/cH4d8CnlbAq3j9k.gif) ![](https://i.loli.net/2021/04/07/8DL1dCzNEOm3ZJA.gif)
 
 ### 搭建教程
 

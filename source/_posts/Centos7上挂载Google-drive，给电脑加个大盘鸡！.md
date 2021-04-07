@@ -30,10 +30,10 @@ date: 2018-04-28 22:36:44
 
     google-drive-ocamlfuse -headless -label me -id 1059522182613-89pc4hk9gv522889iteusipn4vpkppli.apps.googleusercontent.com -secret 1r7QyR35ATcOkz3KURCUq-9-
 
-3.之后会出现一行链接，复制、粘贴到浏览器，打开 ![](http://www.feiyuyu.net/wp-content/uploads/2018/08/a39fe52fd8ee52596ef222e0bb899ce8.png)  
+3.之后会出现一行链接，复制、粘贴到浏览器，打开 ![](https://i.loli.net/2021/04/07/7z826dqDIvOLVMn.png)  
 
 *   不能使用？ 你先需要进入到： [Google Drive获取一个API](https://console.developers.google.com/apis/api/drive.googleapis.com/)，类型就选择“其他”。
-*   挂载 Google Drive   ![](http://www.feiyuyu.net/wp-content/uploads/2018/04/Q11180428223540.png)
+*   挂载 Google Drive   ![](https://i.loli.net/2021/04/07/Cl86nzW421PiGYe.png)
 
 *   卸载 ··· fusermount -u /home/google-drive ···
 *   成功后便可通过在浏览器上访问VPS的IP地址，自由上传下载文件（即如果你的ip可在大陆直接访问，就跨越了GFW对google dive的高墙）
