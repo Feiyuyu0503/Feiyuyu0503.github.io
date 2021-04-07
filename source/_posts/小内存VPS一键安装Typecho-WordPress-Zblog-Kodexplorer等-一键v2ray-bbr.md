@@ -2,7 +2,7 @@
 author: feiyuyu
 photos: https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images
 avatar: 'https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg'
-authorLink: https://blog.feiyuyu.net
+authorLink: https://www.feiyuyu.net
 categories: 技术
 title: 小内存VPS一键安装Typecho/WordPress/Zblog/Kodexplorer等+一键v2ray+bbr
 tags:

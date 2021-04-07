@@ -2,7 +2,7 @@
 author: feiyuyu
 photos: https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images
 avatar: 'https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg'
-authorLink: https://blog.feiyuyu.net
+authorLink: https://www.feiyuyu.net
 categories: 技术
 title: 一只多功能的Telegram机器人
 tags:

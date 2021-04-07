@@ -2,7 +2,7 @@
 author: feiyuyu
 photos: https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images
 avatar: 'https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg'
-authorLink: https://blog.feiyuyu.net
+authorLink: https://www.feiyuyu.net
 categories: 软件
 title: IDM + 油猴脚本 实现百度云加速下载
 tags:

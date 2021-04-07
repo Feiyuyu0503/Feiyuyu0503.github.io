@@ -4,7 +4,7 @@
 # favicon and site master avatar
 favicon: /images/favicon.ico
 avatar: /img/avatar/avater.jpg
-url: https://blog.feiyuyu.net
+url: https://www.feiyuyu.net
 description: Live your life with passion! With some drive!
 cdn: https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0
 pjax: 1
