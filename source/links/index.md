@@ -69,7 +69,7 @@ links:
       img: https://i.loli.net/2018/09/20/5ba36038e3c07.jpg
       name: 肥鱼channel
       desc: 肥鱼博客的telegram订阅地址。
-    - url: https://fodi.feiyuyu.net
+    - url: https://edu.feiyuyu.net
       img: https://i.loli.net/2018/09/22/5ba60edd147ad.jpg
       name: 肥鱼OneDrive
       desc: 肥鱼落泪
