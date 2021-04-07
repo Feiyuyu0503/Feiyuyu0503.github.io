@@ -73,7 +73,7 @@
   <figure id="centerbg" class="centerbg">
     <div class="focusinfo no-select">
       <div class="header-tou">
-        <a href="https://blog.feiyuyu.net">
+        <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">
           <img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg">
         </a>
       </div>
@@ -364,12 +364,12 @@
       自动下载B站投币视频并保存至OneDrive</h1>
       <p class="entry-census">
         <span>
-          <a href="https://blog.feiyuyu.net">
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">
             <img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg">
           </a>
         </span>
         <span>
-          <a href="https://blog.feiyuyu.net">feiyuyu</a>
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">feiyuyu</a>
         </span>
         <span class="bull">
         ·</span>
@@ -387,8 +387,8 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>因为手上的OneDrive 5T账号实在太多了，不用实属可惜，于是就想存点视频到OneDrive里吧。每次都手动下载再上传到网盘又太麻烦了，那么有没有什么适合懒人的办法呢？果然网上还是有大佬给出了方案。以B站投币视频为例，想要实现将投币的视频自动保存到OneDrive里，配合<a target="_blank" rel="noopener" href="http://www.feiyuyu.net/archives/1394" title="pyone">pyone</a>/onelist等程序也能在线播放岂不是美滋滋，也可以不必担心自己的B站收藏夹满是失效视频了，不是吗  <strong>方案：投币操作 -&gt; RSS 更新 -&gt; IFTTT 触发 Webhook -&gt; 服务器下载</strong></p>
-<h3 id="自动流程"><a href="#自动流程" class="headerlink" title="自动流程"></a>自动流程</h3><p><strong>1.给视频投币</strong><img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/3b0608e520bc03dc1306e1de2f842b8c.png"> <strong>2.RSS更新</strong>(搭配<a target="_blank" rel="noopener" href="http://www.feiyuyu.net/archives/1475" title="RSSHub">RSSHub</a>订阅B站投币Feed) <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/2722cd2cad3b99e8b1c52d147fbd1e72.png"> <strong>3.IFTTT 触发 webhook</strong> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/52fbf52dcbc102230829f81f3a2e6b13.png"> <strong>4.webhook收到下载请求</strong> 下载B站视频很简单，you-get 一行命令的事。 <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/035be1391914368f6eeebcbfa7b6e32a.png"> <strong>5.完成下载</strong> <img src="http://www.feiyuyu.net/wp-content/uploads/2019/10/e8b0e99c8a175b76dcc394eddb3b4dbe.png"> <strong>6.rclone定时执行任务</strong> 利用rclone将服务器上下载得到的视频定时上传至OneDrive网盘</p>
+          <h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>因为手上的OneDrive 5T账号实在太多了，不用实属可惜，于是就想存点视频到OneDrive里吧。每次都手动下载再上传到网盘又太麻烦了，那么有没有什么适合懒人的办法呢？果然网上还是有大佬给出了方案。以B站投币视频为例，想要实现将投币的视频自动保存到OneDrive里，配合<a href="http://www.feiyuyu.net/archives/1394" title="pyone">pyone</a>/onelist等程序也能在线播放岂不是美滋滋，也可以不必担心自己的B站收藏夹满是失效视频了，不是吗  <strong>方案：投币操作 -&gt; RSS 更新 -&gt; IFTTT 触发 Webhook -&gt; 服务器下载</strong></p>
+<h3 id="自动流程"><a href="#自动流程" class="headerlink" title="自动流程"></a>自动流程</h3><p><strong>1.给视频投币</strong><img src="https://i.loli.net/2021/04/07/dAaWEpjK2YTl64X.png"> <strong>2.RSS更新</strong>(搭配<a href="http://www.feiyuyu.net/archives/1475" title="RSSHub">RSSHub</a>订阅B站投币Feed) <img src="https://i.loli.net/2021/04/07/dVQGBZxS6AMHtJ5.png"> <strong>3.IFTTT 触发 webhook</strong> <img src="https://i.loli.net/2021/04/07/1eMrRqksQgEB3jD.png"> <strong>4.webhook收到下载请求</strong> 下载B站视频很简单，you-get 一行命令的事。 <img src="https://i.loli.net/2021/04/07/xjhibYn3KMoIl8z.png"> <strong>5.完成下载</strong> <img src="https://i.loli.net/2021/04/07/Yo4zKNhbxOjdqfD.png"> <strong>6.rclone定时执行任务</strong> 利用rclone将服务器上下载得到的视频定时上传至OneDrive网盘</p>
 <h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h3><p><strong>以下均已CentOS 7系统为例。</strong> 先决条件： <a target="_blank" rel="noopener" href="https://www.python.org/downloads/" title="Python">Python</a> 3.2 or above <a target="_blank" rel="noopener" href="https://www.ffmpeg.org/" title="FFmpeg">FFmpeg</a> 1.0 or above (Optional) <a target="_blank" rel="noopener" href="https://rtmpdump.mplayerhq.hu/" title="RTMPDump">RTMPDump</a> <strong>1.安装you-get</strong>(更多安装方式可查看:<a target="_blank" rel="noopener" href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" title="Github">Github</a>)</p>
 <pre><code>pip3 install you-get</code></pre>
 <p><strong>2.安装Nodejs</strong></p>
@@ -649,11 +649,11 @@ rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding --no-c
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="https://blog.feiyuyu.net" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" itemprop="image" alt="feiyuyu" height="70" width="70"></a>
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" itemprop="image" alt="feiyuyu" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://blog.feiyuyu.net" itemprop="url" rel="author">feiyuyu</a>
+            <a target="_blank" href="https://blog.feiyuyu.net" itemprop="url" rel="author noopener">feiyuyu</a>
             </h3>
           </div>
         </div>

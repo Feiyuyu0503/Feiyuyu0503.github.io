@@ -73,7 +73,7 @@
   <figure id="centerbg" class="centerbg">
     <div class="focusinfo no-select">
       <div class="header-tou">
-        <a href="https://blog.feiyuyu.net">
+        <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">
           <img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg">
         </a>
       </div>
@@ -364,12 +364,12 @@
       GoIndex搭建Google drive网盘</h1>
       <p class="entry-census">
         <span>
-          <a href="https://blog.feiyuyu.net">
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">
             <img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg">
           </a>
         </span>
         <span>
-          <a href="https://blog.feiyuyu.net">feiyuyu</a>
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">feiyuyu</a>
         </span>
         <span class="bull">
         ·</span>
@@ -388,7 +388,7 @@
         
         <div class="entry-content">
           <h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>GoIndex是OneIndex项目作者利用Cloudflare Workers开发的google drive文件目录程序。利用GoIndex可以实现无墙访问google drive内的文件，同时部署也非常简单，成本也几乎为0。 项目地址：<a target="_blank" rel="noopener" href="https://github.com/donwa/goindex" title="GoIndex">GoIndex</a></p>
-<h3 id="部署教程"><a href="#部署教程" class="headerlink" title="部署教程"></a>部署教程</h3><p><strong>1.访问<a target="_blank" rel="noopener" href="https://install.gd.workers.dev/" title="GoIndex 代码生成">GoIndex 代码生成</a></strong> 1.1 点击获取认证码 选择登陆你要部署成goindex的谷歌账号，允许rclone访问，将生成的认证码粘贴至Auth认证码。 1.2填写目录id 打开google drive(某文件夹或共享文件夹)，看地址栏。 <a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid">https://drive.google.com/drive/folders/{这里就是id</a>} 留空为根目录。 1.3设置根目录密码 1.4点击生成代码 复制代码粘贴到cloudflare workers中（详见下方第2步） <img src="http://www.feiyuyu.net/wp-content/uploads/2019/09/7aa7ced28603892c47c2576ab8ee9da4.png"> <strong>2.登陆<a target="_blank" rel="noopener" href="https://dash.cloudflare.com/" title="cloudflare">cloudflare</a></strong> 2.1点击new Workers dashboard <img src="http://www.feiyuyu.net/wp-content/uploads/2019/09/ffaa70aff1bbaabedaf05393d86051dc.png"> 2.2注册你的subdomain 点击Create a worker。进入详情页，在Script里粘贴第1步最后生成的代码。此时右边会实时显现效果。 <img src="http://www.feiyuyu.net/wp-content/uploads/2019/09/353dbe760315896444c6597dd668ea6d.png"> 2.3保存 选择Deployed to your workers.dev subdomain，并点击Save and Deploy。此时就可以通过访问刚才注册的subdomain，访问部署好的GoIndex了。 <strong>3.自定义域名</strong> 如果不想用cloudflare的免费域名.workers.dev,可以绑定你的自定义域名。 提前解析好你的域名，选择Workers，点击Add route，填写域名，主要最后加/*， 选择刚部署好的Worker，点击save。 <img src="http://www.feiyuyu.net/wp-content/uploads/2019/09/0768d092954873da66f5f9cdf5b1a8ca.png"> 详情请查看<a target="_blank" rel="noopener" href="https://github.com/donwa/goindex/issues/4">https://github.com/donwa/goindex/issues/4</a></p>
+<h3 id="部署教程"><a href="#部署教程" class="headerlink" title="部署教程"></a>部署教程</h3><p><strong>1.访问<a target="_blank" rel="noopener" href="https://install.gd.workers.dev/" title="GoIndex 代码生成">GoIndex 代码生成</a></strong> 1.1 点击获取认证码 选择登陆你要部署成goindex的谷歌账号，允许rclone访问，将生成的认证码粘贴至Auth认证码。 1.2填写目录id 打开google drive(某文件夹或共享文件夹)，看地址栏。 <a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid"></a><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/%7B%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AFid">https://drive.google.com/drive/folders/{这里就是id</a>} 留空为根目录。 1.3设置根目录密码 1.4点击生成代码 复制代码粘贴到cloudflare workers中（详见下方第2步） <img src="https://i.loli.net/2021/04/07/isahwU72JvBA8oI.png"> <strong>2.登陆<a target="_blank" rel="noopener" href="https://dash.cloudflare.com/" title="cloudflare">cloudflare</a></strong> 2.1点击new Workers dashboard <img src="https://i.loli.net/2021/04/07/l59Pn8hdNZsCeiS.png"> 2.2注册你的subdomain 点击Create a worker。进入详情页，在Script里粘贴第1步最后生成的代码。此时右边会实时显现效果。 <img src="https://i.loli.net/2021/04/07/AksIOg4UiW9pe3J.png"> 2.3保存 选择Deployed to your workers.dev subdomain，并点击Save and Deploy。此时就可以通过访问刚才注册的subdomain，访问部署好的GoIndex了。 <strong>3.自定义域名</strong> 如果不想用cloudflare的免费域名.workers.dev,可以绑定你的自定义域名。 提前解析好你的域名，选择Workers，点击Add route，填写域名，主要最后加/*， 选择刚部署好的Worker，点击save。 <img src="https://i.loli.net/2021/04/07/TVl5GFkyBiZ6MHJ.png"> 详情请查看<a target="_blank" rel="noopener" href="https://github.com/donwa/goindex/issues/4">https://github.com/donwa/goindex/issues/4</a></p>
 
         </div>
         <!-- .entry-content -->
@@ -470,11 +470,11 @@
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="https://blog.feiyuyu.net" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" itemprop="image" alt="feiyuyu" height="70" width="70"></a>
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" itemprop="image" alt="feiyuyu" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://blog.feiyuyu.net" itemprop="url" rel="author">feiyuyu</a>
+            <a target="_blank" href="https://blog.feiyuyu.net" itemprop="url" rel="author noopener">feiyuyu</a>
             </h3>
           </div>
         </div>

@@ -73,7 +73,7 @@
   <figure id="centerbg" class="centerbg">
     <div class="focusinfo no-select">
       <div class="header-tou">
-        <a href="https://blog.feiyuyu.net">
+        <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">
           <img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg">
         </a>
       </div>
@@ -364,12 +364,12 @@
       斐讯K2路由器刷机教程</h1>
       <p class="entry-census">
         <span>
-          <a href="https://blog.feiyuyu.net">
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">
             <img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg">
           </a>
         </span>
         <span>
-          <a href="https://blog.feiyuyu.net">feiyuyu</a>
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">feiyuyu</a>
         </span>
         <span class="bull">
         ·</span>
@@ -392,7 +392,7 @@
 <h3 id="刷机过程"><a href="#刷机过程" class="headerlink" title="刷机过程"></a>刷机过程</h3><p><strong>0.首先确认出厂固件版本</strong> 如果你现在是官方固件版本大于V21.4.6.12而小于V22.5.11.5的，直接在WEB页面的“手动升级”菜单，选择上述准备工作中提供的<a target="_blank" rel="noopener" href="http://woo.iytc.net/?dir=uploads/K2" title="固件k2_163_v19_breed（官改自带breed）">固件k2_163_v19_breed（官改自带breed）</a>进行升级： <img src="https://i.loli.net/2020/03/11/OnPNv643yZJjkMx.jpg" alt="img"> 而后你的路由器固件中将已经集成了目前最新的breed，进入breed，选择任意第三方固件刷入即可。 <strong>1.其他官方固件先开启telnet，而后刷入breed</strong> 新的K2版本更改了加密算法，无法直刷，需要先开启telnet，刷入breed，然后在breed中刷入固件。 对于K2_V22.6.511.69，可参考<a target="_blank" rel="noopener" href="https://www.right.com.cn/forum/thread-325258-1-1.html" title="此贴">此贴</a>。 对于K2_V22.6.507.43（博主买到的），开启telnet需要先进行降级操作，经过测试，可下载上述准备工作中提供的<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1slqkvF3#2a2n" title="降级版本固件K2_V22.6.506.28">降级版本固件K2_V22.6.506.28</a>，在路由器管理后台进行降级。 然后下载<a target="_blank" rel="noopener" href="https://www.right.com.cn/forum/forum.php?mod=attachment&aid=MTg4MjU3fGViOTA5YjI0fDE1NTIwMzc0MDJ8NDMwNzQ5fDI2MTAyOA==" title="RoutAckProV1B2.rar">RoutAckProV1B2.rar</a>，确保windows启用Telnet客户端。<img src="https://i.loli.net/2020/03/11/ZVNPDLrxvkYblBK.png" alt="img"> 接着路由器不插wan口，电脑无线连接上路由器或用网线连接lan口和电脑插口（总之需要不联网状态），打开RoutAckPro，重启路由器，当路由器由红灯变为黄灯（绿灯为联网状态），立即点击打开Telnet按钮。 <img src="https://i.loli.net/2020/03/11/ruLS9wQU4XPebR8.png" alt="img"> 最后下载<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1slym23j" title="路由器刷breed Web控制台助手v4.8版本">路由器刷breed Web控制台助手v4.8版本</a>刷入breed。右击以管理员省份运行(关闭杀毒软件，很重要),用网线连入电脑，连接路由LAN口，不要连WAN。打开电脑登录192.168.2.1 看看能不能进入路由，能进入说明电脑网络正常。用手按住复位键10秒，松开，等待2分钟，这时已经恢复出厂设置，然后点击<strong>开始刷机</strong>，刷机过程中，无需手动操作，2-3分钟后，成功刷入。 <img src="https://i.loli.net/2020/03/11/WO8LyF9KVZlBaCz.png" alt="img"> 由于控制台助手v4.8版本集成懒人刷固件模式，无需登录breed Web控制台，可直接在提示界面选择固件刷入，而博主由于用此模式并没探测到进入breed，所以选择手动进入。 <strong>2.进入breed，刷入固件</strong> 电脑网线连接路由器任一lan口，断开路由器电源，按住路由器复位键5s左右（不松手），接通电源，10s后松开复位键。此时访问浏览器192.168.1.1，即进入路由器Breed界面。首先建议先备份相应的数据。 <img src="https://i.loli.net/2020/03/11/S6PBtjb24FRhHVM.png" alt="img"> 这里放一张K2各种可刷固件的对比图，博主个人选择了<a target="_blank" rel="noopener" href="http://opt.cn2qq.com/padavan/RT-AC54U-GPIO-1-PSG1208-64M_3.4.3.9-099.trx" title="改华硕的Padavan固件">改华硕的Padavan固件</a>。<img src="https://i.loli.net/2020/03/11/HPvsWN4AV9pYRLD.png" alt="img"> 如图设置并选择固件，即可刷入。 <img src="https://i.loli.net/2020/03/11/1K6xamU3uPBId8W.png" alt="img"> 默认配置 新固件网关：192.168.123.1 管理账号：admin/admin wifi:1234567890</p>
 <h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>不多说了，我好了！<img src="https://i.loli.net/2020/03/11/QR4CJeoHTnbqKSu.png" alt="img"></p>
 <hr>
-<p>更多可参考：<a target="_blank" rel="noopener" href="https://www.right.com.cn/forum/thread-208753-1-1.html" title="[k2] 斐讯K2 V22.5.9.163官方固件定制版【V1.9】">[k2] 斐讯K2 V22.5.9.163官方固件定制版【V1.9】</a> <a target="_blank" rel="noopener" href="https://www.right.com.cn/forum/thread-161324-1-1.html" title="改华硕[N14U N54U]5G 2G的7620老毛子Padavan固件(私人云储存 aria2 QOS)">改华硕[N14U N54U]5G 2G的7620老毛子Padavan固件(私人云储存 aria2 QOS)</a> 其他路由器刷机教程参见：<a target="_blank" rel="noopener" href="http://www.feiyuyu.net/archives/996" title="K2P刷机教程">K2P刷机教程</a>，<a target="_blank" rel="noopener" href="http://www.feiyuyu.net/archives/1270" title="极路由3刷固件Padavan完整教程">极路由3刷固件Padavan完整教程</a></p>
+<p>更多可参考：<a target="_blank" rel="noopener" href="https://www.right.com.cn/forum/thread-208753-1-1.html" title="[k2] 斐讯K2 V22.5.9.163官方固件定制版【V1.9】">[k2] 斐讯K2 V22.5.9.163官方固件定制版【V1.9】</a> <a target="_blank" rel="noopener" href="https://www.right.com.cn/forum/thread-161324-1-1.html" title="改华硕[N14U N54U]5G 2G的7620老毛子Padavan固件(私人云储存 aria2 QOS)">改华硕[N14U N54U]5G 2G的7620老毛子Padavan固件(私人云储存 aria2 QOS)</a> 其他路由器刷机教程参见：<a href="http://www.feiyuyu.net/archives/996" title="K2P刷机教程">K2P刷机教程</a>，<a href="http://www.feiyuyu.net/archives/1270" title="极路由3刷固件Padavan完整教程">极路由3刷固件Padavan完整教程</a></p>
 
         </div>
         <!-- .entry-content -->
@@ -474,11 +474,11 @@
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="https://blog.feiyuyu.net" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" itemprop="image" alt="feiyuyu" height="70" width="70"></a>
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" itemprop="image" alt="feiyuyu" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://blog.feiyuyu.net" itemprop="url" rel="author">feiyuyu</a>
+            <a target="_blank" href="https://blog.feiyuyu.net" itemprop="url" rel="author noopener">feiyuyu</a>
             </h3>
           </div>
         </div>

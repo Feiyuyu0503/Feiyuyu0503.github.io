@@ -73,7 +73,7 @@
   <figure id="centerbg" class="centerbg">
     <div class="focusinfo no-select">
       <div class="header-tou">
-        <a href="https://blog.feiyuyu.net">
+        <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">
           <img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg">
         </a>
       </div>
@@ -364,12 +364,12 @@
       GcmForMojo--QQ&Wechat的消息推送</h1>
       <p class="entry-census">
         <span>
-          <a href="https://blog.feiyuyu.net">
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">
             <img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg">
           </a>
         </span>
         <span>
-          <a href="https://blog.feiyuyu.net">feiyuyu</a>
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net">feiyuyu</a>
         </span>
         <span class="bull">
         ·</span>
@@ -452,7 +452,7 @@ $client-&gt;run();</code></pre>
 <p>保存退出后执行</p>
 <pre><code>perl GCM.pl</code></pre>
 <p>这时候你的 GCMForMojo APP 应该会弹出一条检测到二维码事件的通知，点击它，使用手机端 QQ 扫描这个二维码，你的 GCMForMojo 就跑起来了</p>
-<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>1.Perl 进程并不会后台运行！！！同时如果你的 SSH 连接中断的话当前终端下运行的全部会话均会被杀死，若想保持后台运行且断掉 SSH 连接后依旧可正常工作，请使用 screen 命令 <code>screen -S docker perl GCM.pl</code> 然后请按 Ctrl+A ，再按 D 键使此 screen 进入后台驻守，然后就可以中断 SSH 连接了，如果需要恢复此 screen 的话，请执行 <code>screen -r docker</code> 更多screen使用请查看<a target="_blank" rel="noopener" href="http://www.feiyuyu.net/archives/1243" title="使用screen实现多任务不断线操作">使用screen实现多任务不断线操作</a> 2.由于 OpenQQ 组件使用 HTTP 请求而不是更安全的 HTTPS 请求，尤其像现在免费WiFi盛行 通过HTTP传送极易被窃取消息（数据未被加密），OpenQQ端口默认没有鉴权，任何人都可以调用OpenQQ接口以该QQ的身份向外发送消息（未认证的访问）这样会很容易被他人监听，并有可能以你的身份发送消息，所以为了安全起见，强烈建议以加盐或开启 HTTPS 加密的方式增强安全性 ① 加盐 在 GCM.pl 文件内加入以下内容</p>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>1.Perl 进程并不会后台运行！！！同时如果你的 SSH 连接中断的话当前终端下运行的全部会话均会被杀死，若想保持后台运行且断掉 SSH 连接后依旧可正常工作，请使用 screen 命令 <code>screen -S docker perl GCM.pl</code> 然后请按 Ctrl+A ，再按 D 键使此 screen 进入后台驻守，然后就可以中断 SSH 连接了，如果需要恢复此 screen 的话，请执行 <code>screen -r docker</code> 更多screen使用请查看<a href="http://www.feiyuyu.net/archives/1243" title="使用screen实现多任务不断线操作">使用screen实现多任务不断线操作</a> 2.由于 OpenQQ 组件使用 HTTP 请求而不是更安全的 HTTPS 请求，尤其像现在免费WiFi盛行 通过HTTP传送极易被窃取消息（数据未被加密），OpenQQ端口默认没有鉴权，任何人都可以调用OpenQQ接口以该QQ的身份向外发送消息（未认证的访问）这样会很容易被他人监听，并有可能以你的身份发送消息，所以为了安全起见，强烈建议以加盐或开启 HTTPS 加密的方式增强安全性 ① 加盐 在 GCM.pl 文件内加入以下内容</p>
 <pre><code>use Mojo::Webqq;
 use Digest::MD5  qw(md5 md5_hex md5_base64);
 #请确保上一行加入在文件头行，否则会报错
@@ -579,11 +579,11 @@ $client-&gt;load(&quot;Openqq&quot;,data=&gt;&#123;
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="https://blog.feiyuyu.net" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" itemprop="image" alt="feiyuyu" height="70" width="70"></a>
+          <a target="_blank" rel="noopener" href="https://blog.feiyuyu.net" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" itemprop="image" alt="feiyuyu" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://blog.feiyuyu.net" itemprop="url" rel="author">feiyuyu</a>
+            <a target="_blank" href="https://blog.feiyuyu.net" itemprop="url" rel="author noopener">feiyuyu</a>
             </h3>
           </div>
         </div>
