@@ -112,3 +112,8 @@ feed:
   #content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+#Google analytics
+google_analytics: 
+  tracking_id: UA-126194617-1
+  only_pageview: false
