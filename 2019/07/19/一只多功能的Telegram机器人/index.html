@@ -59,7 +59,7 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
 </head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -405,33 +405,43 @@ weather       - 查询指定城市近期天气预报
 list          - 查看我的查询历史记录
 delete        - 删除某个单号查询记录
 quickdel      - 回复某条查询消息来快速删除单号查询记录
-help          - 帮助</code></pre>
+help          - 帮助
+</code></pre>
 <p>2.部署 需要部署在可以访问 Telegram API 的服务器上，同时支持 Python 2和 Python 3，推荐用 Python 3 已经在以下平台测试通过： <code>Windows 10：Python 2.7.13 32bit Python 3.6.3 32bit Ubuntu 16.04/14.04、CentOS 7、Debian 9： Python 2.7</code> <strong>部署方法1.自动脚本</strong> 一键脚本在 systemd的情况下运行会更好，一键脚本仅测试于 Ubuntu 16.04： 先切换到 root 用户：</p>
-<pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/BennyThink/ExpressBot/master/install.sh &amp;&amp; bash install.sh</code></pre>
+<pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/BennyThink/ExpressBot/master/install.sh &amp;&amp; bash install.sh
+</code></pre>
 <p>然后按照提示操作。支持 systemd 的系统会同时安装为 systemd 服务，其他系统可以使用对应的 init 手动配置或使用<code>supervisor</code> 快捷操作</p>
 <pre><code># 启动服务 
 bash install.sh start
 # 停止服务 
-bash install.sh stop</code></pre>
+bash install.sh stop
+</code></pre>
 <p>注：CentOS下如果提示<code>wget: command not found</code>请先安装wget:<code>yum install wget</code></p>
 <p><strong>部署方法2.手动配置</strong> 如果一键脚本失败，可以试试手动配置 (1)克隆代码</p>
 <pre><code>git clone https://github.com/BennyThink/ExpressBot
-cd ExpressBot</code></pre>
+cd ExpressBot
+</code></pre>
 <p>(2)准备环境 <em>Arch Linux</em></p>
-<pre><code>pacman -S python python-pip python-certifi python-chardet python-future python-idna python-requests python-six python-urllib3</code></pre>
+<pre><code>pacman -S python python-pip python-certifi python-chardet python-future python-idna python-requests python-six python-urllib3
+</code></pre>
 <p>然后从 AUR 安装 python-pytelegrambotapi <em>Ubuntu, Debian 等</em></p>
 <pre><code>sudo apt install python3 python3-pip git
-sudo pip3 install -r requirements.txt</code></pre>
+sudo pip3 install -r requirements.txt
+</code></pre>
 <p><em>其他发行版、macOS</em> Python3 请使用pip3替换pip</p>
 <pre><code>pip install setuptools
-pip install -r requirements.txt</code></pre>
+pip install -r requirements.txt
+</code></pre>
 <p><em>Windows</em> 从<a target="_blank" rel="noopener" href="https://www.python.org/" title="Python官网">Python官网</a>下载并安装 Python，切换到项目目录，如果是 Python 2:</p>
-<pre><code>pip install -r requirements.txt</code></pre>
+<pre><code>pip install -r requirements.txt
+</code></pre>
 <p>如果是 Python 3，执行如下命令：</p>
-<pre><code>pip3 install -r requirements.txt</code></pre>
+<pre><code>pip3 install -r requirements.txt
+</code></pre>
 <p>(3)准备ffmpeg ffmpeg是为了支持音频识别（使用ffmpe进行音频文件的转码）。 如果你是 Windows ，从<a target="_blank" rel="noopener" href="https://ffmpeg.org/" title="这里">这里</a>下载 ffmpeg 的二进制exe文件（一共三个都需要），放到 PATH 中； 如果你是 Linux 发行版，直接用包管理器安装就可以（编译或者下载二进制也行），Debian 系可以使用<code>sudo apt install ffmpeg</code>，RHEL可以使用<code>yum install ffmpeg</code> (4)配置 修改<code>config.py</code>进行配置，TOKEN 为 Bot 的 API，TURING_KEY 若不配置则不启用机器人功能，TURING_KEY在<a target="_blank" rel="noopener" href="http://www.turingapi.com/" title="这里">这里</a>获取。</p>
 <pre><code>TOKEN = &#39;Your TOKEN&#39;
-TURING_KEY = &#39;Your Key&#39;</code></pre>
+TURING_KEY = &#39;Your Key&#39;
+</code></pre>
 <p>创建单元文件：<code>vim /lib/systemd/system/expressbot.service</code> 自行替换输入如下信息</p>
 <pre><code>[Unit]  
 Description=A Telegram Bot for querying expresses   
@@ -443,18 +453,21 @@ Type=simple
 ExecStart=/usr/bin/python /home/ExpressBot/expressbot/main.py   
 
 [Install]   
-WantedBy=multi-user.target</code></pre>
+WantedBy=multi-user.target
+</code></pre>
 <p>重新载入 daemon、自启、启动</p>
 <pre><code>systemctl daemon-reload
 systemctl enable expressbot.service
-systemctl start expressbot.service</code></pre>
+systemctl start expressbot.service
+</code></pre>
 <p>使用了<code>restart=on-failure</code>参数，失败退出会重启。 如果设置成always就意味着无论因为什么原因，只要进程不在了，systemd 就会立刻帮我们重启。详情可以参见systemd.service手册。 (5)运行 测试目的的话，以 nohub 或 screen 运行<code>main.py</code>，Python 3 请用python3替换为python</p>
 <pre><code>cd /home/ExpressBot/expressbot
 nohup python main.py
 # 或者
 cd /ExpressBot/expressbot
 screen -S tgbot
-python main.py</code></pre>
+python main.py
+</code></pre>
 <p>(6)计划任务 如果需要追踪更新并推送，那么咱需要定期轮询。 目前使用的定时器是 apscheduler，<code>config.py</code>中的 <code>INTERVAL</code>可以来设置间隔时间 (7)检查运行状态 systemd 控制命令：</p>
 <pre><code># 查看运行状态
 sudo systemctl status expressbot.service
@@ -463,14 +476,18 @@ sudo systemctl start expressbot.service
 # 停止
 sudo systemctl stop expressbot.service
 # 重启
-sudo systemctl restart expressbot.service</code></pre>
+sudo systemctl restart expressbot.service
+</code></pre>
 <p>其他系统 可以考虑使用对应系统的init，或者使用supervisor</p>
 <p><strong>部署方法3.使用 Docker</strong> 目前支持 docker 运行，但是尚未经过详细测试。 (1)拉取镜像</p>
-<pre><code>docker pull bennythink/expressbot:latest</code></pre>
+<pre><code>docker pull bennythink/expressbot:latest
+</code></pre>
 <p>(2)后台运行</p>
-<pre><code>docker run -d --restart=always -e TOKEN=&quot;TOKEN&quot; -e TURING=&quot;KEY&quot;  expressbot:v1</code></pre>
+<pre><code>docker run -d --restart=always -e TOKEN=&quot;TOKEN&quot; -e TURING=&quot;KEY&quot;  expressbot:v1
+</code></pre>
 <p>如果想自己 build 的话，那么就下载回 Dockerfile，然后</p>
-<pre><code>docker build -t expressbot:v1 .</code></pre>
+<pre><code>docker build -t expressbot:v1 .
+</code></pre>
 <hr>
 <p>更多详细内容请查看<a target="_blank" rel="noopener" href="https://github.com/BennyThink/ExpressBot" title="项目地址">项目地址</a></p>
 

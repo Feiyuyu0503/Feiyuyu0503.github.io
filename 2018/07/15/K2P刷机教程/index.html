@@ -59,7 +59,7 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
 </head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -392,7 +392,8 @@
 <p>接着路由器不插wan口，电脑无线连接上路由器或用网线连接lan口和电脑插口（总之需要不联网状态），打开RoutAckPro，重启路由器，当路由器由红灯变为黄灯（绿灯为联网状态），立即点击打开Telnet按钮。</p>
 <p><img src="https://i.loli.net/2021/04/07/a1pXxoMSILdPvbD.png"></p>
 <p>2.登录Telnet，刷入官改固件。 使路由器处于联网状态，用windows命令行执行“telnet 192.168.2.1”或用putty等工具连接 <img src="https://i.loli.net/2021/04/07/ov5ZSCYPdf8tW9m.png"><img src="https://i.loli.net/2021/04/07/EeyPhcs1IzT65lj.png"> 连接成功后，执行如下命令。</p>
-<pre><code>wget http://woo.iytc.net/tools/k2p.sh -O - |sh</code></pre>
+<pre><code>wget http://woo.iytc.net/tools/k2p.sh -O - |sh
+</code></pre>
 <p>等待reboot后自动断开连接，此时已刷入官改固件。</p>
 <p><img src="https://i.loli.net/2021/04/07/vKOCmfNHW5cYtgd.png"></p>
 <p>3.登录路由器管理地址，进行初始设置。 浏览器打开192.168.2.1，设置斐讯路由器的管理员帐号，ssid和wifi密码。 点击功能设置页面，可以看到比原版系统新增了不少功能。</p>
@@ -403,7 +404,8 @@
 <p>路由器重启完成后，浏览器访问192.168.4.1，帐号密码默认都是admin。然后进行个性化设置。 默认页面是英文的，点击Advanced settings-Administration，最下方Language处可更改为简体中文。 开启彩蛋： 由于某些原因，部分功能是隐藏的，需要自行开启。点击高级设置-系统管理-控制台 分三次输入如下命令(一行一行输入 #后面的注释不用复制 输入一行点一次刷新 注意不会有任何提示 别没看到提示就以为没生效)</p>
 <pre><code>nvram set google_fu_mode=0xDEADBEEF #开启google-fu(即**R)
 nvram set ext_show_lse=1 #开启KMS(可选功能，不知道这个干什么用的就不要输入了）
-nvram commit #（写入固件）</code></pre>
+nvram commit #（写入固件）
+</code></pre>
 <p><img src="https://i.loli.net/2021/04/07/mko67ysxPGCE9Zg.png"></p>
 <p>完成后重启路由器，再次访问路由器管理地址，即可看到隐藏功能被开启了。</p>
 <p>总结：由于官改版有Breed，所以先刷入官改固件，可防止刷第三方固件时路由器变砖。Padavan固件很优秀，不过和K2P的契合度还不够（反正极路由的padavan固件体验远胜于K2P），毕竟灯大还在不断更新K2P的padavan固件，尚不如极路由成熟。不过B1版应该会好很多吧，有更多固件可以选择。K2P官改也够用，毕竟硬件不错，youtube可以流畅看4k。极路由可参考我的另一篇文章：<a href="http://www.feiyuyu.net/archives/1270" title="极路由3刷固件Padavan完整教程">极路由3刷固件Padavan完整教程</a>、<a href="http://www.feiyuyu.net/archives/1429" title="斐讯K2路由器刷机教程">斐讯K2路由器刷机教程</a></p>

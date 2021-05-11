@@ -59,7 +59,7 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
 </head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -390,18 +390,24 @@
           <h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>我们用VPS执行某些命令时可能耗费的时间过长，如果出现掉线/断网的情况，我们还得重新执行命令。如果使用screen命令就不用担心这个问题。我们可以同时操作多个任务，也可以关机操作。</p>
 <h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>1、安装：</p>
 <pre><code>yum install screen #CentOS
-apt-get install screen #Debian或者Ubuntu</code></pre>
+apt-get install screen #Debian或者Ubuntu
+</code></pre>
 <p>2、创建一个screen会话：</p>
-<pre><code>screen -S xx #xx为创建会话的名称</code></pre>
+<pre><code>screen -S xx #xx为创建会话的名称
+</code></pre>
 <p>3、隐藏并保留当前会话窗口： 按Ctrl+A，再按”D”键 如果怕中途掉线或者要离开的话，可以使用。 4、恢复会话窗口：</p>
-<pre><code>screen -r xx #恢复名字为xx的会话</code></pre>
+<pre><code>screen -r xx #恢复名字为xx的会话
+</code></pre>
 <p>如果在恢复会话的时候忘记了或者没有设定会话名称我们就要执行：</p>
-<pre><code>screen -ls</code></pre>
+<pre><code>screen -ls
+</code></pre>
 <p>他会列出你所有的会话列表，然后使用：</p>
-<pre><code>screen -r 会话名称</code></pre>
+<pre><code>screen -r 会话名称
+</code></pre>
 <p>来恢复会话窗口。 5、关闭会话窗口：</p>
 <pre><code>exit #或者下面一行，二选一
-screen -X -S [session # you want to kill] quit</code></pre>
+screen -X -S [session # you want to kill] quit
+</code></pre>
 <p>screen的好处就是不会因为远程的操作因网络问题中断掉。</p>
 <hr>
 <p>转自：<a target="_blank" rel="noopener" href="https://www.moerats.com/archives/142/" title="Rat&#39;s blog">Rat’s blog</a></p>

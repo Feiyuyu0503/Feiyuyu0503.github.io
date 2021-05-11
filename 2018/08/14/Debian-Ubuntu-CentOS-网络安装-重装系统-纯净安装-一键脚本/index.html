@@ -59,7 +59,7 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
 </head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -398,18 +398,21 @@ grep          [grep]           [grep]
 openssl       [openssl]        [openssl]
 cpio          [cpio]           [cpio]
 gzip          [gzip]           [gzip]
-cat,cut..     [coreutils]      [coreutils]</code></pre>
+cat,cut..     [coreutils]      [coreutils]
+</code></pre>
 <h3 id="确保安装了所需软件"><a href="#确保安装了所需软件" class="headerlink" title="确保安装了所需软件:"></a>确保安装了所需软件:</h3><pre><code>#Debian/Ubuntu:
 apt-get install -y xz-utils openssl gawk file
 
 #RedHat/CentOS:
 yum install -y xz openssl gawk file
-如果出现了错误,请运行:</code></pre>
+如果出现了错误,请运行:
+</code></pre>
 <h3 id="如果出现了错误-请运行"><a href="#如果出现了错误-请运行" class="headerlink" title="如果出现了错误,请运行:"></a>如果出现了错误,请运行:</h3><pre><code>#Debian/Ubuntu:
 apt-get update
 
 #RedHat/CentOS:
-yum update</code></pre>
+yum update
+</code></pre>
 <h3 id="一键下载及使用"><a href="#一键下载及使用" class="headerlink" title="一键下载及使用:"></a>一键下载及使用:</h3><pre><code>wget --no-check-certificate -qO InstallNET.sh &#39;https://moeclub.org/attachment/LinuxShell/InstallNET.sh&#39; &amp;&amp; chmod a+x InstallNET.sh
 
 
@@ -426,7 +429,8 @@ Usage:
 # dist-name: 发行版本代号
 # dist-version: 发行版本号
 # -apt/-yum/--mirror : 使用定义镜像
-# -a/-m : 询问是否能进入VNC自行操作. -a 为不提示(一般用于全自动安装), -m 为提示.</code></pre>
+# -a/-m : 询问是否能进入VNC自行操作. -a 为不提示(一般用于全自动安装), -m 为提示.
+</code></pre>
 <h3 id="使用示例"><a href="#使用示例" class="headerlink" title="使用示例:"></a>使用示例:</h3><pre><code>#使用默认镜像全自动安装
 bash InstallNET.sh -d 8 -v 64 -a
 
@@ -449,7 +453,8 @@ bash InstallNET.sh -c 6.9 -v 64 -a --mirror &#39;http://mirror.centos.org/centos
 #bash InstallNET.sh --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x -dd &quot;$(echo &quot;14xB2k9r36NRzWhO0lzjf604EB7B6JLH0&quot; |xargs -n1 bash &lt;(wget --no-check-certificate -qO- &#39;https://moeclub.org/get-gdlink&#39;))&quot;
 
 #使用自定义网络参数全自动dd方式安装存储在谷歌网盘中的镜像
-#bash InstallNET.sh --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x -dd &quot;$(echo &quot;https://drive.google.com/open?id=14xB2k9r36NRzWhO0lzjf604EB7B6JLH0&quot; |xargs -n1 bash &lt;(wget --no-check-certificate -qO- &#39;https://moeclub.org/get-gdlink&#39;))&quot;</code></pre>
+#bash InstallNET.sh --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x -dd &quot;$(echo &quot;https://drive.google.com/open?id=14xB2k9r36NRzWhO0lzjf604EB7B6JLH0&quot; |xargs -n1 bash &lt;(wget --no-check-certificate -qO- &#39;https://moeclub.org/get-gdlink&#39;))&quot;
+</code></pre>
 <h3 id="特别提示"><a href="#特别提示" class="headerlink" title="特别提示"></a>特别提示</h3><p>在dd安装系统镜像时: 在你的机器上全新安装,如果你有VNC,可以看到全部过程. 在dd安装镜像的过程中,不会走进度条(进度条一直显示为0%).完成后将会自动重启. 分区界面标题一般显示为: “Starting up the partitioner“ 使用谷歌网盘中储存的镜像: <a target="_blank" rel="noopener" href="https://moeclub.org/2018/04/01/600/?v=425" title="[无限制大小] 获取谷歌网盘文件临时直接下载链接">[无限制大小] 获取谷歌网盘文件临时直接下载链接</a> 在全自动安装CentOS时: 如果看到 “Starting graphical installation” 或者类似表达,则表示正在安装. 正常情况下只需要耐心等待安装完成即可. 如果需要查看进度,使用VNC Viewer(或者其他VNC连接工具) 连接提示中的IP地址:端口进行连接.(端口一般为1或者5901)</p>
 <hr>
 <hr>

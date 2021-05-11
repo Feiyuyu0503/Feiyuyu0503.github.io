@@ -59,7 +59,7 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
 </head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -396,19 +396,24 @@ yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/
 #Ubuntu系统
 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh
 #Debian系统
-wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</code></pre>
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh
+</code></pre>
 <p>2.下载源码</p>
 <pre><code>#下载源码，并命名为yaofan
-git clone https://github.com/abbeyokgo/youzan_yaofan.git yaofan</code></pre>
+git clone https://github.com/abbeyokgo/youzan_yaofan.git yaofan
+</code></pre>
 <p>3.安装依赖</p>
 <pre><code>cd /root/yaofan
-pip install -r requirement.txt</code></pre>
+pip install -r requirement.txt
+</code></pre>
 <p>4.建立数据库 打开宝塔面板，点击左侧菜单中的数据库，新建yaofan数据库。 5.编辑文件信息 修改 <code>app/youzan/yz_config.py</code>，填入之前获取的三个参数client_id、client_secret、授权店铺id。 修改 <code>root/yaofan/config.py</code>,用#注释掉含sqlite那行，并将下一行中的#去掉，修改效果如下：</p>
 <pre><code># SQLALCHEMY_DATABASE_URI = &#39;sqlite:///&#39; + os.path.join(basedir, &#39;data.sqlite&#39;)
-SQLALCHEMY_DATABASE_URI = &#39;mysql+pymysql://user:password@localhost/db&#39;</code></pre>
+SQLALCHEMY_DATABASE_URI = &#39;mysql+pymysql://user:password@localhost/db&#39;
+</code></pre>
 <p>其中user、password、db分别更改为你的数据库用户名，密码，数据库名称。 修改<code>root/yaofan/run.py</code>,修改第58，59行为你的信息。 修改<code>yaofan/app/templates/index.html</code>，个性化你的前端信息。 6.初始化数据库 <code>python run.py deploy</code> 7.运行 <code>gunicorn -w4 -b 0:35000 run:app</code>，接着就可以访问http：//ip：35000（若无法访问，请在宝塔面板安全菜单中开放端口） 8.绑定域名 1.首先将域名绑定到你的服务器ip。 2.然后在宝塔面板-网站-添加站点 3.最后点击添加好的站点名称，站点设置-反向代理-设置反向代理<a target="_blank" rel="noopener" href="http://127.0.0.1:35000/">http://127.0.0.1:35000</a> 。 9.设置开机启动 修改源码目录的supervisord.conf，主要修改源码目录和端口号。 运行：</p>
 <pre><code>echo &#39;supervisord -c root/yaofan/supervisord.conf&#39; &gt;&gt; /etc/rc.d/rc.local
-chmod +x /etc/rc.d/rc.local</code></pre>
+chmod +x /etc/rc.d/rc.local
+</code></pre>
 
         </div>
         <!-- .entry-content -->

@@ -59,7 +59,7 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
 </head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -399,24 +399,29 @@ yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/
 #Ubuntu系统
 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh
 #Debian系统
-wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</code></pre>
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh
+</code></pre>
 <p>然后到<strong>软件管理-运行环境-选择安装Nginx、MongoDB和Redis</strong>。（Nginx安装时间较长）</p>
 <p><img src="https://i.loli.net/2019/01/31/5c52e8d48b8ae.png" alt="QQ截图20190131160944.png"></p>
 <p>2.下载源码</p>
-<pre><code>git clone https://github.com/abbeyokgo/PyOne.git</code></pre>
+<pre><code>git clone https://github.com/abbeyokgo/PyOne.git
+</code></pre>
 <p>3、安装依赖</p>
 <pre><code>cd /root/PyOne
-pip install -r requirements.txt</code></pre>
+pip install -r requirements.txt
+</code></pre>
 <p>4.运行</p>
 <pre><code>#复制配置文件
 cp config.py.sample config.py
 cp supervisord.conf.sample supervisord.conf
 #运行
-gunicorn -w4 -b 0.0.0.0:34567 run:app</code></pre>
+gunicorn -w4 -b 0.0.0.0:34567 run:app
+</code></pre>
 <p>然后试着访问：<a target="_blank" rel="noopener" href="http://ip:34567/">http://ip:34567</a> 看看能正常显示，如果不能，请在宝塔的安全里开启端口。 5.安装Aria2</p>
 <pre><code>git clone https://github.com/abbeyokgo/aria2_installer.git
 cd aria2_installer
-sh install_aria2.sh</code></pre>
+sh install_aria2.sh
+</code></pre>
 <p>6.绑定域名 先确保域名已经解析到你的服务器ip 打开宝塔-网站-添加站点 设置反代：宝塔-网站-点击域名-反向代理，设置值<a target="_blank" rel="noopener" href="http://127.0.0.1:34567/">http://127.0.0.1:34567</a> 然后勾选启用反向代理 添加nginx配置：宝塔-网站-点击域名-配置文件。找到以下内容，添加以下三行。</p>
 <pre><code>location / 
     &#123;
@@ -427,13 +432,15 @@ sh install_aria2.sh</code></pre>
         proxy_set_header X-Forwarded-Proto $scheme;
 
         ...
-    &#125;</code></pre>
+    &#125;
+</code></pre>
 <p><img src="https://i.loli.net/2019/01/31/5c52ebf44d6f2.png" alt="snipaste_2018-11-19_10-45-18.png"></p>
 <p>做完以上操作，应该就可以访问你的域名了！</p>
 <p>7.开机启动 网站源码下有个<strong>supervisord.conf</strong>，主要内容如下： <code>[program:pyone] command = gunicorn -k eventlet -b 0.0.0.0:34567 run:app directory = /root/PyOne autorestart = true</code> 主要修改两个地方： 端口号：即34567那个端口号，修改为自己选的，或者不改动 源码目录：directory修改为你选的网站目录 修改之后运行下面的命令（记得修改为正确的目录），设置开机启动：</p>
 <pre><code>echo &quot;supervisord -c /root/PyOne/supervisord.conf&quot; &gt;&gt; /etc/rc.d/rc.local
 chmod +x /etc/rc.d/rc.local
-supervisord -c /root/PyOne/supervisord.conf</code></pre>
+supervisord -c /root/PyOne/supervisord.conf
+</code></pre>
 <h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><p>文档：<a target="_blank" rel="noopener" href="https://wiki.pyone.me/cuo-wu-zhi-dao/" title="错误指导">错误指导</a></p>
 
         </div>

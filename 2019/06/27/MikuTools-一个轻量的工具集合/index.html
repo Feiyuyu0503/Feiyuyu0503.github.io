@@ -59,7 +59,7 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml">
 </head>
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -395,32 +395,38 @@ apt install -y nodejs git
 
 #CentOS系统
 curl -sL https://rpm.nodesource.com/setup_10.x | bash -
-yum install nodejs git -y</code></pre>
+yum install nodejs git -y
+</code></pre>
 <p>2、安装yarn</p>
-<pre><code>npm install -g yarn</code></pre>
+<pre><code>npm install -g yarn
+</code></pre>
 <p>3、拉取项目</p>
 <pre><code>#拉取项目
 git clone https://github.com/Ice-Hazymoon/MikuTools
 #进入文件夹
 cd MikuTools
 #安装依赖
-yarn</code></pre>
+yarn
+</code></pre>
 <p>4、构建</p>
 <pre><code>#开发模式运行，不知道有啥用的，可以跳过，直接构建
 yarn dev
 
 #构建
-yarn generate</code></pre>
+yarn generate
+</code></pre>
 <p>此时打包后的源码在<strong>dist</strong>文件夹，然后就可以将文件夹里的源码丢到自己的网站根目录直接用了。</p>
 <p>如果你想提前看下效果，那这里提供一个最快的运行方法，使用命令：</p>
 <pre><code>#进入打包好的文件夹
 cd dist
 #运行端口4567，可自行修改，提前检查端口开放否
-python -m SimpleHTTPServer 4567</code></pre>
+python -m SimpleHTTPServer 4567
+</code></pre>
 <p>5、使用Caddy 如果你服务器没有任何Web环境，比如Nginx、Apache等，那可以直接使用Caddy部署一个网站。 安装Caddy：</p>
 <pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/caddy_install.sh &amp;&amp; chmod +x caddy_install.sh &amp;&amp; bash caddy_install.sh
 #备用地址
-wget -N --no-check-certificate https://www.moerats.com/usr/shell/Caddy/caddy_install.sh &amp;&amp; chmod +x caddy_install.sh &amp;&amp; bash caddy_install.sh</code></pre>
+wget -N --no-check-certificate https://www.moerats.com/usr/shell/Caddy/caddy_install.sh &amp;&amp; chmod +x caddy_install.sh &amp;&amp; bash caddy_install.sh
+</code></pre>
 <p>配置Caddy：</p>
 <pre><code>#请修改域名和dist文件夹绝对路径后一起复制到SSH运行！
 
@@ -435,10 +441,12 @@ echo &quot;https://tools.feiyuyu.net:443 &#123;
  root /root/MikuTools/dist
  tls seuff@feiyuyu.net
  gzip
-&#125;&quot; &gt; /usr/local/caddy/Caddyfile</code></pre>
+&#125;&quot; &gt; /usr/local/caddy/Caddyfile
+</code></pre>
 <p>tls参数会自动帮你签发ssl证书，如果你要使用自己的ssl，改为<code>tls /root/xx.crt /root/xx.key</code>即可。后面为ssl证书路径。</p>
 <p>启动Caddy：</p>
-<pre><code>/etc/init.d/caddy start</code></pre>
+<pre><code>/etc/init.d/caddy start
+</code></pre>
 <p>这样就可以打开域名进行访问了。</p>
 <hr>
 <p>转自：<a target="_blank" rel="noopener" href="https://www.moerats.com/archives/945/" title="https://www.moerats.com/archives/945/"></a><a target="_blank" rel="noopener" href="https://www.moerats.com/archives/945/">https://www.moerats.com/archives/945/</a></p>
