@@ -62,6 +62,10 @@ links:
       img: https://sdn.geekzu.org/avatar/b995e1307e247c6358d1ca2527c2890a?s=80&d=https%3A%2F%2Fcn.gravatar.com%2Favatar%2Fb745710ae6b0ce9dfb13f5b7c0956be1&r=g
       name: Twor
       desc: 这世上所有的不公平都是因为当事人能力的不足！
+    - url: https://qxnav.com
+      img: https://qxnav.com/wp-content/uploads/2020/08/124B795.png
+      name: 奇心导航
+      desc: 奇心导航，最懂你的导航网站
   - group: 个人项目
     desc: 充分说明这家伙是条咸鱼 < (￣︶￣)>
     items:
