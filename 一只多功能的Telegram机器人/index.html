@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="feiyuyu"><meta name="copyright" content="feiyuyu"><meta name="generator" content="Hexo 7.0.0-rc1"><meta name="theme" content="hexo-theme-yun"><title>一只多功能的Telegram机器人 | 肥鱼Blog</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"www.feiyuyu.net","root":"/","title":"云游君的小站","version":"1.10.9","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"fireworks":{"colors":null},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=UA-126194617-1"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-126194617-1');
+}</script><script data-ad-client="ca-pub-2245427233262012" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M9KWR9L');</script><!-- End Google Tag Manager --><meta name="description" content="写在前面一只能查快递，陪你聊天，查询美剧日剧等功能的Telegram机器人！成品可戳：肥鱼机器 功能  查快递 列出历史查询 聊天（包含语音、文字） 群组聊天（使用&#x2F;开头、回复机器人消息来呼叫机器人）：由于开启了隐私模式，所以只好这样啦 美剧&#x2F;日剧&#x2F;电影查询  功能预览     搭建教程Github：项目地址 1.申请一个Telegram bot 前往BotFathe">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一只多功能的Telegram机器人">
+<meta property="og:url" content="https://www.feiyuyu.net/%E4%B8%80%E5%8F%AA%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%9A%84Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA/index.html">
+<meta property="og:site_name" content="肥鱼Blog">
+<meta property="og:description" content="写在前面一只能查快递，陪你聊天，查询美剧日剧等功能的Telegram机器人！成品可戳：肥鱼机器 功能  查快递 列出历史查询 聊天（包含语音、文字） 群组聊天（使用&#x2F;开头、回复机器人消息来呼叫机器人）：由于开启了隐私模式，所以只好这样啦 美剧&#x2F;日剧&#x2F;电影查询  功能预览     搭建教程Github：项目地址 1.申请一个Telegram bot 前往BotFathe">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.feiyuyu.net/%E4%B8%80%E5%8F%AA%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%9A%84Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA/undefined">
+<meta property="article:published_time" content="2019-07-19T08:33:25.000Z">
+<meta property="article:modified_time" content="2021-04-07T12:09:55.483Z">
+<meta property="article:author" content="feiyuyu">
+<meta property="article:tag" content="技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.feiyuyu.net/%E4%B8%80%E5%8F%AA%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%9A%84Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA/undefined"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="feiyuyu"><img width="96" loading="lazy" src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" alt="feiyuyu"><span class="site-author-status" title="Looking for dawn.">🌑</span></a><div class="site-author-name"><a href="/about/">feiyuyu</a></div><span class="site-name">肥鱼Blog</span><sub class="site-subtitle">但盼望风雨来，能留你在此。</sub><div class="site-description"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="我的主页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">50</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">4</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">5</span></a></div><a class="site-state-item hty-icon-button" href="/about/" title="留言板"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a><a class="links-item hty-icon-button" href="/girls/" title="喜欢的女孩子" style="color:hotpink"><span class="icon iconify" data-icon="ri:women-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="toc-number">1.</span> <span class="toc-text">写在前面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B"><span class="toc-number">2.</span> <span class="toc-text">搭建教程</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://www.feiyuyu.net/%E4%B8%80%E5%8F%AA%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%9A%84Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="feiyuyu"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="肥鱼Blog"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">一只多功能的Telegram机器人<a class="post-edit-link" href="https://github.com/Feiyuyu0503/Feiyuyu0503.github.io/tree/dev/source_posts/一只多功能的Telegram机器人.md" target="_blank" title="编辑" rel="noopener"><span class="icon iconify" data-icon="ri:edit-line"></span></a></h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2019-07-19 16:33:25" itemprop="dateCreated datePublished" datetime="2019-07-19T16:33:25+08:00">2019-07-19</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2021-04-07 20:09:55" itemprop="dateModified" datetime="2021-04-07T20:09:55+08:00">2021-04-07</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">1.2k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">5m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%8A%80%E6%9C%AF/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">技术</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E6%8A%80%E6%9C%AF/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">技术</span></a></span></div><div class="post-author"><span class="author-name">feiyuyu</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>一只能查快递，陪你聊天，查询美剧日剧等功能的Telegram机器人！成品可戳：<a target="_blank" rel="noopener" href="https://t.me/feiyuyubot" title="肥鱼机器">肥鱼机器</a></p>
+<p><strong>功能</strong></p>
+<ul>
+<li>查快递</li>
+<li>列出历史查询</li>
+<li>聊天（包含语音、文字）</li>
+<li>群组聊天（使用&#x2F;开头、回复机器人消息来呼叫机器人）：由于开启了隐私模式，所以只好这样啦</li>
+<li>美剧&#x2F;日剧&#x2F;电影查询</li>
+</ul>
+<p><strong>功能预览</strong> <img src="https://i.loli.net/2021/04/07/Jjm8UhYtXTr3Wcz.gif" loading="lazy"> <img src="https://i.loli.net/2021/04/07/3sSQV7KpTx8rDUy.gif" loading="lazy"> <img src="https://i.loli.net/2021/04/07/cH4d8CnlbAq3j9k.gif" loading="lazy"> <img src="https://i.loli.net/2021/04/07/8DL1dCzNEOm3ZJA.gif" loading="lazy"></p>
+<h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h3><p>Github：<a target="_blank" rel="noopener" href="https://github.com/BennyThink/ExpressBot" title="项目地址">项目地址</a> 1.申请一个Telegram bot 前往<a target="_blank" rel="noopener" href="https://t.me/BotFather" title="BotFather">BotFather</a>,点击<code>start</code>启用机器人之父，发送命令<code>/newbot</code>创建你自己的机器人，然后按照BotFather的提示，给机器人取名并输入消息<code>***bot</code>来自定义你的bot的用户名，然后就会生成属于你自己的机器人及其链接、token。继续发送命令<code>/mybots</code>,选择你的机器人然后选择<code>Edit bot</code>，选择<code>Edit Commands</code>，就可以在消息框下输入并发送如下指令：</p>
+<pre><code>start         - 输入快递单号来查询
+query         - 查询美剧、电影
+yyets         - 查询下载链接
+weather       - 查询指定城市近期天气预报
+list          - 查看我的查询历史记录
+delete        - 删除某个单号查询记录
+quickdel      - 回复某条查询消息来快速删除单号查询记录
+help          - 帮助
+</code></pre>
+<p>2.部署 需要部署在可以访问 Telegram API 的服务器上，同时支持 Python 2和 Python 3，推荐用 Python 3 已经在以下平台测试通过： <code>Windows 10：Python 2.7.13 32bit Python 3.6.3 32bit Ubuntu 16.04/14.04、CentOS 7、Debian 9： Python 2.7</code> <strong>部署方法1.自动脚本</strong> 一键脚本在 systemd的情况下运行会更好，一键脚本仅测试于 Ubuntu 16.04： 先切换到 root 用户：</p>
+<pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/BennyThink/ExpressBot/master/install.sh &amp;&amp; bash install.sh
+</code></pre>
+<p>然后按照提示操作。支持 systemd 的系统会同时安装为 systemd 服务，其他系统可以使用对应的 init 手动配置或使用<code>supervisor</code> 快捷操作</p>
+<pre><code># 启动服务 
+bash install.sh start
+# 停止服务 
+bash install.sh stop
+</code></pre>
+<p>注：CentOS下如果提示<code>wget: command not found</code>请先安装wget:<code>yum install wget</code></p>
+<p><strong>部署方法2.手动配置</strong> 如果一键脚本失败，可以试试手动配置 (1)克隆代码</p>
+<pre><code>git clone https://github.com/BennyThink/ExpressBot
+cd ExpressBot
+</code></pre>
+<p>(2)准备环境 <em>Arch Linux</em></p>
+<pre><code>pacman -S python python-pip python-certifi python-chardet python-future python-idna python-requests python-six python-urllib3
+</code></pre>
+<p>然后从 AUR 安装 python-pytelegrambotapi <em>Ubuntu, Debian 等</em></p>
+<pre><code>sudo apt install python3 python3-pip git
+sudo pip3 install -r requirements.txt
+</code></pre>
+<p><em>其他发行版、macOS</em> Python3 请使用pip3替换pip</p>
+<pre><code>pip install setuptools
+pip install -r requirements.txt
+</code></pre>
+<p><em>Windows</em> 从<a target="_blank" rel="noopener" href="https://www.python.org/" title="Python官网">Python官网</a>下载并安装 Python，切换到项目目录，如果是 Python 2:</p>
+<pre><code>pip install -r requirements.txt
+</code></pre>
+<p>如果是 Python 3，执行如下命令：</p>
+<pre><code>pip3 install -r requirements.txt
+</code></pre>
+<p>(3)准备ffmpeg ffmpeg是为了支持音频识别（使用ffmpe进行音频文件的转码）。 如果你是 Windows ，从<a target="_blank" rel="noopener" href="https://ffmpeg.org/" title="这里">这里</a>下载 ffmpeg 的二进制exe文件（一共三个都需要），放到 PATH 中； 如果你是 Linux 发行版，直接用包管理器安装就可以（编译或者下载二进制也行），Debian 系可以使用<code>sudo apt install ffmpeg</code>，RHEL可以使用<code>yum install ffmpeg</code> (4)配置 修改<code>config.py</code>进行配置，TOKEN 为 Bot 的 API，TURING_KEY 若不配置则不启用机器人功能，TURING_KEY在<a target="_blank" rel="noopener" href="http://www.turingapi.com/" title="这里">这里</a>获取。</p>
+<pre><code>TOKEN = &#39;Your TOKEN&#39;
+TURING_KEY = &#39;Your Key&#39;
+</code></pre>
+<p>创建单元文件：<code>vim /lib/systemd/system/expressbot.service</code> 自行替换输入如下信息</p>
+<pre><code>[Unit]  
+Description=A Telegram Bot for querying expresses   
+After=network.target network-online.target nss-lookup.target    
+
+[Service]   
+Restart=on-failure  
+Type=simple 
+ExecStart=/usr/bin/python /home/ExpressBot/expressbot/main.py   
+
+[Install]   
+WantedBy=multi-user.target
+</code></pre>
+<p>重新载入 daemon、自启、启动</p>
+<pre><code>systemctl daemon-reload
+systemctl enable expressbot.service
+systemctl start expressbot.service
+</code></pre>
+<p>使用了<code>restart=on-failure</code>参数，失败退出会重启。 如果设置成always就意味着无论因为什么原因，只要进程不在了，systemd 就会立刻帮我们重启。详情可以参见systemd.service手册。 (5)运行 测试目的的话，以 nohub 或 screen 运行<code>main.py</code>，Python 3 请用python3替换为python</p>
+<pre><code>cd /home/ExpressBot/expressbot
+nohup python main.py
+# 或者
+cd /ExpressBot/expressbot
+screen -S tgbot
+python main.py
+</code></pre>
+<p>(6)计划任务 如果需要追踪更新并推送，那么咱需要定期轮询。 目前使用的定时器是 apscheduler，<code>config.py</code>中的 <code>INTERVAL</code>可以来设置间隔时间 (7)检查运行状态 systemd 控制命令：</p>
+<pre><code># 查看运行状态
+sudo systemctl status expressbot.service
+# 启动
+sudo systemctl start expressbot.service
+# 停止
+sudo systemctl stop expressbot.service
+# 重启
+sudo systemctl restart expressbot.service
+</code></pre>
+<p>其他系统 可以考虑使用对应系统的init，或者使用supervisor</p>
+<p><strong>部署方法3.使用 Docker</strong> 目前支持 docker 运行，但是尚未经过详细测试。 (1)拉取镜像</p>
+<pre><code>docker pull bennythink/expressbot:latest
+</code></pre>
+<p>(2)后台运行</p>
+<pre><code>docker run -d --restart=always -e TOKEN=&quot;TOKEN&quot; -e TURING=&quot;KEY&quot;  expressbot:v1
+</code></pre>
+<p>如果想自己 build 的话，那么就下载回 Dockerfile，然后</p>
+<pre><code>docker build -t expressbot:v1 .
+</code></pre>
+<hr>
+<p>更多详细内容请查看<a target="_blank" rel="noopener" href="https://github.com/BennyThink/ExpressBot" title="项目地址">项目地址</a></p>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">我很可爱，请给我钱</div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>feiyuyu</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://www.feiyuyu.net/%E4%B8%80%E5%8F%AA%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%9A%84Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA/" title="一只多功能的Telegram机器人">https://www.feiyuyu.net/%E4%B8%80%E5%8F%AA%E5%A4%9A%E5%8A%9F%E8%83%BD%E7%9A%84Telegram%E6%9C%BA%E5%99%A8%E4%BA%BA/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/GoIndex%E6%90%AD%E5%BB%BAGoogle-drive%E7%BD%91%E7%9B%98/" rel="prev" title="GoIndex搭建Google drive网盘"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">GoIndex搭建Google drive网盘</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/MikuTools-%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%9A%84%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/" rel="next" title="MikuTools-一个轻量的工具集合"><span class="post-nav-text">MikuTools-一个轻量的工具集合</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/Feiyuyu0503/Feiyuyu0503.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br><a class="hty-button hty-button--raised" id="github-issues" target="_blank" rel="noopener" href="https://github.com/Feiyuyu0503/Feiyuyu0503.github.io/issues?q=is:issue+一只多功能的Telegram机器人">GitHub Issues</a></div><div class="toggle-comment-system" style="margin: 1rem auto"><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">valine</a><style> {
+  display: none;
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">github_issues</a><script>function hideAllComment() {
+  //- hide all
+  document.querySelectorAll('.toggle-comment-btn').forEach((btn) => {
+    const container = document.querySelector(btn.dataset.target);
+    if (container) {
+      container.style.display = "none";
+    }
+  });
+}
+function showComment(target) {
+  hideAllComment();
+  //- show target
+  const targetContainer = document.querySelector(target);
+  if (targetContainer) {
+    targetContainer.style.display = "block";
+  }
+}
+</script></div></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://beian.miit.gov.cn/" target="_blank">苏ICP备18015113号-2</a></div><div class="copyright"><span>&copy; 2017 – 2023 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> feiyuyu</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v7.0.0-rc1</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.9</span></div><div class="footer-support"><span>本网站由</span><a class="footer-support-logo" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" target="blank" title="又拍云"><img height="30" src="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png" alt="又拍云"></a><span>提供 CDN 加速</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></body></html>

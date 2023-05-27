@@ -1,0 +1,266 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="feiyuyu"><meta name="copyright" content="feiyuyu"><meta name="generator" content="Hexo 7.0.0-rc1"><meta name="theme" content="hexo-theme-yun"><title>自动下载B站投币视频并保存至OneDrive | 肥鱼Blog</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"www.feiyuyu.net","root":"/","title":"云游君的小站","version":"1.10.9","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"fireworks":{"colors":null},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="肥鱼Blog" type="application/atom+xml"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=UA-126194617-1"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-126194617-1');
+}</script><script data-ad-client="ca-pub-2245427233262012" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M9KWR9L');</script><!-- End Google Tag Manager --><meta name="description" content="写在前面因为手上的OneDrive 5T账号实在太多了，不用实属可惜，于是就想存点视频到OneDrive里吧。每次都手动下载再上传到网盘又太麻烦了，那么有没有什么适合懒人的办法呢？果然网上还是有大佬给出了方案。以B站投币视频为例，想要实现将投币的视频自动保存到OneDrive里，配合pyone&#x2F;onelist等程序也能在线播放岂不是美滋滋，也可以不必担心自己的B站收藏夹满是失效视频了，不">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自动下载B站投币视频并保存至OneDrive">
+<meta property="og:url" content="https://www.feiyuyu.net/%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDB%E7%AB%99%E6%8A%95%E5%B8%81%E8%A7%86%E9%A2%91%E5%B9%B6%E4%BF%9D%E5%AD%98%E8%87%B3OneDrive/index.html">
+<meta property="og:site_name" content="肥鱼Blog">
+<meta property="og:description" content="写在前面因为手上的OneDrive 5T账号实在太多了，不用实属可惜，于是就想存点视频到OneDrive里吧。每次都手动下载再上传到网盘又太麻烦了，那么有没有什么适合懒人的办法呢？果然网上还是有大佬给出了方案。以B站投币视频为例，想要实现将投币的视频自动保存到OneDrive里，配合pyone&#x2F;onelist等程序也能在线播放岂不是美滋滋，也可以不必担心自己的B站收藏夹满是失效视频了，不">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.feiyuyu.net/%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDB%E7%AB%99%E6%8A%95%E5%B8%81%E8%A7%86%E9%A2%91%E5%B9%B6%E4%BF%9D%E5%AD%98%E8%87%B3OneDrive/undefined">
+<meta property="article:published_time" content="2019-10-06T07:51:00.000Z">
+<meta property="article:modified_time" content="2021-04-07T12:09:55.484Z">
+<meta property="article:author" content="feiyuyu">
+<meta property="article:tag" content="技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.feiyuyu.net/%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDB%E7%AB%99%E6%8A%95%E5%B8%81%E8%A7%86%E9%A2%91%E5%B9%B6%E4%BF%9D%E5%AD%98%E8%87%B3OneDrive/undefined"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="feiyuyu"><img width="96" loading="lazy" src="https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg" alt="feiyuyu"><span class="site-author-status" title="Looking for dawn.">🌑</span></a><div class="site-author-name"><a href="/about/">feiyuyu</a></div><span class="site-name">肥鱼Blog</span><sub class="site-subtitle">但盼望风雨来，能留你在此。</sub><div class="site-description"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="我的主页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">50</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">4</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">5</span></a></div><a class="site-state-item hty-icon-button" href="/about/" title="留言板"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a><a class="links-item hty-icon-button" href="/girls/" title="喜欢的女孩子" style="color:hotpink"><span class="icon iconify" data-icon="ri:women-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="toc-number">1.</span> <span class="toc-text">写在前面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E6%B5%81%E7%A8%8B"><span class="toc-number">2.</span> <span class="toc-text">自动流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B"><span class="toc-number">3.</span> <span class="toc-text">搭建教程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E5%A4%9A%EF%BC%88%E5%A4%8D%E8%AF%BB%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">更多（复读）</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://www.feiyuyu.net/%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDB%E7%AB%99%E6%8A%95%E5%B8%81%E8%A7%86%E9%A2%91%E5%B9%B6%E4%BF%9D%E5%AD%98%E8%87%B3OneDrive/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="feiyuyu"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="肥鱼Blog"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">自动下载B站投币视频并保存至OneDrive<a class="post-edit-link" href="https://github.com/Feiyuyu0503/Feiyuyu0503.github.io/tree/dev/source_posts/自动下载B站投币视频并保存至OneDrive.md" target="_blank" title="编辑" rel="noopener"><span class="icon iconify" data-icon="ri:edit-line"></span></a></h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2019-10-06 15:51:00" itemprop="dateCreated datePublished" datetime="2019-10-06T15:51:00+08:00">2019-10-06</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2021-04-07 20:09:55" itemprop="dateModified" datetime="2021-04-07T20:09:55+08:00">2021-04-07</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">1.7k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">8m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%8A%80%E6%9C%AF/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">技术</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E6%8A%80%E6%9C%AF/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">技术</span></a></span></div><div class="post-author"><span class="author-name">feiyuyu</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>因为手上的OneDrive 5T账号实在太多了，不用实属可惜，于是就想存点视频到OneDrive里吧。每次都手动下载再上传到网盘又太麻烦了，那么有没有什么适合懒人的办法呢？果然网上还是有大佬给出了方案。以B站投币视频为例，想要实现将投币的视频自动保存到OneDrive里，配合<a href="http://www.feiyuyu.net/archives/1394" title="pyone">pyone</a>&#x2F;onelist等程序也能在线播放岂不是美滋滋，也可以不必担心自己的B站收藏夹满是失效视频了，不是吗  <strong>方案：投币操作 -&gt; RSS 更新 -&gt; IFTTT 触发 Webhook -&gt; 服务器下载</strong></p>
+<h3 id="自动流程"><a href="#自动流程" class="headerlink" title="自动流程"></a>自动流程</h3><p><strong>1.给视频投币</strong><img src="https://i.loli.net/2021/04/07/dAaWEpjK2YTl64X.png" loading="lazy"> <strong>2.RSS更新</strong>(搭配<a href="http://www.feiyuyu.net/archives/1475" title="RSSHub">RSSHub</a>订阅B站投币Feed) <img src="https://i.loli.net/2021/04/07/dVQGBZxS6AMHtJ5.png" loading="lazy"> <strong>3.IFTTT 触发 webhook</strong> <img src="https://i.loli.net/2021/04/07/1eMrRqksQgEB3jD.png" loading="lazy"> <strong>4.webhook收到下载请求</strong> 下载B站视频很简单，you-get 一行命令的事。 <img src="https://i.loli.net/2021/04/07/xjhibYn3KMoIl8z.png" loading="lazy"> <strong>5.完成下载</strong> <img src="https://i.loli.net/2021/04/07/Yo4zKNhbxOjdqfD.png" loading="lazy"> <strong>6.rclone定时执行任务</strong> 利用rclone将服务器上下载得到的视频定时上传至OneDrive网盘</p>
+<h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h3><p><strong>以下均已CentOS 7系统为例。</strong> 先决条件： <a target="_blank" rel="noopener" href="https://www.python.org/downloads/" title="Python">Python</a> 3.2 or above <a target="_blank" rel="noopener" href="https://www.ffmpeg.org/" title="FFmpeg">FFmpeg</a> 1.0 or above (Optional) <a target="_blank" rel="noopener" href="https://rtmpdump.mplayerhq.hu/" title="RTMPDump">RTMPDump</a> <strong>1.安装you-get</strong>(更多安装方式可查看:<a target="_blank" rel="noopener" href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" title="Github">Github</a>)</p>
+<pre><code>pip3 install you-get
+</code></pre>
+<p><strong>2.安装Nodejs</strong></p>
+<pre><code>curl -sL https://rpm.nodesource.com/setup_10.x | bash -
+yum install nodejs git -y
+</code></pre>
+<p><strong>3.部署<a target="_blank" rel="noopener" href="https://diygod.me/" title="DIYgod">DIYgod</a>大佬写的<a target="_blank" rel="noopener" href="https://github.com/DIYgod/download-webhook" title="download-webhook">download-webhook</a></strong></p>
+<pre><code>git clone https://github.com/DIYgod/download-webhook.git
+yum -y install screen
+cd download-webhook
+npm install
+screen -S webhook    #screen中运行
+npm run start        #运行后使用Ctrl+A+D隐藏screen
+</code></pre>
+<p>此时 <a target="_blank" rel="noopener" href="http://服务器ip:3000/">http:&#x2F;&#x2F;服务器ip:3000</a> 即为webhook的url 尝试命令</p>
+<pre><code>curl -X POST -H &quot;Content-Type:application/json&quot; -d &#39;&#123;&quot;secret&quot;: &quot;mysecret&quot;, &quot;path&quot;: &quot;mypath&quot;, &quot;name&quot;: &quot;myvideo&quot;, &quot;url&quot;: &quot;https://www.bilibili.com/video/av66129247&quot;&#125;&#39; http://127.0.0.1:3000
+</code></pre>
+<p>如果下载成功会在服务器目录下生成一个mypath的文件夹，里面存放着叫myvideo的视频。 然后在ifttt中设定applet，内容如上自动流程中的第3步。 也可使用命令<code>screen -r webhook</code>查看下载详情 <strong>4.安装rclone</strong></p>
+<pre><code>yum install fuse
+curl https://rclone.org/install.sh | sudo bash
+rclone config
+</code></pre>
+<p>接着出现以下内容</p>
+<pre><code>Current remotes:
+
+Name                 Type
+====                 ====
+craftcloud           onedrive
+
+e) Edit existing remote
+n) New remote
+d) Delete remote
+r) Rename remote
+c) Copy remote
+s) Set configuration password
+q) Quit config
+e/n/d/r/c/s/q&gt; n     #新建与网盘的连接
+name&gt; example        #自定义的网盘名称，如我已经连接过的craftcloud
+Type of storage to configure.
+Enter a string value. Press Enter for the default (&quot;&quot;).
+Choose a number from below, or type in your own value
+ 1 / 1Fichier
+   \ &quot;fichier&quot;
+ 2 / Alias for an existing remote
+   \ &quot;alias&quot;
+ 3 / Amazon Drive
+   \ &quot;amazon cloud drive&quot;
+ 4 / Amazon S3 Compliant Storage Provider (AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, etc)
+   \ &quot;s3&quot;
+ 5 / Backblaze B2
+   \ &quot;b2&quot;
+ 6 / Box
+   \ &quot;box&quot;
+ 7 / Cache a remote
+   \ &quot;cache&quot;
+ 8 / Dropbox
+   \ &quot;dropbox&quot;
+ 9 / Encrypt/Decrypt a remote
+   \ &quot;crypt&quot;
+10 / FTP Connection
+   \ &quot;ftp&quot;
+11 / Google Cloud Storage (this is not Google Drive)
+   \ &quot;google cloud storage&quot;
+12 / Google Drive
+   \ &quot;drive&quot;
+13 / Google Photos
+   \ &quot;google photos&quot;
+14 / Hubic
+   \ &quot;hubic&quot;
+15 / JottaCloud
+   \ &quot;jottacloud&quot;
+16 / Koofr
+   \ &quot;koofr&quot;
+17 / Local Disk
+   \ &quot;local&quot;
+18 / Mega
+   \ &quot;mega&quot;
+19 / Microsoft Azure Blob Storage
+   \ &quot;azureblob&quot;
+20 / Microsoft OneDrive
+   \ &quot;onedrive&quot;
+21 / OpenDrive
+   \ &quot;opendrive&quot;
+22 / Openstack Swift (Rackspace Cloud Files, Memset Memstore, OVH)
+   \ &quot;swift&quot;
+23 / Pcloud
+   \ &quot;pcloud&quot;
+24 / Put.io
+   \ &quot;putio&quot;
+25 / QingCloud Object Storage
+   \ &quot;qingstor&quot;
+26 / SSH/SFTP Connection
+   \ &quot;sftp&quot;
+27 / Union merges the contents of several remotes
+   \ &quot;union&quot;
+28 / Webdav
+   \ &quot;webdav&quot;
+29 / Yandex Disk
+   \ &quot;yandex&quot;
+30 / http Connection
+   \ &quot;http&quot;
+31 / premiumize.me
+   \ &quot;premiumizeme&quot;
+Storage&gt; 20      #选择20 OneDrive，Google Drive等同理
+** See help for onedrive backend at: https://rclone.org/onedrive/ **
+
+Microsoft App Client Id
+Leave blank normally.
+Enter a string value. Press Enter for the default (&quot;&quot;).
+client_id&gt;        #留空
+Microsoft App Client Secret
+Leave blank normally.
+Enter a string value. Press Enter for the default (&quot;&quot;).
+client_secret&gt;    #留空
+Edit advanced config? (y/n)
+y) Yes
+n) No
+y/n&gt; n
+Remote config
+Use auto config?
+ * Say Y if not sure
+ * Say N if you are working on a remote or headless machine
+y) Yes
+n) No
+y/n&gt; n            #因为是服务器，所以选择n
+For this to work, you will need rclone available on a machine that has a web browser available.
+Execute the following on your machine (same rclone version recommended) :
+    rclone authorize &quot;onedrive&quot;
+Then paste the result below:
+result&gt;  &#123;&quot;access_token&quot;:&quot;&quot;&#125;    #输入在客户端授权的内容(下一步将讲如何获取)
+[example]
+client_id = 
+client_secret = 
+token = &#123;&quot;access_token&quot;:&quot;&quot;&#125;
+
+y) Yes this is OK
+e) Edit this remote
+d) Delete this remote
+y/e/d&gt; y  选择y
+Current remotes:
+
+Name                 Type
+====                 ====
+craftcloud           onedrive
+example              onedrive
+
+e) Edit existing remote
+n) New remote
+d) Delete remote
+r) Rename remote
+c) Copy remote
+s) Set configuration password
+q) Quit config
+e/n/d/r/c/s/q&gt; q  #选择q退出
+</code></pre>
+<p>客户端授权 在本地Windows电脑上下载rclone，下载地址<a target="_blank" rel="noopener" href="https://rclone.org/downloads/">https://rclone.org/downloads/</a> 然后解压出来，比如我解压到D盘，文件夹命名rclone，此时点击Win+R，然后输入cmd，确定。再输入以下命令：</p>
+<pre><code>d:
+cd rclone
+rclone authorize &quot;onedrive&quot;
+
+#此后会出现以下信息
+D:\rclone&gt;rclone authorize &quot;onedrive&quot;
+If your browser doesn&#39;t open automatically go to the following link: http://127.0.0.1:53682/auth
+Log in and authorize rclone for access
+Waiting for code...      #弹出浏览器，选择onedrive账号登陆进行授权
+Got code
+Paste the following into your remote machine ---&gt;
+&#123;&quot;access_token&quot;j61aF6QzwiUX7nxesr9MMK68kcAgBWU0na0thal0EcVCBmGQHXNsTlgXuhP1Y4ln5bAC7o1ZUltCCijs-wyEM-SU2P77fRCgEoSeJEkIAA&quot;,&quot;expiry&quot;:&quot;2019-10-06T15:58:55.8424381+08:00&quot;&#125;
+#复制&#123;&quot;access_token&quot;xxx&#125;整个内容，粘贴至上一步中 result&gt; 处
+&lt;---End paste
+D:\rclone&gt;
+</code></pre>
+<p><strong>5.挂载OneDrive为服务器磁盘</strong> （也可不挂载，使用rclone sync&#x2F;rclone copy等命令完成下载内容上传至网盘的操作，具体可查看rclone使用方法，这里我们挂载为磁盘）</p>
+<pre><code>#新建本地文件夹，路径自己定，即下面的LocalFolder
+mkdir /root/OneDrive
+#挂载为磁盘
+rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding --no-check-certificate --allow-other --allow-non-empty --umask 000
+#DriveName为初始化配置填的name，Folder为OneDrive里的文件夹，LocalFolder为VPS上的本地文件夹。
+</code></pre>
+<p><strong>6.定时上传网盘</strong> 我希望每天下载到vps的视频都自动上传至OneDrive，然后上传完后就不占用vps的磁盘空间，所以每天定时执行 mv命令。 配合 crontab 定时执行，比如每天 2:33 执行一次，日志写到 &#x2F;root&#x2F;rclone.log。执行 <code>crontab -e</code>，按i编辑</p>
+<pre><code>33 2 * * * /usr/bin/mv /root/download-webhook/downloads/* /root/OneDrive &gt;&gt; /root/rclone.log 2&gt;&amp;1
+#其中/root/download-webhook/downloads为下载到vps的本地文件夹， /root/OneDrive 为挂载到vps的网盘空间
+</code></pre>
+<p>按下ESC，输入 :wq 保存并退出。 重启下crond服务 <code>service crond restart</code></p>
+<h3 id="更多（复读）"><a href="#更多（复读）" class="headerlink" title="更多（复读）"></a>更多（复读）</h3><p>以上流程同样适用于自动下载 YouTube \ Instagram \ Tumblr 视频、网易云音乐歌曲等，只要 RSSHub 和 you-get 支持即可。 另外对于图片，Webhook URL 参数直接传入图片地址也可以下载，所以也可以轻松实现自动下载 Bing 每日壁纸、Pixiv、甚至 Telegram 的涩图频道（这里就不做推荐了）</p>
+<hr>
+<p>参考教程：<a target="_blank" rel="noopener" href="https://diygod.me/download-webhook/" title="优雅地下载我的B站投币视频">优雅地下载我的B站投币视频</a> <a target="_blank" rel="noopener" href="https://cyhour.com/825/" title="使用 rclone 将 Google Drive 文件同步至 OneDrive">使用 rclone 将 Google Drive 文件同步至 OneDrive</a> <a target="_blank" rel="noopener" href="https://www.moerats.com/archives/491/" title="在Debian/Ubuntu上使用rclone挂载OneDrive网盘">在Debian&#x2F;Ubuntu上使用rclone挂载OneDrive网盘</a></p>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">我很可爱，请给我钱</div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>feiyuyu</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://www.feiyuyu.net/%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDB%E7%AB%99%E6%8A%95%E5%B8%81%E8%A7%86%E9%A2%91%E5%B9%B6%E4%BF%9D%E5%AD%98%E8%87%B3OneDrive/" title="自动下载B站投币视频并保存至OneDrive">https://www.feiyuyu.net/%E8%87%AA%E5%8A%A8%E4%B8%8B%E8%BD%BDB%E7%AB%99%E6%8A%95%E5%B8%81%E8%A7%86%E9%A2%91%E5%B9%B6%E4%BF%9D%E5%AD%98%E8%87%B3OneDrive/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/one-term-over/" rel="prev" title="学期结束了，水水水"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">学期结束了，水水水</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/GoIndex%E6%90%AD%E5%BB%BAGoogle-drive%E7%BD%91%E7%9B%98/" rel="next" title="GoIndex搭建Google drive网盘"><span class="post-nav-text">GoIndex搭建Google drive网盘</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/Feiyuyu0503/Feiyuyu0503.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br><a class="hty-button hty-button--raised" id="github-issues" target="_blank" rel="noopener" href="https://github.com/Feiyuyu0503/Feiyuyu0503.github.io/issues?q=is:issue+自动下载B站投币视频并保存至OneDrive">GitHub Issues</a></div><div class="toggle-comment-system" style="margin: 1rem auto"><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">valine</a><style> {
+  display: none;
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">github_issues</a><script>function hideAllComment() {
+  //- hide all
+  document.querySelectorAll('.toggle-comment-btn').forEach((btn) => {
+    const container = document.querySelector(btn.dataset.target);
+    if (container) {
+      container.style.display = "none";
+    }
+  });
+}
+function showComment(target) {
+  hideAllComment();
+  //- show target
+  const targetContainer = document.querySelector(target);
+  if (targetContainer) {
+    targetContainer.style.display = "block";
+  }
+}
+</script></div></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://beian.miit.gov.cn/" target="_blank">苏ICP备18015113号-2</a></div><div class="copyright"><span>&copy; 2017 – 2023 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> feiyuyu</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v7.0.0-rc1</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.9</span></div><div class="footer-support"><span>本网站由</span><a class="footer-support-logo" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" target="blank" title="又拍云"><img height="30" src="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png" alt="又拍云"></a><span>提供 CDN 加速</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></body></html>
