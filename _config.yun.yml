@@ -1,0 +1,175 @@
+mode: auto
+
+avatar:
+  url: https://cdn.jsdelivr.net/gh/feiyuyu0503/cdn@4.0.0/img/avatar/avater.jpg
+  status:
+    enable: true
+    emoji: 🌑
+    message: Looking for dawn.
+
+reward:
+  enable: true
+  comment: 我很可爱，请给我钱
+
+comment:
+  candidates:
+    - valine
+    - github_issues
+    # - giscus
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/Feiyuyu0503/Feiyuyu0503.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+
+
+valine:
+  enable: true
+  appId: MW181jX7djInLshsA2bdG4iu-gzGzoHsz
+  appKey: HnE8KSnVEfHmqDwTxkbKiYrf
+  placeholder: Just go go # comment box placeholder
+  # avatar: # gravatar style
+  meta:
+    - nick
+    - mail
+    - link
+  pageSize: 10 # pagination size
+  # lang: zh-CN
+  # visitor: false
+  # highlight: true
+  # recordIP: false
+  # serverURLs:
+  # Emoji See: https://valine.js.org/emoji.html
+  # emojiCDN: //i0.hdslb.com/bfs/emote/
+  # emojiMaps:
+  #   tv_doge: 6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png
+  #   more...
+  # enableQQ: false
+  # requiredFields:
+  #   - nick
+  #   - mail
+  
+github_issues:
+  enable: true
+  username: Feiyuyu0503
+  repository: Feiyuyu0503.github.io
+  filters: is:issue
+
+github_discussions:
+  enable: false
+
+#disqusjs:
+#  enable: false
+#  shortname: yunyoujun
+#  apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
+
+# https://github.com/laymonage/giscus
+giscus:
+  enable: false
+  repo: YunYouJun/yunyoujun.github.io
+  repo-id:
+  category-id:
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
+
+footer:
+  since: 2017
+  beian:
+    enable: true
+    icp: 苏ICP备18015113号-2
+  support:
+    enable: true
+    title: 又拍云
+    link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
+    logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
+    prefix: 本网站由
+    suffix: 提供 CDN 加速
+  custom_text:
+
+engine_search:
+  enable: false
+
+# If you want to use it, you need config algolia appID in _config.yml!!!
+# https://github.com/oncletom/hexo-algolia
+#algolia_search:
+#  enable: true
+  # ...
+
+google_analytics:
+  enable: true
+  id: UA-126194617-1
+
+google_adsense:
+  enable: true
+  client: ca-pub-2245427233262012
+
+post_edit:
+  enable: true
+  url: https://github.com/Feiyuyu0503/Feiyuyu0503.github.io/tree/dev/source
+
+albums:
+  enable: true
+
+girls:
+  enable: false
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+
+#categories:
+#  云游的小视频: "#FB7299"
+
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: ri:genderless-line
+    color: dodgerblue
+  - name: 喜欢的女孩子
+    url: /girls/
+    icon: ri:women-line
+    color: hotpink
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/
+    icon: ri:clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+social:
+  - name: RSS
+    link: /atom.xml # config.feed.path
+    icon: ri:rss-line
+    color: orange
+
+say:
+  enable: true
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn

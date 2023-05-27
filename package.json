@@ -9,22 +9,27 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "7.0.0-rc1"
   },
   "dependencies": {
-    "hexo": "^5.4.0",
-    "hexo-deployer-git": "^3.0.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
+    "hexo": "^7.0.0-rc1",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
-    "hexo-generator-index": "^2.0.0",
-    "hexo-generator-tag": "^1.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-searchdb": "^1.4.1",
+    "hexo-generator-tag": "^2.0.0",
     "hexo-migrator-rss": "^1.1.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^4.1.0",
-    "hexo-renderer-stylus": "^2.0.1",
-    "hexo-server": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-yun": "^1.10.9",
+    "hexo-wordcount": "^6.0.1",
     "lodash": ">=4.17.21",
-    "marked": "^3.0.4"
+    "marked": "^5.0.3",
+    "pug": "^3.0.2"
   }
 }
